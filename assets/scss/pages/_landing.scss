@@ -3,6 +3,7 @@
 	height: 550px;
 	margin: 0 auto;
 	overflow: hidden;
+	border-bottom: 1px solid #cccccc;
 	.person_card{
 		position: relative;
 		float: left;
@@ -180,11 +181,12 @@
 		float: left;
 		display: block;
 		height: 100%;
-		width: 1820px;
-		background-color: #cccccc;
+		width: 1819px;
 		text-align: initial;
 		overflow: hidden;
 		background-color: #eef2f6;
+		border-bottom: 1px solid #cccccc;
+		border-left: 1px solid #cccccc;
 		.hsider_t{
 			font-size: 24px;
 			color: #adadad;
@@ -237,6 +239,54 @@
 					text-align: center;
 					font-size: 24px;
 					color: #736357;
+				}
+				.hsider_item_detail{
+					font-size: 28px;
+					color: #808080;
+					margin-top: 30px;
+					line-height: 36px;
+					height: 75px;
+					padding: 0px 40px 0px 40px;
+					text-align: justify;
+					text-overflow: ellipsis;
+					display: -webkit-box;
+					-webkit-line-clamp: 2;
+					-webkit-box-orient: vertical;
+					overflow: hidden;
+				}
+				.hs_has_class{
+					-webkit-line-clamp: 1;
+					height: 38px;
+				}
+				.hsider_item_room .hs_local{
+					color: #1871c0;
+					font-size: 28px;
+					background-color: #ffffff;
+					border-radius: 20px;
+					padding: 5px 10px 5px 10px;
+					margin-left: 40px;
+				}
+				.hsider_item_room .hs_classroom{
+					color: #ffffff;
+					font-size: 35px;
+				}
+			}
+			.item_bg_blue{
+				background-color: #1871c0;
+				.hsider_item_status{
+					color: #ffffff;
+				}
+				.hsider_item_detail{
+					font-size: 28px;
+					color: #ffffff;
+					margin-top: 30px;
+					line-height: 36px;
+					padding: 0px 40px 0px 40px;
+					text-align: justify;
+					text-overflow: ellipsis;
+					display: -webkit-box;
+					-webkit-box-orient: vertical;
+					overflow: hidden;
 				}
 			}
 		}
