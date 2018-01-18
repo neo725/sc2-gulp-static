@@ -189,3 +189,216 @@ a {
     display: inline-block;
     margin-top: 20px;
     padding: 30px; }
+
+.person_header {
+  width: 2730px;
+  height: 550px;
+  margin: 0 auto;
+  overflow: hidden; }
+  .person_header .person_card {
+    position: relative;
+    float: left;
+    height: 100%;
+    width: 910px; }
+    .person_header .person_card .p_basetitle_div {
+      display: inline-block;
+      width: 100%;
+      margin-top: 50px; }
+      .person_header .person_card .p_basetitle_div .p_bt_title {
+        font-size: 24px;
+        color: #adadad;
+        float: left;
+        padding-left: 30px; }
+      .person_header .person_card .p_basetitle_div .p_bt_more {
+        font-size: 24px;
+        color: #adadad;
+        float: right;
+        padding-right: 30px;
+        width: 35px; }
+    .person_header .person_card .person_content_div {
+      position: relative;
+      display: inline-block;
+      width: 100%;
+      margin-top: 25px; }
+      .person_header .person_card .person_content_div .p_type {
+        position: relative;
+        float: left;
+        width: 185px;
+        height: 185px;
+        border-radius: 50%;
+        background-color: #1871c0;
+        margin-left: 90px;
+        /*span > img{
+					width: 30px;
+					height: auto;
+				}*/ }
+        .person_header .person_card .person_content_div .p_type .p_type_name {
+          font-size: 50px;
+          color: #ffffff;
+          letter-spacing: 14px;
+          line-height: 60px;
+          padding: 30px 0px 0px 12px;
+          height: 120px;
+          width: 185px;
+          display: table-cell;
+          vertical-align: middle;
+          text-align: center; }
+        .person_header .person_card .person_content_div .p_type span {
+          position: absolute;
+          height: 36px;
+          width: 30px;
+          background-color: #fcee21;
+          border-radius: 50%;
+          top: 8px;
+          right: 0px;
+          font-size: 12px;
+          text-align: center;
+          letter-spacing: 0px !important;
+          padding: 0px 5px 0px 5px; }
+      .person_header .person_card .person_content_div .p_content {
+        position: relative;
+        float: left; }
+        .person_header .person_card .person_content_div .p_content .p_ct_id {
+          margin: 35px 0px 0px 25px;
+          font-size: 31px;
+          color: #575756;
+          text-align: left; }
+          .person_header .person_card .person_content_div .p_content .p_ct_id span {
+            margin-left: 20px;
+            font-size: 24px;
+            color: #ff0000; }
+        .person_header .person_card .person_content_div .p_content .p_ct_name_div {
+          position: relative;
+          float: left;
+          margin: 0px 0px 0px 20px; }
+          .person_header .person_card .person_content_div .p_content .p_ct_name_div .ct_name {
+            position: relative;
+            float: left;
+            font-size: 73px;
+            color: #1d1d1b; }
+          .person_header .person_card .person_content_div .p_content .p_ct_name_div .ct_name_sex {
+            position: relative;
+            float: left;
+            font-size: 28px;
+            color: #1d1d1b;
+            margin: 50px 15px 0px 20px; }
+          .person_header .person_card .person_content_div .p_content .p_ct_name_div .p_ct_dollor {
+            position: relative;
+            float: left;
+            background-color: #eef2f6;
+            border-radius: 50px;
+            margin-top: 20px;
+            padding: 10px 10px 5px 10px; }
+            .person_header .person_card .person_content_div .p_content .p_ct_name_div .p_ct_dollor .icon-upig {
+              width: 54px;
+              height: 48px; }
+            .person_header .person_card .person_content_div .p_content .p_ct_name_div .p_ct_dollor .ct_price {
+              font-size: 28px;
+              color: #1871c0;
+              vertical-align: super;
+              margin: 0px 10px 0px 10px; }
+            .person_header .person_card .person_content_div .p_content .p_ct_name_div .p_ct_dollor .ct_add {
+              position: absolute;
+              top: -10px;
+              right: -10px;
+              font-size: 28px;
+              width: 32px;
+              height: 32px;
+              border-radius: 18px;
+              color: #ffffff;
+              background-color: #1871c0;
+              vertical-align: super;
+              text-align: center; }
+    .person_header .person_card .p_phone_div, .person_header .person_card .p_mail_div {
+      clear: both;
+      float: left;
+      position: relative;
+      display: table;
+      width: 70%;
+      margin-top: 20px;
+      margin-left: 140px;
+      padding: 10px 0px 0px 0px;
+      vertical-align: super; }
+    .person_header .person_card .p_phone_div > span:first-child, .person_header .person_card .p_mail_div > span:first-child {
+      font-size: 24px;
+      color: #1871c0;
+      float: left;
+      line-height: 40px;
+      margin: 0px 10px 0px 15px; }
+    .person_header .person_card .p_phone_div > div, .person_header .person_card .p_mail_div > div {
+      font-size: 36px;
+      color: #4d4d4d;
+      float: left;
+      height: 45px;
+      width: 460px;
+      text-align: justify;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      margin-right: 10px;
+      text-overflow: ellipsis; }
+    .person_header .person_card .p_mail_div {
+      background-color: #eef2f6;
+      border-radius: 40px; }
+      .person_header .person_card .p_mail_div .p_mail_icon {
+        display: table;
+        width: 75px;
+        height: 50px; }
+  .person_header .person_hsider {
+    position: relative;
+    float: left;
+    display: block;
+    height: 100%;
+    width: 1820px;
+    background-color: #cccccc;
+    text-align: initial;
+    overflow: hidden;
+    background-color: #eef2f6; }
+    .person_header .person_hsider .hsider_t {
+      font-size: 24px;
+      color: #adadad;
+      padding: 30px 0px 0px 20px; }
+    .person_header .person_hsider .hsider_div {
+      /*display: -webkit-box;*/
+      width: 1800px;
+      height: 480px;
+      overflow-x: scroll;
+      overflow-y: hidden; }
+      .person_header .person_hsider .hsider_div ul {
+        display: inline-flex; }
+      .person_header .person_hsider .hsider_div ul li {
+        list-style-type: none;
+        margin: 0px 15px 0px 15px; }
+      .person_header .person_hsider .hsider_div .hsider_item_div {
+        display: block;
+        position: relative;
+        float: left;
+        height: 406px;
+        width: 493px;
+        background-color: #ffffff; }
+        .person_header .person_hsider .hsider_div .hsider_item_div .hsider_item_more {
+          position: relative;
+          float: left;
+          width: 100%; }
+        .person_header .person_hsider .hsider_div .hsider_item_div .hsider_item_more .icon {
+          float: right;
+          margin: 20px 10px 20px 0px; }
+        .person_header .person_hsider .hsider_div .hsider_item_div .hsider_item_icon {
+          position: relative;
+          width: 100%;
+          height: 170px;
+          display: inline-flex; }
+          .person_header .person_hsider .hsider_div .hsider_item_div .hsider_item_icon .icon {
+            margin: 0 auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            max-width: 134px; }
+        .person_header .person_hsider .hsider_div .hsider_item_div .hsider_item_status {
+          position: relative;
+          width: 100%;
+          text-align: center;
+          font-size: 24px;
+          color: #736357; }
+
+.person_order {
+  background-color: #eef2f6; }
