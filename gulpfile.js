@@ -92,7 +92,8 @@ gulp.task('default', function () {
     sequence('clean', 'sprite', 'css', 'sass', 'watch', function() {
         server.start();
 
-        gulp.watch(buildPath(['/*.html', '/**/*.css', '/**/*.png']), function (file) {
+        watch('./static/**/*', function(file) {
+            //console.log(file.relative);
             server.notify.apply(server, [file]);
         });
 
