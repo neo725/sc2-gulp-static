@@ -1,0 +1,23 @@
+@import "sprite";
+
+@mixin sprites($prefix, $sprites) {
+    @each $sprite in $sprites {
+        $sprite-name: nth($sprite, 10);
+        .#{$prefix}#{$sprite-name} {
+            @include sprite($sprite);
+        }
+    }
+}
+
+.icon {
+    display: inline-block;
+    overflow: hidden;
+}
+
+// .icon-staff-search {
+//     @include sprite($staffsearch);
+// }
+// .icon-staff-001 {
+//     @include sprite($staff001);
+// }
+@include sprites('icon-', $spritesheet-sprites);

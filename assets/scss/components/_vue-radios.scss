@@ -1,0 +1,61 @@
+.radio-group {
+    .radio-item {
+        display: inline-block;
+        margin-right: 35px;
+        //background-color: #000000;
+        background-color: red;
+
+        &:nth-child(even) {
+            background-color: yellow;
+        }
+
+        &:last-child {
+            margin-right: 0;
+        }
+        
+        input {
+            display: none;
+        }
+        
+        label {
+            font-size: 36px;
+            color: #ffffff;
+            display: inline-block;
+            padding: 0 20px 0 15px;
+            //cursor: pointer;
+        }
+        
+        label:before {
+            content: '';
+            display: inline-block;
+            //background: $primary-color;
+            position: relative;
+            top: 5px;
+            background: #dddddd;
+            height: 30px;
+            width: 30px;
+            margin-top: 3px;
+            margin-right: 12px;
+            border-radius: 80%;
+            box-shadow: 0px 1px 0 0 rgba(0, 0, 0, .2);
+            box-sizing: border-box;
+            border: 6px solid #ffffff;
+            transition: background-color .3s ease;
+        }
+        
+        input:checked + label:before {
+            background: #00496f;
+            border-color: #fff;
+            border-width: 6px;
+        }
+
+        input + label {
+            transition: color .7s ease;
+        }
+
+        // input:checked + label {
+        //     color: #5D5D5D;
+        // }
+        
+    }
+}

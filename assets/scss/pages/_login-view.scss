@@ -1,0 +1,51 @@
+.login-view {
+    height: 100%;
+    padding-left: 58px;
+    padding-right: 58px;
+    padding-top: 490px;
+    
+    .login-title {
+        color: #ffffff;
+        font-size: 66px;
+        margin-top: 20px;
+    }
+
+    .btn-group {
+        margin-top: 50px;
+
+        .btn {
+            font-size: 36px;
+        }
+    }
+
+    .submit-btn {
+        color: $primary-color;
+        width: 785px;
+        height: 85px;
+        margin-top: 35px;
+        background-color: #ffffff;
+        -webkit-appearance: none;
+    }
+
+    .radio-group {
+        margin-top: 35px;
+        margin-bottom: 40px;
+    }
+
+    .text {
+        font-size: 31px;
+        border: 1px solid #ffffff;
+        background-color: $primary-color;
+        border-radius: 50px;
+        padding: 16px 30px;
+        width: 718px;
+        margin-top: 30px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .link {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 30px;
+    }
+}

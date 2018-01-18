@@ -1,0 +1,15 @@
+.icon {
+  display: inline-block;
+  overflow: hidden; }
+
+.icon-staff001 {
+  background-image: url(../images/sprite.png);
+  background-position: 0px 0px;
+  width: 429px;
+  height: 192px; }
+
+.icon-staffsearch {
+  background-image: url(../images/sprite.png);
+  background-position: 0px -192px;
+  width: 80px;
+  height: 80px; }
