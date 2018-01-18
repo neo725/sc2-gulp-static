@@ -4,13 +4,13 @@
 a {
   color: #ffffff; }
 
-.views {
-  background-color: #ffffff; }
-  .views .pages {
-    background-color: #ffffff; }
-    .views .pages .page {
-      background-color: #ffffff; }
-      .views .pages .page.page-center .page-content {
+#app {
+  background-color: #1871c0; }
+  #app .pages {
+    background-color: #1871c0; }
+    #app .pages .page {
+      background-color: #1871c0; }
+      #app .pages .page.page-center .page-content {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
@@ -86,7 +86,10 @@ a {
 
 .radio-group .radio-item {
   display: inline-block;
-  margin-right: 35px; }
+  margin-right: 35px;
+  background-color: red; }
+  .radio-group .radio-item:nth-child(even) {
+    background-color: yellow; }
   .radio-group .radio-item:last-child {
     margin-right: 0; }
   .radio-group .radio-item input {

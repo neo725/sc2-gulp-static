@@ -1,23 +1,19 @@
-// Load Foundation
-//@import "~foundation-sites/scss/foundation";
-
 * {
     font-size: 33px;
 }
 
 a {
-    color: $light-font-color;
+    color: #ffffff;
 }
 
-//#app {
-.views {
-    background-color: $page-color;
+#app {
+    background-color: $primary-color;
 
     .pages {
-        background-color: $page-color;
+        background-color: $primary-color;
 
         .page {
-            background-color: $page-color;
+            background-color: $primary-color;
 
             &.page-center {
                 .page-content {

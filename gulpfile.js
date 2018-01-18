@@ -80,11 +80,19 @@ gulp.task('watch', function () {
 });
 
 gulp.task('default', function () {
+    var buildPath = function(paths) {
+        var return_paths = [];
+        paths.forEach(function(path){
+            return_paths.push('./' + config.path + path);
+        });
+
+        return return_paths;
+    };
+
     sequence('clean', 'sprite', 'css', 'sass', 'watch', function() {
         server.start();
 
-        watch('./static/**/*', function(file) {
-            //console.log(file.relative);
+        gulp.watch(buildPath(['/*.html', '/**/*.css', '/**/*.png']), function (file) {
             server.notify.apply(server, [file]);
         });
 

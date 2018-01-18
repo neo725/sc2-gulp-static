@@ -3,11 +3,11 @@
         display: inline-block;
         margin-right: 35px;
         //background-color: #000000;
-        //background-color: red;
+        background-color: red;
 
-        // &:nth-child(even) {
-        //     background-color: yellow;
-        // }
+        &:nth-child(even) {
+            background-color: yellow;
+        }
 
         &:last-child {
             margin-right: 0;
