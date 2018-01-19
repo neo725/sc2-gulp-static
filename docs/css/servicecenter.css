@@ -314,12 +314,13 @@ a {
       clear: both;
       float: left;
       position: relative;
-      display: table;
+      display: inline-block;
       width: 70%;
       margin-top: 20px;
       margin-left: 140px;
       padding: 10px 0px 0px 0px;
-      vertical-align: super; }
+      height: 50px;
+      /*vertical-align: super;*/ }
     .person_header .person_card .p_phone_div > span:first-child, .person_header .person_card .p_mail_div > span:first-child {
       font-size: 24px;
       color: #1871c0;

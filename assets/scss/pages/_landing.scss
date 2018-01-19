@@ -139,12 +139,13 @@
 			clear: both;
 			float: left;
 			position: relative;
-			display: table;
+			display: inline-block;
 			width: 70%;
 			margin-top: 20px;
 			margin-left: 140px;
 			padding: 10px 0px 0px 0px;
-			vertical-align: super;
+			height: 50px;
+			/*vertical-align: super;*/
 		}
 		.p_phone_div > span:first-child, .p_mail_div > span:first-child{
 			font-size: 24px;
