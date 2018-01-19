@@ -151,10 +151,11 @@
 			color: #1871c0;
 			float: left;
 			line-height: 40px;
-			margin: 0px 10px 0px 15px;
+			margin: 3px 10px 0px 15px;
 		}
 		.p_phone_div > div, .p_mail_div > div{
 			font-size: 36px;
+			line-height: 45px;
 			color: #4d4d4d;
 			float: left;
 			height: 45px;
@@ -294,4 +295,24 @@
 }
 .person_order{
 	background-color: #eef2f6;
+	.od_title_div{
+			position: relative;
+			display: inline-block;
+			width: 100%;
+		.od_title{
+			position: relative;
+			width: auto;
+			float: left;
+			margin: 30px;
+			font-size: 24px;
+			line-height: 30px;
+			color: #adadad;
+		}
+		.od_more{
+			position: relative;
+			width: auto;
+			float: right;
+			margin: 30px;
+		}
+	}
 }

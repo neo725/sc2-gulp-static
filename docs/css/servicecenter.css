@@ -325,9 +325,10 @@ a {
       color: #1871c0;
       float: left;
       line-height: 40px;
-      margin: 0px 10px 0px 15px; }
+      margin: 3px 10px 0px 15px; }
     .person_header .person_card .p_phone_div > div, .person_header .person_card .p_mail_div > div {
       font-size: 36px;
+      line-height: 45px;
       color: #4d4d4d;
       float: left;
       height: 45px;
@@ -445,3 +446,20 @@ a {
 
 .person_order {
   background-color: #eef2f6; }
+  .person_order .od_title_div {
+    position: relative;
+    display: inline-block;
+    width: 100%; }
+    .person_order .od_title_div .od_title {
+      position: relative;
+      width: auto;
+      float: left;
+      margin: 30px;
+      font-size: 24px;
+      line-height: 30px;
+      color: #adadad; }
+    .person_order .od_title_div .od_more {
+      position: relative;
+      width: auto;
+      float: right;
+      margin: 30px; }
