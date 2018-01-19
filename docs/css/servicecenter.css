@@ -190,6 +190,12 @@ a {
     margin-top: 20px;
     padding: 30px; }
 
+ul {
+  font-size: initial; }
+
+ul li {
+  list-style: none; }
+
 .person_header {
   width: 2730px;
   height: 550px;
@@ -459,7 +465,10 @@ a {
           overflow: hidden; }
 
 .person_order {
-  background-color: #eef2f6; }
+  background-color: #eef2f6;
+  width: 2730px;
+  margin: 0 auto;
+  padding-bottom: 120px; }
   .person_order .od_title_div {
     position: relative;
     display: inline-block;
@@ -477,3 +486,80 @@ a {
       width: auto;
       float: right;
       margin: 30px; }
+    .person_order .od_title_div .od_more .icon {
+      width: 35px; }
+  .person_order .or_tab {
+    width: 2462px;
+    margin: 0 auto;
+    background-color: #2f3143;
+    display: table; }
+    .person_order .or_tab .or_tab_left {
+      position: relative;
+      float: left; }
+    .person_order .or_tab .or_tab_right {
+      position: relative;
+      float: right; }
+    .person_order .or_tab .or_tab_left ul, .person_order .or_tab .or_tab_right ul {
+      display: inline-block;
+      margin-top: 20px;
+      margin-bottom: 15px; }
+    .person_order .or_tab .or_tab_left ul li, .person_order .or_tab .or_tab_right ul li {
+      margin-right: 50px; }
+    .person_order .or_tab .or_tab_left ul li .icon, .person_order .or_tab .or_tab_right ul li .icon {
+      width: 90px; }
+    .person_order .or_tab .or_tab_left ul li, .person_order .or_tab .or_tab_right ul li, .person_order .or_tab .or_tab_left ul li > div, .person_order .or_tab .or_tab_right ul li > div {
+      display: block;
+      position: relative;
+      float: left;
+      font-size: 38px;
+      line-height: 80px;
+      color: #ffffff;
+      letter-spacing: 2px; }
+  .person_order .or_list_div {
+    width: 2462px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    display: table; }
+    .person_order .or_list_div .or_list_t {
+      width: 95%;
+      margin: 0 auto;
+      margin-top: 20px;
+      text-align: left;
+      font-size: 42px;
+      color: #1871c0;
+      font-weight: 600;
+      line-height: 80px;
+      text-indent: 20px;
+      border-bottom: 4px solid #1871c0; }
+  .person_order .or_list {
+    width: 95%;
+    margin: 0 auto;
+    display: table; }
+    .person_order .or_list ul {
+      padding: 0px; }
+    .person_order .or_list .or_list_name {
+      display: inline-block;
+      border-bottom: 1px solid #cccccc;
+      width: 100%;
+      padding-bottom: 5px; }
+    .person_order .or_list .or_name_left {
+      position: relative;
+      float: left; }
+      .person_order .or_list .or_name_left span:first-child {
+        margin-left: 20px; }
+      .person_order .or_list .or_name_left span {
+        line-height: 50px;
+        font-size: 24px; }
+      .person_order .or_list .or_name_left .or_list_id {
+        background-color: #ececec;
+        padding: 2px 10px 2px 10px; }
+      .person_order .or_list .or_name_left .or_list_s {
+        color: #1871c0; }
+      .person_order .or_list .or_name_left .or_list_status {
+        color: #ffffff;
+        background-color: #1871c0;
+        padding: 2px 10px 2px 10px; }
+    .person_order .or_list .or_name_right {
+      position: relative;
+      float: right;
+      margin-right: 40px; }
