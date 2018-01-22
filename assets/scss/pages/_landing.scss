@@ -316,6 +316,8 @@ $this-contact-violet: $contact-violet;
 					line-height: 50px;
 					text-align: center;
 					border-radius: 25px;
+					z-index: 10;
+					display: block;
 				}
 				.tp_txt_save:hover{
 					background-color: $this-pay-green;
@@ -542,6 +544,8 @@ $this-contact-violet: $contact-violet;
 					line-height: 50px;
 					text-align: center;
 					border-radius: 25px;
+					z-index: 10;
+					display: block;
 				}
 				.htr_txt_save:hover{
 					background-color: $this-history-pinky;

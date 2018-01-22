@@ -726,7 +726,9 @@ th, td {
           width: 136px;
           line-height: 50px;
           text-align: center;
-          border-radius: 25px; }
+          border-radius: 25px;
+          z-index: 10;
+          display: block; }
         .person_order .tp_list .tp_list_detail .tp_txt_div .tp_txt_save:hover {
           background-color: #24b499; }
       .person_order .tp_list .tp_list_detail .tp_pay_div {
@@ -909,7 +911,9 @@ th, td {
           width: 136px;
           line-height: 50px;
           text-align: center;
-          border-radius: 25px; }
+          border-radius: 25px;
+          z-index: 10;
+          display: block; }
         .person_order .htr_list .htr_list_detail .htr_txt_div .htr_txt_save:hover {
           background-color: #ff7bac; }
       .person_order .htr_list .htr_list_detail .htr_process_div {
