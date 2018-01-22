@@ -1,6 +1,7 @@
 $this-order-blue: $order-blue;
 $this-pay-green: $pay-green;
 $this-history-pinky: $history-pinky;
+$this-contact-violet: $contact-violet;
 
 .person_order{
 	background-color: #eef2f6;
@@ -567,6 +568,101 @@ $this-history-pinky: $history-pinky;
 					}
 				}
 			}
+		}
+	}
+
+	/* contact list*/
+	.contact_div{
+		width: 2462px;
+		margin: 0 auto;
+		background-color: #ffffff;
+		display: table;
+		.cnt_list_t{
+			width: 95%;
+			margin: 0 auto;
+			margin-top: 20px;
+			text-align: left;
+			font-size: 42px;
+			color: $this-contact-violet;
+			font-weight: 600;
+			line-height: 80px;
+			text-indent: 20px;
+			border-bottom: 4px solid $this-contact-violet;
+		}
+		.cnt_table{
+			position: relative;
+			float: left;
+			padding: 0px 60px 0px 60px;
+			width: 95%;
+			text-align: left;
+			margin-bottom: 40px;
+			border-spacing: none;
+			display: initial;
+		}
+		.cnt_table thead tr{
+			color: $this-contact-violet;
+			line-height: 70px;
+			font-size: 28px;
+		}
+		.cnt_table thead tr th{
+			border-bottom: 4px solid $this-contact-violet;
+		}
+		.cnt_table thead tr th:nth-child(1){
+			width: 10%;
+			padding-left: 10px;
+		}
+		.cnt_table thead tr th:nth-child(2){
+			width: 10%;
+		}
+		.cnt_table thead tr th:nth-child(3){
+			width: 34%;
+		}
+		.cnt_table thead tr th:nth-child(4){
+			width: 10%;
+		}
+		.cnt_table thead tr th:nth-child(5){
+			width: 20%;
+		}
+		.cnt_table thead tr th:nth-child(6){
+			width: 8%;
+			text-align: center;
+			margin: 0 auto;
+		}
+		.cnt_table thead tr th:nth-child(7){
+			width: 8%;
+			text-align: center;
+			margin: 0 auto;
+		}
+		.cnt_table tbody tr td{
+			border-bottom: 1px solid $this-contact-violet;
+		}
+		.cnt_table tbody tr td:nth-child(1){
+			padding-left: 10px;
+			color: $this-contact-violet;
+		}
+		.cnt_table tbody tr td:nth-child(2), .cnt_table tbody tr td:nth-child(4), .cnt_table tbody tr td:nth-child(5){
+			font-size: 28px;
+			color: #1a1a1a;
+		}
+		.cnt_table tbody tr td:nth-child(3){
+			padding: 5px 10px 5px 0px;
+			a{
+				display: block;
+				font-size: 36px;
+				line-height: 56px;
+				color: #1a1a1a;
+			}
+		}
+		.cnt_table tbody tr td:nth-child(6), .cnt_table tbody tr td:nth-child(7){
+			text-align: center;
+			margin: 0 auto;
+		}
+		.cnt_table tbody tr:nth-child(odd){
+			border: none !important;
+			background-color: #e3e8f4;
+		}
+		.cnt_list_opacity{
+			opacity: 0.3;
 		}
 	}
 }

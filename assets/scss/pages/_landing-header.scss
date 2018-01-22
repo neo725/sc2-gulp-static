@@ -4,6 +4,14 @@ ul{
 ul li{
 	list-style: none;
 }
+table{ 
+	border-collapse:collapse; 
+	border-spacing:0; 
+} 
+th,td { 
+	margin:0; 
+	padding:0; 
+} 
 .person_header{
 	width: 2730px;
 	height: 550px;

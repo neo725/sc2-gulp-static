@@ -196,6 +196,14 @@ ul {
 ul li {
   list-style: none; }
 
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+th, td {
+  margin: 0;
+  padding: 0; }
+
 .person_header {
   width: 2730px;
   height: 550px;
@@ -470,7 +478,8 @@ ul li {
   padding-bottom: 120px;
   /* order list */
   /* to pay list */
-  /* history list*/ }
+  /* history list*/
+  /* contact list*/ }
   .person_order .od_title_div {
     position: relative;
     display: inline-block;
@@ -921,3 +930,76 @@ ul li {
           margin-right: 5px; }
           .person_order .htr_list .htr_list_detail .htr_process_div .htr_process_status .icon {
             padding-right: 5px; }
+  .person_order .contact_div {
+    width: 2462px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    display: table; }
+    .person_order .contact_div .cnt_list_t {
+      width: 95%;
+      margin: 0 auto;
+      margin-top: 20px;
+      text-align: left;
+      font-size: 42px;
+      color: #738ec8;
+      font-weight: 600;
+      line-height: 80px;
+      text-indent: 20px;
+      border-bottom: 4px solid #738ec8; }
+    .person_order .contact_div .cnt_table {
+      position: relative;
+      float: left;
+      padding: 0px 60px 0px 60px;
+      width: 95%;
+      text-align: left;
+      margin-bottom: 40px;
+      border-spacing: none;
+      display: initial; }
+    .person_order .contact_div .cnt_table thead tr {
+      color: #738ec8;
+      line-height: 70px;
+      font-size: 28px; }
+    .person_order .contact_div .cnt_table thead tr th {
+      border-bottom: 4px solid #738ec8; }
+    .person_order .contact_div .cnt_table thead tr th:nth-child(1) {
+      width: 10%;
+      padding-left: 10px; }
+    .person_order .contact_div .cnt_table thead tr th:nth-child(2) {
+      width: 10%; }
+    .person_order .contact_div .cnt_table thead tr th:nth-child(3) {
+      width: 34%; }
+    .person_order .contact_div .cnt_table thead tr th:nth-child(4) {
+      width: 10%; }
+    .person_order .contact_div .cnt_table thead tr th:nth-child(5) {
+      width: 20%; }
+    .person_order .contact_div .cnt_table thead tr th:nth-child(6) {
+      width: 8%;
+      text-align: center;
+      margin: 0 auto; }
+    .person_order .contact_div .cnt_table thead tr th:nth-child(7) {
+      width: 8%;
+      text-align: center;
+      margin: 0 auto; }
+    .person_order .contact_div .cnt_table tbody tr td {
+      border-bottom: 1px solid #738ec8; }
+    .person_order .contact_div .cnt_table tbody tr td:nth-child(1) {
+      padding-left: 10px;
+      color: #738ec8; }
+    .person_order .contact_div .cnt_table tbody tr td:nth-child(2), .person_order .contact_div .cnt_table tbody tr td:nth-child(4), .person_order .contact_div .cnt_table tbody tr td:nth-child(5) {
+      font-size: 28px;
+      color: #1a1a1a; }
+    .person_order .contact_div .cnt_table tbody tr td:nth-child(3) {
+      padding: 5px 10px 5px 0px; }
+      .person_order .contact_div .cnt_table tbody tr td:nth-child(3) a {
+        display: block;
+        font-size: 36px;
+        line-height: 56px;
+        color: #1a1a1a; }
+    .person_order .contact_div .cnt_table tbody tr td:nth-child(6), .person_order .contact_div .cnt_table tbody tr td:nth-child(7) {
+      text-align: center;
+      margin: 0 auto; }
+    .person_order .contact_div .cnt_table tbody tr:nth-child(odd) {
+      border: none !important;
+      background-color: #e3e8f4; }
+    .person_order .contact_div .cnt_list_opacity {
+      opacity: 0.3; }
