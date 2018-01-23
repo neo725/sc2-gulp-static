@@ -48,6 +48,9 @@ $this-contact-violet: $contact-violet;
 		.or_tab_right{
 			position: relative;
 			float: right;
+			.or_tab_hide{
+				color: #6e6f7c;
+			}
 		}
 		.or_tab_left ul, .or_tab_right ul{
 			display: inline-block;
@@ -130,6 +133,204 @@ $this-contact-violet: $contact-violet;
 				position: relative;
 				float: right;
 				margin-right: 40px;
+			}
+		}
+		.or_list_detail{
+			position: relative;
+			.cls_preview_icon{
+				position: absolute;
+				right: -130px;
+				top: 60px;
+			}
+			.cls_push_icon{
+				position: absolute;
+				right: -130px;
+				top: 240px;
+			}
+			.or_ft_t{
+				text-align: left;
+				font-size: 24px;
+				color: #575756;
+				padding-left: 20px;
+				margin: 20px 0px 15px 0px;
+			}
+			.or_ft_div{
+				display: inline-block;
+				width: 100%;
+				border-bottom: 1px solid #cccccc;
+				padding-bottom: 30px;
+				.or_ft_left{
+					position: relative;
+					float: left;
+					width: 70%;
+					a{
+						display: block;
+						color: #1d1d1b;
+						font-size: 40px;
+						text-align: left;
+						padding-left: 20px;
+					}
+				}
+				.or_ft_right{
+					position: relative;
+					float: right;
+					width: 28%;
+					font-size: 40px;
+					color: #1871c0;
+					text-align: right;
+					padding-right: 30px;
+				}
+			}
+			.or_class_owner{
+				margin: 20px 0px 15px 0px;
+				padding-left: 20px;
+				display: inline-block;
+				width: 100%;
+				.or_owner_left{
+					position: relative;
+					float: left;
+					span{
+						font-size: 24px;
+						color: #575756;
+					}
+					.or_owner_email{
+						font-size: 24px;
+						color: #575756;
+					}
+				}
+				.or_owner_right{
+					position: relative;
+					float: right;
+					margin-right: 40px;
+					span{
+						font-size: 24px;
+						color: #575756;
+					}
+				}
+			}
+			.or_material_div{
+				margin: 10px 0px 10px 0px;
+				padding-left: 20px;
+				display: inline-block;
+				width: 100%;
+				.or_material_t{
+					position: relative;
+					float: left;
+					font-size: 40px;
+					color: #1d1d1b;
+				}
+				.or_material_price{
+					position: relative;
+					float: right;
+					margin-right: 40px;
+					font-size: 40px;
+					color: #1871c0;
+					padding-right: 10px;
+				}
+			}
+			.or_class_title{
+				margin: 0px 0px 10px 0px;
+				padding-left: 20px;
+				display: inline-block;
+				width: 100%;
+				.or_class_name{
+					position: relative;
+					float: left;
+					font-size: 40px;
+					color: #1d1d1d;
+					width: 70%;
+					text-align: left;
+				}
+				.or_class_price{
+					position: relative;
+					float: left;
+					width: 28%;
+					font-size: 40px;
+					color: $this-order-blue;
+					text-align: right;
+					padding-right: 20px;
+				}
+			}
+			.or_class_people{
+				margin: 0px 0px 10px 0px;
+				padding-left: 20px;
+				display: inline-block;
+				width: 100%;
+				text-align: left;
+				font-size: 25px;
+				color: #666666;
+				.or_class_status{
+					font-size: 40px;
+					margin-right: 30px;
+					line-height: 50px;
+				}
+				span{
+					padding: 0px 5px 0px 5px;
+					color: $this-order-blue;
+					vertical-align: middle;
+				}
+			}
+			.or_txt_div{
+				margin: 0px 0px 10px 0px;
+				margin-left: 20px;
+				margin-top: 10px;
+				width: 78%;
+				position: relative;
+				float: left;
+				.or_txt_detail{
+					border: 1px solid #999999;
+					text-align: left;
+					font-size: 26px;
+					color: #575756;
+					width: 100%;
+					line-height: 34px;
+					padding: 20px 170px 20px 20px;
+				}
+				.or_txt_save{
+					position: absolute;
+					right: -160px;
+					top: 30px;
+					background-color: #b3b3b3;
+					font-size: 28px;
+					color: #ffffff;
+					width: 136px;
+					line-height: 50px;
+					text-align: center;
+					border-radius: 25px;
+					z-index: 10;
+					display: block;
+				}
+				.or_txt_save_click{
+					background-color: $this-order-blue;
+				}
+			}
+			.or_process_div{
+				clear: both;
+				position: relative;
+				float: left;
+				padding-left: 20px;
+				margin: 15px 0px 50px 0px;
+				.or_process_status{
+					border-top: 1px solid #999999;
+					border-bottom: 1px solid #999999;
+					background-color: #ececec;
+					font-size: 60px;
+					vertical-align: middle;
+					line-height: 190px;
+					color: $this-order-blue;
+					padding: 0px 90px 0px 80px;
+					float: left;
+					/*margin-right: 5px;*/
+					.icon{
+						padding-right: 5px;
+					}
+				}
+				.or_process_status:first-child{
+					border-left: 1px solid #999999;
+				}
+				.or_process_status:last-child{
+					border-right: 1px solid #999999;
+				}
 			}
 		}
 	}
@@ -319,7 +520,7 @@ $this-contact-violet: $contact-violet;
 					z-index: 10;
 					display: block;
 				}
-				.tp_txt_save:hover{
+				.tp_txt_save_click{
 					background-color: $this-pay-green;
 				}
 			}
@@ -345,18 +546,24 @@ $this-contact-violet: $contact-violet;
 				padding-left: 20px;
 				margin: 15px 0px 50px 0px;
 				.tp_process_status{
-					border: 1px solid #999999;
+					border-top: 1px solid #999999;
+					border-bottom: 1px solid #999999;
 					background-color: #ececec;
 					font-size: 60px;
 					vertical-align: middle;
 					line-height: 190px;
-					color: $this-pay-green;
+					color: $this-order-blue;
 					padding: 0px 90px 0px 80px;
 					float: left;
-					margin-right: 5px;
 					.icon{
 						padding-right: 5px;
 					}
+				}
+				.tp_process_status:first-child{
+					border-left: 1px solid #999999;
+				}
+				.tp_process_status:last-child{
+					border-right: 1px solid #999999;
 				}
 			}
 		}
@@ -547,7 +754,7 @@ $this-contact-violet: $contact-violet;
 					z-index: 10;
 					display: block;
 				}
-				.htr_txt_save:hover{
+				.htr_txt_save_click{
 					background-color: $this-history-pinky;
 				}
 			}
@@ -558,18 +765,24 @@ $this-contact-violet: $contact-violet;
 				padding-left: 20px;
 				margin: 15px 0px 50px 0px;
 				.htr_process_status{
-					border: 1px solid #999999;
+					border-top: 1px solid #999999;
+					border-bottom: 1px solid #999999;
 					background-color: #ececec;
 					font-size: 60px;
 					vertical-align: middle;
 					line-height: 190px;
-					color: $this-history-pinky;
+					color: $this-order-blue;
 					padding: 0px 90px 0px 80px;
 					float: left;
-					margin-right: 5px;
 					.icon{
 						padding-right: 5px;
 					}
+				}
+				.htr_process_status:first-child{
+					border-left: 1px solid #999999;
+				}
+				.htr_process_status:last-child{
+					border-right: 1px solid #999999;
 				}
 			}
 		}
@@ -612,27 +825,29 @@ $this-contact-violet: $contact-violet;
 			border-bottom: 4px solid $this-contact-violet;
 		}
 		.cnt_table thead tr th:nth-child(1){
-			width: 10%;
-			padding-left: 10px;
+			width: 3%;
 		}
 		.cnt_table thead tr th:nth-child(2){
 			width: 10%;
 		}
 		.cnt_table thead tr th:nth-child(3){
-			width: 34%;
-		}
-		.cnt_table thead tr th:nth-child(4){
 			width: 10%;
 		}
+		.cnt_table thead tr th:nth-child(4){
+			width: 33%;
+		}
 		.cnt_table thead tr th:nth-child(5){
-			width: 20%;
+			width: 10%;
 		}
 		.cnt_table thead tr th:nth-child(6){
+			width: 18%;
+		}
+		.cnt_table thead tr th:nth-child(7){
 			width: 8%;
 			text-align: center;
 			margin: 0 auto;
 		}
-		.cnt_table thead tr th:nth-child(7){
+		.cnt_table thead tr th:nth-child(8){
 			width: 8%;
 			text-align: center;
 			margin: 0 auto;
@@ -641,14 +856,17 @@ $this-contact-violet: $contact-violet;
 			border-bottom: 1px solid $this-contact-violet;
 		}
 		.cnt_table tbody tr td:nth-child(1){
-			padding-left: 10px;
+			text-align: center;
+			margin: 0 auto;
+		}
+		.cnt_table tbody tr td:nth-child(2){
 			color: $this-contact-violet;
 		}
-		.cnt_table tbody tr td:nth-child(2), .cnt_table tbody tr td:nth-child(4), .cnt_table tbody tr td:nth-child(5){
+		.cnt_table tbody tr td:nth-child(3), .cnt_table tbody tr td:nth-child(5), .cnt_table tbody tr td:nth-child(6){
 			font-size: 28px;
 			color: #1a1a1a;
 		}
-		.cnt_table tbody tr td:nth-child(3){
+		.cnt_table tbody tr td:nth-child(4){
 			padding: 5px 10px 5px 0px;
 			a{
 				display: block;
@@ -657,7 +875,7 @@ $this-contact-violet: $contact-violet;
 				color: #1a1a1a;
 			}
 		}
-		.cnt_table tbody tr td:nth-child(6), .cnt_table tbody tr td:nth-child(7){
+		.cnt_table tbody tr td:nth-child(7), .cnt_table tbody tr td:nth-child(8){
 			text-align: center;
 			margin: 0 auto;
 		}
