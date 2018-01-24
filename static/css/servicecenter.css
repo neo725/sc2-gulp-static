@@ -579,7 +579,8 @@ th, td {
         float: right;
         margin-right: 40px; }
     .person_order .or_list .or_list_detail {
-      position: relative; }
+      position: relative;
+      display: inline-block; }
       .person_order .or_list .or_list_detail .cls_preview_icon {
         position: absolute;
         right: -130px;
@@ -721,6 +722,76 @@ th, td {
           display: block; }
         .person_order .or_list .or_list_detail .or_txt_div .or_txt_save_click {
           background-color: #1871c0; }
+      .person_order .or_list .or_list_detail .or_timeline_div {
+        margin: 10px 20px 20px 20px;
+        position: relative;
+        display: inline-block;
+        float: left;
+        width: 2200px;
+        padding-top: 30px;
+        height: auto;
+        overflow: scroll; }
+        .person_order .or_list .or_list_detail .or_timeline_div .or_timeline {
+          margin: 0;
+          list-style-type: none;
+          display: -webkit-box;
+          align-items: center;
+          justify-content: center;
+          float: left;
+          width: auto;
+          border-top: 8px solid #1871c0; }
+          .person_order .or_list .or_list_detail .or_timeline_div .or_timeline:before {
+            content: "";
+            width: 100%;
+            height: 8px;
+            background-color: #1871c0;
+            position: absolute;
+            top: 30px;
+            left: 0px; }
+          .person_order .or_list .or_list_detail .or_timeline_div .or_timeline .li {
+            width: 400px;
+            display: inline-block;
+            float: left;
+            justify-content: center;
+            position: relative;
+            transition: all 200ms ease-in; }
+            .person_order .or_list .or_list_detail .or_timeline_div .or_timeline .li .or_timeline_status {
+              text-align: left;
+              margin-top: 20px; }
+              .person_order .or_list .or_list_detail .or_timeline_div .or_timeline .li .or_timeline_status .or_timeline_t {
+                font-size: 24px;
+                line-height: 30px;
+                color: #575756; }
+              .person_order .or_list .or_list_detail .or_timeline_div .or_timeline .li .or_timeline_status .or_timeline_no {
+                font-size: 24px;
+                line-height: 30px;
+                color: #1d1d1b;
+                background-color: #ececec;
+                padding: 2px; }
+              .person_order .or_list .or_list_detail .or_timeline_div .or_timeline .li .or_timeline_status .or_timeline_method {
+                margin-left: 10px;
+                border: 1px solid #b3b3b3;
+                font-size: 24px;
+                padding: 2px 5px;
+                line-height: 30px;
+                color: #b3b3b3;
+                vertical-align: middle; }
+            .person_order .or_list .or_list_detail .or_timeline_div .or_timeline .li .or_timeline_price {
+              text-align: left;
+              color: #1871c0;
+              font-size: 40px;
+              line-height: 65px; }
+          .person_order .or_list .or_list_detail .or_timeline_div .or_timeline .li:before {
+            content: "";
+            width: 30px;
+            height: 30px;
+            background-color: #1871c0;
+            border-radius: 25px;
+            border: 1px solid #1871c0;
+            position: absolute;
+            top: -20px;
+            left: 0px;
+            transition: all 200ms ease-in; }
       .person_order .or_list .or_list_detail .or_process_div {
         clear: both;
         position: relative;
@@ -803,7 +874,8 @@ th, td {
         .person_order .tp_list .tp_list_name .tp_name_right .icon {
           vertical-align: middle; }
     .person_order .tp_list .tp_list_detail {
-      position: relative; }
+      position: relative;
+      display: inline-block; }
       .person_order .tp_list .tp_list_detail .cls_preview_icon {
         position: absolute;
         right: -130px;
@@ -992,7 +1064,8 @@ th, td {
         .person_order .htr_list .htr_list_name .htr_name_right .icon {
           vertical-align: middle; }
     .person_order .htr_list .htr_list_detail {
-      position: relative; }
+      position: relative;
+      display: inline-block; }
       .person_order .htr_list .htr_list_detail .cls_preview_icon {
         position: absolute;
         right: -130px;

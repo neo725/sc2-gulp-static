@@ -137,6 +137,7 @@ $this-contact-violet: $contact-violet;
 		}
 		.or_list_detail{
 			position: relative;
+			display: inline-block;
 			.cls_preview_icon{
 				position: absolute;
 				right: -130px;
@@ -304,6 +305,86 @@ $this-contact-violet: $contact-violet;
 					background-color: $this-order-blue;
 				}
 			}
+			.or_timeline_div{
+				margin: 10px 20px 20px 20px;
+				position: relative;
+				display: inline-block;
+				float: left;
+				width: 2200px;
+				padding-top: 30px;
+				height: auto;
+				overflow: scroll;
+				.or_timeline {
+					margin: 0;
+					list-style-type: none;
+					display: -webkit-box;
+					align-items: center;
+					justify-content: center;
+					float: left;
+					width: auto;
+					border-top: 8px solid $this-order-blue;
+					&:before {
+						content: "";
+						width: 100%;
+						height: 8px;
+						background-color: $this-order-blue;
+						position: absolute;
+						top: 30px;
+						left: 0px;
+					}
+					.li {
+						width: 400px;
+						display: inline-block;
+    					float: left;
+						justify-content: center;
+						position: relative;
+						transition: all 200ms ease-in;
+						.or_timeline_status{
+							text-align: left;
+							margin-top: 20px;
+							.or_timeline_t{
+								font-size: 24px;
+								line-height: 30px;
+								color: #575756;
+							}
+							.or_timeline_no{
+								font-size: 24px;
+								line-height: 30px;
+								color: #1d1d1b;
+								background-color: #ececec;
+								padding: 2px;
+							}
+							.or_timeline_method{
+								margin-left: 10px;
+								border: 1px solid #b3b3b3;
+								font-size: 24px;
+								padding: 2px 5px;
+								line-height: 30px;
+								color: #b3b3b3;
+								vertical-align: middle;
+							}
+						}
+						.or_timeline_price{
+							text-align: left;
+							color: $this-order-blue;
+							font-size: 40px;
+							line-height: 65px;
+						}
+					}
+					.li:before {
+						content: "";
+						width: 30px;
+						height: 30px;
+						background-color: $this-order-blue;
+						border-radius: 25px;
+						border: 1px solid $this-order-blue;
+						position: absolute;
+						top: -20px;
+						left: 0px;
+						transition: all 200ms ease-in;
+					}
+				}
+			}
 			.or_process_div{
 				clear: both;
 				position: relative;
@@ -411,6 +492,7 @@ $this-contact-violet: $contact-violet;
 		}
 		.tp_list_detail{
 			position: relative;
+			display: inline-block;
 			.cls_preview_icon{
 				position: absolute;
 				right: -130px;
@@ -645,6 +727,7 @@ $this-contact-violet: $contact-violet;
 		}
 		.htr_list_detail{
 			position: relative;
+			display: inline-block;
 			.cls_preview_icon{
 				position: absolute;
 				right: -130px;
