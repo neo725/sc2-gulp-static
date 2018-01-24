@@ -480,6 +480,37 @@ th, td {
   /* to pay list */
   /* history list*/
   /* contact list*/ }
+  .person_order .header_tab {
+    width: 2462px;
+    margin: 0 auto;
+    background-color: #2f3143;
+    display: table; }
+    .person_order .header_tab .header_tab_left {
+      position: relative;
+      float: left; }
+      .person_order .header_tab .header_tab_left .header_tab_hide {
+        color: #6e6f7c; }
+    .person_order .header_tab .header_tab_right {
+      position: relative;
+      float: right; }
+      .person_order .header_tab .header_tab_right .header_tab_hide {
+        color: #6e6f7c; }
+    .person_order .header_tab .header_tab_left ul, .person_order .header_tab .header_tab_right ul {
+      display: inline-block;
+      margin-top: 20px;
+      margin-bottom: 15px; }
+    .person_order .header_tab .header_tab_left ul li, .person_order .header_tab .header_tab_right ul li {
+      margin-right: 50px; }
+    .person_order .header_tab .header_tab_left ul li .icon, .person_order .header_tab .header_tab_right ul li .icon {
+      width: 90px; }
+    .person_order .header_tab .header_tab_left ul li, .person_order .header_tab .header_tab_right ul li, .person_order .header_tab .header_tab_left ul li > div, .person_order .header_tab .header_tab_right ul li > div {
+      display: block;
+      position: relative;
+      float: left;
+      font-size: 38px;
+      line-height: 80px;
+      color: #ffffff;
+      letter-spacing: 2px; }
   .person_order .od_title_div {
     position: relative;
     display: inline-block;
@@ -499,37 +530,6 @@ th, td {
       margin: 30px; }
     .person_order .od_title_div .od_more .icon {
       width: 35px; }
-  .person_order .or_tab {
-    width: 2462px;
-    margin: 0 auto;
-    background-color: #2f3143;
-    display: table; }
-    .person_order .or_tab .or_tab_left {
-      position: relative;
-      float: left; }
-      .person_order .or_tab .or_tab_left .or_tab_hide {
-        color: #6e6f7c; }
-    .person_order .or_tab .or_tab_right {
-      position: relative;
-      float: right; }
-      .person_order .or_tab .or_tab_right .or_tab_hide {
-        color: #6e6f7c; }
-    .person_order .or_tab .or_tab_left ul, .person_order .or_tab .or_tab_right ul {
-      display: inline-block;
-      margin-top: 20px;
-      margin-bottom: 15px; }
-    .person_order .or_tab .or_tab_left ul li, .person_order .or_tab .or_tab_right ul li {
-      margin-right: 50px; }
-    .person_order .or_tab .or_tab_left ul li .icon, .person_order .or_tab .or_tab_right ul li .icon {
-      width: 90px; }
-    .person_order .or_tab .or_tab_left ul li, .person_order .or_tab .or_tab_right ul li, .person_order .or_tab .or_tab_left ul li > div, .person_order .or_tab .or_tab_right ul li > div {
-      display: block;
-      position: relative;
-      float: left;
-      font-size: 38px;
-      line-height: 80px;
-      color: #ffffff;
-      letter-spacing: 2px; }
   .person_order .or_list_div {
     width: 2462px;
     margin: 0 auto;
@@ -541,10 +541,10 @@ th, td {
       margin-top: 20px;
       text-align: left;
       font-size: 42px;
-      color: #1871c0;
       font-weight: 600;
       line-height: 80px;
       text-indent: 20px;
+      color: #1871c0;
       border-bottom: 4px solid #1871c0; }
   .person_order .or_list {
     width: 95%;
@@ -822,10 +822,10 @@ th, td {
       margin-top: 20px;
       text-align: left;
       font-size: 42px;
-      color: #24b499;
       font-weight: 600;
       line-height: 80px;
       text-indent: 20px;
+      color: #24b499;
       border-bottom: 4px solid #24b499; }
   .person_order .tp_list {
     width: 95%;
@@ -1009,10 +1009,10 @@ th, td {
       margin-top: 20px;
       text-align: left;
       font-size: 42px;
-      color: #ff7bac;
       font-weight: 600;
       line-height: 80px;
       text-indent: 20px;
+      color: #ff7bac;
       border-bottom: 4px solid #ff7bac; }
   .person_order .htr_list {
     width: 95%;
@@ -1184,26 +1184,28 @@ th, td {
       margin-top: 20px;
       text-align: left;
       font-size: 42px;
-      color: #738ec8;
       font-weight: 600;
       line-height: 80px;
       text-indent: 20px;
+      color: #738ec8;
       border-bottom: 4px solid #738ec8; }
     .person_order .contact_div .cnt_table {
       position: relative;
       float: left;
-      padding: 0px 60px 0px 60px;
       width: 95%;
       text-align: left;
       margin-bottom: 40px;
       border-spacing: none;
-      display: initial; }
+      display: inherit;
+      margin-left: 60px; }
     .person_order .contact_div .cnt_table thead tr {
       color: #738ec8;
       line-height: 70px;
       font-size: 28px; }
     .person_order .contact_div .cnt_table thead tr th {
-      border-bottom: 4px solid #738ec8; }
+      border-bottom: 4px solid #738ec8;
+      font-size: 28px;
+      color: #738ec8; }
     .person_order .contact_div .cnt_table thead tr th:nth-child(1) {
       width: 3%; }
     .person_order .contact_div .cnt_table thead tr th:nth-child(2) {
@@ -1248,4 +1250,119 @@ th, td {
       border: none !important;
       background-color: #e3e8f4; }
     .person_order .contact_div .cnt_list_opacity {
+      opacity: 0.3; }
+
+.eform {
+  background-color: #eef2f6;
+  width: 2730px;
+  margin: 0 auto;
+  padding-bottom: 120px; }
+  .eform .header_tab {
+    width: 2462px;
+    margin: 0 auto;
+    background-color: #2f3143;
+    display: table; }
+    .eform .header_tab .header_tab_left {
+      position: relative;
+      float: left; }
+      .eform .header_tab .header_tab_left .header_tab_hide {
+        color: #6e6f7c; }
+    .eform .header_tab .header_tab_right {
+      position: relative;
+      float: right; }
+      .eform .header_tab .header_tab_right .header_tab_hide {
+        color: #6e6f7c; }
+    .eform .header_tab .header_tab_left ul, .eform .header_tab .header_tab_right ul {
+      display: inline-block;
+      margin-top: 20px;
+      margin-bottom: 15px; }
+    .eform .header_tab .header_tab_left ul li, .eform .header_tab .header_tab_right ul li {
+      margin-right: 50px; }
+    .eform .header_tab .header_tab_left ul li .icon, .eform .header_tab .header_tab_right ul li .icon {
+      width: 90px; }
+    .eform .header_tab .header_tab_left ul li, .eform .header_tab .header_tab_right ul li, .eform .header_tab .header_tab_left ul li > div, .eform .header_tab .header_tab_right ul li > div {
+      display: block;
+      position: relative;
+      float: left;
+      font-size: 38px;
+      line-height: 80px;
+      color: #ffffff;
+      letter-spacing: 2px; }
+  .eform .eform_list_div {
+    width: 2462px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    display: table; }
+    .eform .eform_list_div .eform_list_t {
+      width: 95%;
+      margin: 0 auto;
+      margin-top: 20px;
+      text-align: left;
+      font-size: 42px;
+      font-weight: 600;
+      line-height: 80px;
+      text-indent: 20px;
+      color: #f7931e;
+      border-bottom: 4px solid #f7931e; }
+    .eform .eform_list_div .eform_table {
+      position: relative;
+      float: left;
+      width: 95%;
+      text-align: left;
+      margin-bottom: 40px;
+      border-spacing: none;
+      display: inherit;
+      margin-left: 60px; }
+    .eform .eform_list_div .eform_table thead tr {
+      color: #575756;
+      line-height: 70px;
+      font-size: 28px; }
+    .eform .eform_list_div .eform_table thead tr th {
+      border-bottom: 2px solid #575756;
+      font-size: 28px;
+      color: #575756; }
+    .eform .eform_list_div .eform_table thead tr th:nth-child(1) {
+      width: 12%; }
+    .eform .eform_list_div .eform_table thead tr th:nth-child(2) {
+      width: 33%; }
+    .eform .eform_list_div .eform_table thead tr th:nth-child(3) {
+      width: 5%;
+      text-align: center; }
+    .eform .eform_list_div .eform_table thead tr th:nth-child(4) {
+      width: 20%;
+      text-align: center; }
+    .eform .eform_list_div .eform_table thead tr th:nth-child(5) {
+      width: 10%;
+      text-align: center; }
+    .eform .eform_list_div .eform_table thead tr th:nth-child(6) {
+      width: 10%;
+      text-align: center;
+      margin: 0 auto; }
+    .eform .eform_list_div .eform_table thead tr th:nth-child(7) {
+      width: 10%;
+      text-align: center;
+      margin: 0 auto; }
+    .eform .eform_list_div .eform_table tbody tr td {
+      border-bottom: 1px solid #575756;
+      text-indent: 5px; }
+    .eform .eform_list_div .eform_table tbody tr td:nth-child(1) {
+      color: #575756; }
+    .eform .eform_list_div .eform_table tbody tr td:nth-child(2) {
+      padding: 5px 10px 5px 0px; }
+      .eform .eform_list_div .eform_table tbody tr td:nth-child(2) a {
+        display: block;
+        font-size: 36px;
+        line-height: 56px;
+        color: #575756; }
+    .eform .eform_list_div .eform_table tbody tr td:nth-child(3), .eform .eform_list_div .eform_table tbody tr td:nth-child(4), .eform .eform_list_div .eform_table tbody tr td:nth-child(5) {
+      font-size: 28px;
+      color: #1a1a1a;
+      text-align: center; }
+    .eform .eform_list_div .eform_table tbody tr td:nth-child(6), .eform .eform_list_div .eform_table tbody tr td:nth-child(7) {
+      text-align: center;
+      margin: 0 auto; }
+    .eform .eform_list_div .eform_table tbody tr:nth-child(odd) {
+      border: none !important;
+      background-color: #ececec; }
+    .eform .eform_list_div .eform_list_opacity {
       opacity: 0.3; }

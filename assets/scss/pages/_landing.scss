@@ -3,12 +3,66 @@ $this-pay-green: $pay-green;
 $this-history-pinky: $history-pinky;
 $this-contact-violet: $contact-violet;
 
+@mixin g_header_tab {
+	.header_tab{
+		width: 2462px;
+		margin: 0 auto;
+		background-color: #2f3143;
+		display: table;
+		.header_tab_left{
+			position: relative;
+			float: left;
+			.header_tab_hide{
+				color: #6e6f7c;
+			}
+		}
+		.header_tab_right{
+			position: relative;
+			float: right;
+			.header_tab_hide{
+				color: #6e6f7c;
+			}
+		}
+		.header_tab_left ul, .header_tab_right ul{
+			display: inline-block;
+			margin-top: 20px;
+			margin-bottom: 15px;
+		}
+		.header_tab_left ul li, .header_tab_right ul li{
+			margin-right: 50px;
+		}
+		.header_tab_left ul li .icon, .header_tab_right ul li .icon{
+			width: 90px;
+		}
+		.header_tab_left ul li, .header_tab_right ul li, .header_tab_left ul li > div, .header_tab_right ul li > div{
+			display: block;
+			position: relative;
+			float: left;
+			font-size: 38px;
+			line-height: 80px;
+			color: #ffffff;
+			letter-spacing: 2px;
+		}
+	}
+}
+
+@mixin g_list_title {
+	width: 95%;
+	margin: 0 auto;
+	margin-top: 20px;
+	text-align: left;
+	font-size: 42px;
+	font-weight: 600;
+	line-height: 80px;
+	text-indent: 20px;
+}
+
 .person_order{
 	background-color: #eef2f6;
 	width: 2730px;
 	margin: 0 auto;
 	padding-bottom: 120px;
-
+	@include g_header_tab;
 	.od_title_div{
 			position: relative;
 			display: inline-block;
@@ -33,47 +87,6 @@ $this-contact-violet: $contact-violet;
 		}
 	}
 
-	.or_tab{
-		width: 2462px;
-		margin: 0 auto;
-		background-color: #2f3143;
-		display: table;
-		.or_tab_left{
-			position: relative;
-			float: left;
-			.or_tab_hide{
-				color: #6e6f7c;
-			}
-		}
-		.or_tab_right{
-			position: relative;
-			float: right;
-			.or_tab_hide{
-				color: #6e6f7c;
-			}
-		}
-		.or_tab_left ul, .or_tab_right ul{
-			display: inline-block;
-			margin-top: 20px;
-			margin-bottom: 15px;
-		}
-		.or_tab_left ul li, .or_tab_right ul li{
-			margin-right: 50px;
-		}
-		.or_tab_left ul li .icon, .or_tab_right ul li .icon{
-			width: 90px;
-		}
-		.or_tab_left ul li, .or_tab_right ul li, .or_tab_left ul li > div, .or_tab_right ul li > div{
-			display: block;
-			position: relative;
-			float: left;
-			font-size: 38px;
-			line-height: 80px;
-			color: #ffffff;
-			letter-spacing: 2px;
-		}
-	}
-
 	/* order list */
 	.or_list_div{
 		width: 2462px;
@@ -81,15 +94,8 @@ $this-contact-violet: $contact-violet;
 		background-color: #ffffff;
 		display: table;
 		.or_list_t{
-			width: 95%;
-			margin: 0 auto;
-			margin-top: 20px;
-			text-align: left;
-			font-size: 42px;
+			@include g_list_title;
 			color: $this-order-blue;
-			font-weight: 600;
-			line-height: 80px;
-			text-indent: 20px;
 			border-bottom: 4px solid $this-order-blue;
 		}
 	}
@@ -418,15 +424,8 @@ $this-contact-violet: $contact-violet;
 		background-color: #ffffff;
 		display: table;
 		.tp_list_t{
-			width: 95%;
-			margin: 0 auto;
-			margin-top: 20px;
-			text-align: left;
-			font-size: 42px;
+			@include g_list_title;
 			color: $this-pay-green;
-			font-weight: 600;
-			line-height: 80px;
-			text-indent: 20px;
 			border-bottom: 4px solid $this-pay-green;
 		}
 	}
@@ -649,15 +648,8 @@ $this-contact-violet: $contact-violet;
 		background-color: #ffffff;
 		display: table;
 		.htr_list_t{
-			width: 95%;
-			margin: 0 auto;
-			margin-top: 20px;
-			text-align: left;
-			font-size: 42px;
+			@include g_list_title;
 			color: $this-history-pinky;
-			font-weight: 600;
-			line-height: 80px;
-			text-indent: 20px;
 			border-bottom: 4px solid $this-history-pinky;
 		}
 	}
@@ -865,26 +857,19 @@ $this-contact-violet: $contact-violet;
 		background-color: #ffffff;
 		display: table;
 		.cnt_list_t{
-			width: 95%;
-			margin: 0 auto;
-			margin-top: 20px;
-			text-align: left;
-			font-size: 42px;
-			color: $this-contact-violet;
-			font-weight: 600;
-			line-height: 80px;
-			text-indent: 20px;
+			@include g_list_title;
+			color:  $this-contact-violet;
 			border-bottom: 4px solid $this-contact-violet;
 		}
 		.cnt_table{
 			position: relative;
 			float: left;
-			padding: 0px 60px 0px 60px;
 			width: 95%;
 			text-align: left;
 			margin-bottom: 40px;
 			border-spacing: none;
-			display: initial;
+			display: inherit;
+    		margin-left: 60px;
 		}
 		.cnt_table thead tr{
 			color: $this-contact-violet;
@@ -893,6 +878,8 @@ $this-contact-violet: $contact-violet;
 		}
 		.cnt_table thead tr th{
 			border-bottom: 4px solid $this-contact-violet;
+			font-size: 28px;
+			color: $this-contact-violet;
 		}
 		.cnt_table thead tr th:nth-child(1){
 			width: 3%;
@@ -954,6 +941,104 @@ $this-contact-violet: $contact-violet;
 			background-color: #e3e8f4;
 		}
 		.cnt_list_opacity{
+			opacity: 0.3;
+		}
+	}
+}
+.eform{
+	background-color: #eef2f6;
+	width: 2730px;
+	margin: 0 auto;
+	padding-bottom: 120px;
+	@include g_header_tab;
+	.eform_list_div{
+		width: 2462px;
+		margin: 0 auto;
+		background-color: #ffffff;
+		display: table;
+		.eform_list_t{
+			@include g_list_title;
+			color: #f7931e;
+			border-bottom: 4px solid #f7931e;
+		}
+		.eform_table{
+			position: relative;
+			float: left;
+			width: 95%;
+			text-align: left;
+			margin-bottom: 40px;
+			border-spacing: none;
+			display: inherit;
+    		margin-left: 60px;
+		}
+		.eform_table thead tr{
+			color: #575756;
+			line-height: 70px;
+			font-size: 28px;
+		}
+		.eform_table thead tr th{
+			border-bottom: 2px solid #575756;
+			font-size: 28px;
+			color: #575756;
+		}
+		.eform_table thead tr th:nth-child(1){
+			width: 12%;
+		}
+		.eform_table thead tr th:nth-child(2){
+			width: 33%;
+		}
+		.eform_table thead tr th:nth-child(3){
+			width: 5%;
+			text-align: center;
+		}
+		.eform_table thead tr th:nth-child(4){
+			width: 20%;
+			text-align: center;
+		}
+		.eform_table thead tr th:nth-child(5){
+			width: 10%;
+			text-align: center;
+		}
+		.eform_table thead tr th:nth-child(6){
+			width: 10%;
+			text-align: center;
+			margin: 0 auto;
+		}
+		.eform_table thead tr th:nth-child(7){
+			width: 10%;
+			text-align: center;
+			margin: 0 auto;
+		}
+		.eform_table tbody tr td{
+			border-bottom: 1px solid #575756;
+			text-indent: 5px;
+		}
+		.eform_table tbody tr td:nth-child(1){
+			color: #575756;
+		}
+		.eform_table tbody tr td:nth-child(2){
+			padding: 5px 10px 5px 0px;
+			a{
+				display: block;
+				font-size: 36px;
+				line-height: 56px;
+				color: #575756;
+			}
+		}
+		.eform_table tbody tr td:nth-child(3), .eform_table tbody tr td:nth-child(4), .eform_table tbody tr td:nth-child(5){
+			font-size: 28px;
+			color: #1a1a1a;
+			text-align: center;
+		}
+		.eform_table tbody tr td:nth-child(6), .eform_table tbody tr td:nth-child(7){
+			text-align: center;
+			margin: 0 auto;
+		}
+		.eform_table tbody tr:nth-child(odd){
+			border: none !important;
+			background-color: #ececec;
+		}
+		.eform_list_opacity{
 			opacity: 0.3;
 		}
 	}
