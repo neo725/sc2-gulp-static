@@ -796,25 +796,21 @@ th, td {
         clear: both;
         position: relative;
         float: left;
-        padding-left: 20px;
-        margin: 15px 0px 50px 0px; }
+        margin: 15px 0px 50px 20px;
+        border: 1px solid #999999; }
         .person_order .or_list .or_list_detail .or_process_div .or_process_status {
-          border-top: 1px solid #999999;
-          border-bottom: 1px solid #999999;
           background-color: #ececec;
           font-size: 60px;
           vertical-align: middle;
           line-height: 190px;
           color: #1871c0;
           padding: 0px 90px 0px 80px;
-          float: left;
-          /*margin-right: 5px;*/ }
+          margin-right: 5px;
+          float: left; }
           .person_order .or_list .or_list_detail .or_process_div .or_process_status .icon {
-            padding-right: 5px; }
-        .person_order .or_list .or_list_detail .or_process_div .or_process_status:first-child {
-          border-left: 1px solid #999999; }
+            padding-right: 10px; }
         .person_order .or_list .or_list_detail .or_process_div .or_process_status:last-child {
-          border-right: 1px solid #999999; }
+          margin-right: 0px; }
   .person_order .tp_list_div {
     width: 2462px;
     margin: 0 auto;
@@ -987,24 +983,21 @@ th, td {
         clear: both;
         position: relative;
         float: left;
-        padding-left: 20px;
-        margin: 15px 0px 50px 0px; }
+        margin: 15px 0px 50px 20px;
+        border: 1px solid #999999; }
         .person_order .tp_list .tp_list_detail .tp_process_div .tp_process_status {
-          border-top: 1px solid #999999;
-          border-bottom: 1px solid #999999;
           background-color: #ececec;
           font-size: 60px;
           vertical-align: middle;
           line-height: 190px;
-          color: #1871c0;
+          color: #24b499;
           padding: 0px 90px 0px 80px;
+          margin-right: 5px;
           float: left; }
           .person_order .tp_list .tp_list_detail .tp_process_div .tp_process_status .icon {
-            padding-right: 5px; }
-        .person_order .tp_list .tp_list_detail .tp_process_div .tp_process_status:first-child {
-          border-left: 1px solid #999999; }
+            padding-right: 10px; }
         .person_order .tp_list .tp_list_detail .tp_process_div .tp_process_status:last-child {
-          border-right: 1px solid #999999; }
+          margin-right: 0px; }
   .person_order .htr_list_div {
     width: 2462px;
     margin: 0 auto;
@@ -1165,24 +1158,21 @@ th, td {
         clear: both;
         position: relative;
         float: left;
-        padding-left: 20px;
-        margin: 15px 0px 50px 0px; }
+        margin: 15px 0px 50px 20px;
+        border: 1px solid #999999; }
         .person_order .htr_list .htr_list_detail .htr_process_div .htr_process_status {
-          border-top: 1px solid #999999;
-          border-bottom: 1px solid #999999;
           background-color: #ececec;
           font-size: 60px;
           vertical-align: middle;
           line-height: 190px;
-          color: #1871c0;
+          color: #ff7bac;
           padding: 0px 90px 0px 80px;
+          margin-right: 5px;
           float: left; }
           .person_order .htr_list .htr_list_detail .htr_process_div .htr_process_status .icon {
-            padding-right: 5px; }
-        .person_order .htr_list .htr_list_detail .htr_process_div .htr_process_status:first-child {
-          border-left: 1px solid #999999; }
+            padding-right: 10px; }
         .person_order .htr_list .htr_list_detail .htr_process_div .htr_process_status:last-child {
-          border-right: 1px solid #999999; }
+          margin-right: 0px; }
   .person_order .contact_div {
     width: 2462px;
     margin: 0 auto;

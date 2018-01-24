@@ -389,28 +389,23 @@ $this-contact-violet: $contact-violet;
 				clear: both;
 				position: relative;
 				float: left;
-				padding-left: 20px;
-				margin: 15px 0px 50px 0px;
+				margin: 15px 0px 50px 20px;
+				border: 1px solid #999999;
 				.or_process_status{
-					border-top: 1px solid #999999;
-					border-bottom: 1px solid #999999;
 					background-color: #ececec;
 					font-size: 60px;
 					vertical-align: middle;
 					line-height: 190px;
 					color: $this-order-blue;
 					padding: 0px 90px 0px 80px;
+					margin-right: 5px;
 					float: left;
-					/*margin-right: 5px;*/
 					.icon{
-						padding-right: 5px;
+						padding-right: 10px;
 					}
 				}
-				.or_process_status:first-child{
-					border-left: 1px solid #999999;
-				}
 				.or_process_status:last-child{
-					border-right: 1px solid #999999;
+					margin-right: 0px;
 				}
 			}
 		}
@@ -625,27 +620,23 @@ $this-contact-violet: $contact-violet;
 				clear: both;
 				position: relative;
 				float: left;
-				padding-left: 20px;
-				margin: 15px 0px 50px 0px;
+				margin: 15px 0px 50px 20px;
+				border: 1px solid #999999;
 				.tp_process_status{
-					border-top: 1px solid #999999;
-					border-bottom: 1px solid #999999;
 					background-color: #ececec;
 					font-size: 60px;
 					vertical-align: middle;
 					line-height: 190px;
-					color: $this-order-blue;
+					color: $this-pay-green;
 					padding: 0px 90px 0px 80px;
+					margin-right: 5px;
 					float: left;
 					.icon{
-						padding-right: 5px;
+						padding-right: 10px;
 					}
 				}
-				.tp_process_status:first-child{
-					border-left: 1px solid #999999;
-				}
 				.tp_process_status:last-child{
-					border-right: 1px solid #999999;
+					margin-right: 0px;
 				}
 			}
 		}
@@ -845,27 +836,23 @@ $this-contact-violet: $contact-violet;
 				clear: both;
 				position: relative;
 				float: left;
-				padding-left: 20px;
-				margin: 15px 0px 50px 0px;
+				margin: 15px 0px 50px 20px;
+				border: 1px solid #999999;
 				.htr_process_status{
-					border-top: 1px solid #999999;
-					border-bottom: 1px solid #999999;
 					background-color: #ececec;
 					font-size: 60px;
 					vertical-align: middle;
 					line-height: 190px;
-					color: $this-order-blue;
+					color: $this-history-pinky;
 					padding: 0px 90px 0px 80px;
+					margin-right: 5px;
 					float: left;
 					.icon{
-						padding-right: 5px;
+						padding-right: 10px;
 					}
 				}
-				.htr_process_status:first-child{
-					border-left: 1px solid #999999;
-				}
 				.htr_process_status:last-child{
-					border-right: 1px solid #999999;
+					margin-right: 0px;
 				}
 			}
 		}
