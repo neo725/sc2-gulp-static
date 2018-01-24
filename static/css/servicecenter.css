@@ -808,7 +808,7 @@ th, td {
           margin-right: 5px;
           float: left; }
           .person_order .or_list .or_list_detail .or_process_div .or_process_status .icon {
-            padding-right: 10px; }
+            margin-right: 10px; }
         .person_order .or_list .or_list_detail .or_process_div .or_process_status:last-child {
           margin-right: 0px; }
   .person_order .tp_list_div {
@@ -995,7 +995,7 @@ th, td {
           margin-right: 5px;
           float: left; }
           .person_order .tp_list .tp_list_detail .tp_process_div .tp_process_status .icon {
-            padding-right: 10px; }
+            margin-right: 10px; }
         .person_order .tp_list .tp_list_detail .tp_process_div .tp_process_status:last-child {
           margin-right: 0px; }
   .person_order .htr_list_div {
@@ -1170,7 +1170,7 @@ th, td {
           margin-right: 5px;
           float: left; }
           .person_order .htr_list .htr_list_detail .htr_process_div .htr_process_status .icon {
-            padding-right: 10px; }
+            margin-right: 10px; }
         .person_order .htr_list .htr_list_detail .htr_process_div .htr_process_status:last-child {
           margin-right: 0px; }
   .person_order .contact_div {
