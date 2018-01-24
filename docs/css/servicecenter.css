@@ -630,15 +630,16 @@ th, td {
             font-size: 24px;
             color: #575756; }
           .person_order .or_list .or_list_detail .or_class_owner .or_owner_left .or_owner_email {
-            font-size: 24px;
-            color: #575756; }
+            font-size: 24px; }
+          .person_order .or_list .or_list_detail .or_class_owner .or_owner_left .or_owner_t, .person_order .or_list .or_list_detail .or_class_owner .or_owner_left .or_owner_name, .person_order .or_list .or_list_detail .or_class_owner .or_owner_left .or_owner_email {
+            color: #808080; }
         .person_order .or_list .or_list_detail .or_class_owner .or_owner_right {
           position: relative;
           float: right;
           margin-right: 40px; }
           .person_order .or_list .or_list_detail .or_class_owner .or_owner_right span {
             font-size: 24px;
-            color: #575756; }
+            color: #808080; }
       .person_order .or_list .or_list_detail .or_material_div {
         margin: 10px 0px 10px 0px;
         padding-left: 20px;
@@ -892,15 +893,16 @@ th, td {
             font-size: 24px;
             color: #575756; }
           .person_order .tp_list .tp_list_detail .tp_class_owner .tp_owner_left .tp_owner_email {
-            font-size: 24px;
-            color: #575756; }
+            font-size: 24px; }
+          .person_order .tp_list .tp_list_detail .tp_class_owner .tp_owner_left .tp_owner_t, .person_order .tp_list .tp_list_detail .tp_class_owner .tp_owner_left .tp_owner_name, .person_order .tp_list .tp_list_detail .tp_class_owner .tp_owner_left .tp_owner_email {
+            color: #808080; }
         .person_order .tp_list .tp_list_detail .tp_class_owner .tp_owner_right {
           position: relative;
           float: right;
           margin-right: 40px; }
           .person_order .tp_list .tp_list_detail .tp_class_owner .tp_owner_right span {
             font-size: 24px;
-            color: #575756; }
+            color: #808080; }
       .person_order .tp_list .tp_list_detail .tp_class_title {
         margin: 0px 0px 10px 0px;
         padding-left: 20px;
@@ -1079,15 +1081,16 @@ th, td {
             font-size: 24px;
             color: #575756; }
           .person_order .htr_list .htr_list_detail .htr_class_owner .htr_owner_left .htr_owner_email {
-            font-size: 24px;
-            color: #575756; }
+            font-size: 24px; }
+          .person_order .htr_list .htr_list_detail .htr_class_owner .htr_owner_left .or_owner_t, .person_order .htr_list .htr_list_detail .htr_class_owner .htr_owner_left .or_owner_name, .person_order .htr_list .htr_list_detail .htr_class_owner .htr_owner_left .or_owner_email {
+            color: #808080; }
         .person_order .htr_list .htr_list_detail .htr_class_owner .htr_owner_right {
           position: relative;
           float: right;
           margin-right: 40px; }
           .person_order .htr_list .htr_list_detail .htr_class_owner .htr_owner_right span {
             font-size: 24px;
-            color: #575756; }
+            color: #808080; }
       .person_order .htr_list .htr_list_detail .htr_class_title {
         margin: 0px 0px 10px 0px;
         padding-left: 20px;

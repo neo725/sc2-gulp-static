@@ -202,7 +202,9 @@ $this-contact-violet: $contact-violet;
 					}
 					.or_owner_email{
 						font-size: 24px;
-						color: #575756;
+					}
+					.or_owner_t, .or_owner_name, .or_owner_email{
+						color: #808080;
 					}
 				}
 				.or_owner_right{
@@ -211,7 +213,7 @@ $this-contact-violet: $contact-violet;
 					margin-right: 40px;
 					span{
 						font-size: 24px;
-						color: #575756;
+						color: #808080;
 					}
 				}
 			}
@@ -511,7 +513,9 @@ $this-contact-violet: $contact-violet;
 					}
 					.tp_owner_email{
 						font-size: 24px;
-						color: #575756;
+					}
+					.tp_owner_t, .tp_owner_name, .tp_owner_email{
+						color: #808080;
 					}
 				}
 				.tp_owner_right{
@@ -520,7 +524,7 @@ $this-contact-violet: $contact-violet;
 					margin-right: 40px;
 					span{
 						font-size: 24px;
-						color: #575756;
+						color: #808080;
 					}
 				}
 			}
@@ -735,7 +739,9 @@ $this-contact-violet: $contact-violet;
 					}
 					.htr_owner_email{
 						font-size: 24px;
-						color: #575756;
+					}
+					.or_owner_t, .or_owner_name, .or_owner_email{
+						color: #808080;
 					}
 				}
 				.htr_owner_right{
@@ -744,7 +750,7 @@ $this-contact-violet: $contact-violet;
 					margin-right: 40px;
 					span{
 						font-size: 24px;
-						color: #575756;
+						color: #808080;
 					}
 				}
 			}
