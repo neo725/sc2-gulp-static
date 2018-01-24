@@ -882,10 +882,10 @@ $this-contact-violet: $contact-violet;
 			color: $this-contact-violet;
 		}
 		.cnt_table thead tr th:nth-child(1){
-			width: 3%;
+			width: 5%;
 		}
 		.cnt_table thead tr th:nth-child(2){
-			width: 10%;
+			width: 8%;
 		}
 		.cnt_table thead tr th:nth-child(3){
 			width: 10%;
@@ -913,8 +913,9 @@ $this-contact-violet: $contact-violet;
 			border-bottom: 1px solid $this-contact-violet;
 		}
 		.cnt_table tbody tr td:nth-child(1){
-			text-align: center;
+			text-align: right;
 			margin: 0 auto;
+			padding-right: 20px;
 		}
 		.cnt_table tbody tr td:nth-child(2){
 			color: $this-contact-violet;
@@ -958,8 +959,8 @@ $this-contact-violet: $contact-violet;
 		display: table;
 		.eform_list_t{
 			@include g_list_title;
-			color: #f7931e;
-			border-bottom: 4px solid #f7931e;
+			color: #736357;
+			border-bottom: 4px solid #736357;
 		}
 		.eform_table{
 			position: relative;

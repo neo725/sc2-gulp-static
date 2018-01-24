@@ -1207,9 +1207,9 @@ th, td {
       font-size: 28px;
       color: #738ec8; }
     .person_order .contact_div .cnt_table thead tr th:nth-child(1) {
-      width: 3%; }
+      width: 5%; }
     .person_order .contact_div .cnt_table thead tr th:nth-child(2) {
-      width: 10%; }
+      width: 8%; }
     .person_order .contact_div .cnt_table thead tr th:nth-child(3) {
       width: 10%; }
     .person_order .contact_div .cnt_table thead tr th:nth-child(4) {
@@ -1229,8 +1229,9 @@ th, td {
     .person_order .contact_div .cnt_table tbody tr td {
       border-bottom: 1px solid #738ec8; }
     .person_order .contact_div .cnt_table tbody tr td:nth-child(1) {
-      text-align: center;
-      margin: 0 auto; }
+      text-align: right;
+      margin: 0 auto;
+      padding-right: 20px; }
     .person_order .contact_div .cnt_table tbody tr td:nth-child(2) {
       color: #738ec8; }
     .person_order .contact_div .cnt_table tbody tr td:nth-child(3), .person_order .contact_div .cnt_table tbody tr td:nth-child(5), .person_order .contact_div .cnt_table tbody tr td:nth-child(6) {
@@ -1302,8 +1303,8 @@ th, td {
       font-weight: 600;
       line-height: 80px;
       text-indent: 20px;
-      color: #f7931e;
-      border-bottom: 4px solid #f7931e; }
+      color: #736357;
+      border-bottom: 4px solid #736357; }
     .eform .eform_list_div .eform_table {
       position: relative;
       float: left;
