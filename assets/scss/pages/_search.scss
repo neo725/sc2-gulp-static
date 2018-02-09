@@ -335,13 +335,14 @@ $this-search-green: $pay-green;
 								position: relative;
 								display: inline-block;
 								margin: 0 auto;
-								border: 1px solid #999999;
+								border: none;
 								text-align: left;
 								font-size: 26px;
 								color: #575756;
 								width: 90%;
 								line-height: 34px;
 								padding: 10px;
+								resize: none;
 								&::-webkit-input-placeholder { /* Chrome/Opera/Safari */
 									color: #575756;
 									font-size: 24px;
