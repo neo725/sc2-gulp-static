@@ -471,6 +471,58 @@ th, td {
           -webkit-box-orient: vertical;
           overflow: hidden; }
 
+/*@mixin g_header_tab {
+	.header_tab{
+		width: 2462px;
+		margin: 0 auto;
+		background-color: #2f3143;
+		display: table;
+		.header_tab_left{
+			position: relative;
+			float: left;
+			.header_tab_hide{
+				color: #6e6f7c;
+			}
+		}
+		.header_tab_right{
+			position: relative;
+			float: right;
+			.header_tab_hide{
+				color: #6e6f7c;
+			}
+		}
+		.header_tab_left ul, .header_tab_right ul{
+			display: inline-block;
+			margin-top: 20px;
+			margin-bottom: 15px;
+		}
+		.header_tab_left ul li, .header_tab_right ul li{
+			margin-right: 50px;
+		}
+		.header_tab_left ul li .icon, .header_tab_right ul li .icon{
+			width: 90px;
+		}
+		.header_tab_left ul li, .header_tab_right ul li, .header_tab_left ul li > div, .header_tab_right ul li > div{
+			display: block;
+			position: relative;
+			float: left;
+			font-size: 38px;
+			line-height: 80px;
+			color: #ffffff;
+			letter-spacing: 2px;
+		}
+	}
+}*/
+/*@mixin g_list_title {
+	width: 95%;
+	margin: 0 auto;
+	margin-top: 20px;
+	text-align: left;
+	font-size: 42px;
+	font-weight: 600;
+	line-height: 80px;
+	text-indent: 20px;
+}*/
 .person_order {
   background-color: #eef2f6;
   width: 2730px;
@@ -726,7 +778,7 @@ th, td {
       .person_order .or_list .or_list_detail .or_timeline_div {
         margin: 10px 20px 20px 20px;
         position: relative;
-        display: inline-block;
+        /*display: inline-block;*/
         float: left;
         width: 2200px;
         padding-top: 30px;
@@ -751,7 +803,7 @@ th, td {
             left: 0px; }
           .person_order .or_list .or_list_detail .or_timeline_div .or_timeline .li {
             width: 400px;
-            display: inline-block;
+            /*display: inline-block;*/
             float: left;
             justify-content: center;
             position: relative;
@@ -1371,6 +1423,64 @@ th, td {
     .eform .eform_list_div .eform_list_opacity {
       opacity: 0.3; }
 
+/*@mixin g_radio_style($color1,$color2,$size) {
+	.radio {
+		margin: 0.5rem;
+		input[type="radio"] {
+			opacity: 0;
+			+ .radio-label {
+				margin-left: -30px;
+				&:before {
+					content: '';
+					background: $color1;
+					border-radius: 100%;
+					border: 1px solid darken($color1, 25%);
+					display: inline-block;
+					width: $size;
+					height: $size;
+					position: relative;
+					margin-right: 0.5em; 
+					vertical-align: middle;
+					cursor: pointer;
+					text-align: center;
+					transition: all 250ms ease;
+				}
+			}
+			&:checked {
+				+ .radio-label {
+					&:before {
+					background-color: $color2;
+					box-shadow: inset 0 0 0 4px $color1;
+					}
+				}
+			}
+			&:focus {
+				+ .radio-label {
+					&:before {
+					outline: none;
+					border-color: $color2;
+					}
+				}
+			}
+			&:disabled {
+				+ .radio-label {
+					&:before {
+					box-shadow: inset 0 0 0 4px $color1;
+					border-color: darken($color1, 25%);
+					background: darken($color1, 25%);
+					}
+				}
+			}
+			+ .radio-label {
+				&:empty {
+					&:before {
+					margin-right: 0;
+					}
+				}
+			}
+		}
+	}
+}*/
 .search_section {
   background-color: #eef2f6;
   width: 2730px;
@@ -1578,12 +1688,11 @@ th, td {
             color: #24b499; }
             .search_section .sh_list .sh_list_detail .sh_content_right .sh_advisory .sh_advisory_pop .sh_advisory_status {
               position: relative;
-              display: inline-block;
+              /*display: inline-block;*/
               float: left; }
               .search_section .sh_list .sh_list_detail .sh_content_right .sh_advisory .sh_advisory_pop .sh_advisory_status .radio {
                 margin: 0.5rem; }
                 .search_section .sh_list .sh_list_detail .sh_content_right .sh_advisory .sh_advisory_pop .sh_advisory_status .radio input[type="radio"] {
-                  /*position: absolute;*/
                   opacity: 0; }
                   .search_section .sh_list .sh_list_detail .sh_content_right .sh_advisory .sh_advisory_pop .sh_advisory_status .radio input[type="radio"] + .radio-label {
                     margin-left: -30px; }
@@ -1596,7 +1705,6 @@ th, td {
                       width: 1em;
                       height: 1em;
                       position: relative;
-                      /*top: -0.2em;*/
                       margin-right: 0.5em;
                       vertical-align: middle;
                       cursor: pointer;
@@ -1676,3 +1784,505 @@ th, td {
                 margin: -20px 40px 30px 0px; }
               .search_section .sh_list .sh_list_detail .sh_content_right .sh_advisory .sh_advisory_pop .sh_advisory_remarks .sh_remarks_save_click {
                 background-color: #24b499; }
+
+.order_section {
+  background-color: #eef2f6;
+  width: 2730px;
+  margin: 0 auto;
+  padding-bottom: 120px;
+  /* order list */ }
+  .order_section .cls_preview_icon {
+    position: absolute;
+    right: 15px;
+    top: 30vh; }
+  .order_section .cls_push_icon {
+    position: absolute;
+    right: 15px;
+    top: 38vh; }
+  .order_section .od_title_div {
+    position: relative;
+    display: inline-block;
+    width: 100%; }
+    .order_section .od_title_div .od_title {
+      position: relative;
+      width: auto;
+      float: left;
+      margin: 30px;
+      font-size: 24px;
+      line-height: 46px;
+      color: #adadad; }
+    .order_section .od_title_div .od_more {
+      position: relative;
+      width: auto;
+      float: right;
+      margin: 30px; }
+    .order_section .od_title_div .od_more .icon {
+      width: 35px; }
+  .order_section .order_list_div {
+    width: 2560px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    display: table; }
+    .order_section .order_list_div .order_list_t {
+      width: 95%;
+      margin: 0 auto;
+      margin-top: 20px;
+      text-align: left;
+      font-size: 42px;
+      font-weight: 600;
+      line-height: 80px;
+      text-indent: 20px;
+      color: #24b499;
+      border-bottom: 4px solid #24b499;
+      display: inline-block; }
+      .order_section .order_list_div .order_list_t .order_list_t_right {
+        float: right;
+        font-size: 24px;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 100px;
+        margin-right: 10px;
+        color: #575756; }
+      .order_section .order_list_div .order_list_t .icon {
+        float: right;
+        width: 80px;
+        margin: 10px; }
+  .order_section .order_list {
+    width: 95%;
+    margin: 0 auto;
+    display: inline-block;
+    margin-bottom: 30px; }
+    .order_section .order_list ul {
+      padding: 0px; }
+    .order_section .order_list li {
+      border-bottom: #24b499 solid 1px; }
+    .order_section .order_list li:last-child {
+      border-bottom: none; }
+    .order_section .order_list .order_list_detail {
+      position: relative;
+      display: inline-block; }
+      .order_section .order_list .order_list_detail .order_class_owner {
+        margin: 20px 0px 15px 0px;
+        padding-left: 20px;
+        display: inline-block;
+        width: 98%; }
+        .order_section .order_list .order_list_detail .order_class_owner .order_owner_left {
+          position: relative;
+          float: left; }
+          .order_section .order_list .order_list_detail .order_class_owner .order_owner_left span {
+            font-size: 24px;
+            color: #575756; }
+          .order_section .order_list .order_list_detail .order_class_owner .order_owner_left .order_owner_email {
+            font-size: 24px; }
+          .order_section .order_list .order_list_detail .order_class_owner .order_owner_left .order_owner_t, .order_section .order_list .order_list_detail .order_class_owner .order_owner_left .order_owner_name, .order_section .order_list .order_list_detail .order_class_owner .order_owner_left .order_owner_email {
+            color: #808080; }
+        .order_section .order_list .order_list_detail .order_class_owner .order_owner_right {
+          position: relative;
+          float: right;
+          margin-right: 30px; }
+          .order_section .order_list .order_list_detail .order_class_owner .order_owner_right span {
+            font-size: 24px;
+            color: #808080; }
+      .order_section .order_list .order_list_detail .order_class_title {
+        margin: 0px 0px 10px 0px;
+        text-indent: 20px;
+        display: inline-block;
+        width: 98%;
+        background-color: #f9f8f8;
+        /*padding: 10px 0px 10px 0px;*/ }
+        .order_section .order_list .order_list_detail .order_class_title .order_class_name {
+          position: relative;
+          float: left;
+          font-size: 32px;
+          color: #1d1d1b;
+          font-weight: 800;
+          width: 60%;
+          text-align: left;
+          /*word-break: break-all;*/
+          padding: 20px 0px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap; }
+        .order_section .order_list .order_list_detail .order_class_title .order_class_price {
+          position: relative;
+          float: right;
+          width: 30%;
+          font-size: 32px;
+          line-height: 40px;
+          color: #24b499;
+          text-align: right; }
+          .order_section .order_list .order_list_detail .order_class_title .order_class_price .order_class_price_div {
+            float: right; }
+            .order_section .order_list .order_list_detail .order_class_title .order_class_price .order_class_price_div span {
+              vertical-align: middle;
+              padding-right: 20px;
+              line-height: 100px; }
+            .order_section .order_list .order_list_detail .order_class_title .order_class_price .order_class_price_div .order_class_price_detail {
+              position: absolute;
+              /*padding: 20px;*/
+              background-color: #1d1d1b;
+              right: 0px;
+              width: 850px;
+              z-index: 10;
+              height: auto;
+              display: block;
+              margin-top: 0px;
+              -webkit-box-shadow: 0px 1px 5px 0px #c5c5c5;
+              -moz-box-shadow: 0px 1px 5px 0px #c5c5c5;
+              box-shadow: 0px 1px 5px 0px #c5c5c5;
+              background-color: #ffffff;
+              color: #CCCCCC;
+              text-align: left; }
+              .order_section .order_list .order_list_detail .order_class_title .order_class_price .order_class_price_div .order_class_price_detail .order_class_list {
+                display: block;
+                padding: 20px; }
+                .order_section .order_list .order_list_detail .order_class_title .order_class_price .order_class_price_div .order_class_price_detail .order_class_list ul li {
+                  border-bottom: 1px solid #cccccc; }
+                  .order_section .order_list .order_list_detail .order_class_title .order_class_price .order_class_price_div .order_class_price_detail .order_class_list ul li .radio {
+                    margin: 0.5rem; }
+                    .order_section .order_list .order_list_detail .order_class_title .order_class_price .order_class_price_div .order_class_price_detail .order_class_list ul li .radio input[type="radio"] {
+                      opacity: 0; }
+                      .order_section .order_list .order_list_detail .order_class_title .order_class_price .order_class_price_div .order_class_price_detail .order_class_list ul li .radio input[type="radio"] + .radio-label {
+                        margin-left: -30px; }
+                        .order_section .order_list .order_list_detail .order_class_title .order_class_price .order_class_price_div .order_class_price_detail .order_class_list ul li .radio input[type="radio"] + .radio-label:before {
+                          content: '';
+                          background: #f4f4f4;
+                          border-radius: 100%;
+                          border: 1px solid #b4b4b4;
+                          display: inline-block;
+                          width: 0.85em;
+                          height: 0.85em;
+                          position: relative;
+                          margin-right: 0.5em;
+                          vertical-align: middle;
+                          cursor: pointer;
+                          text-align: center;
+                          transition: all 250ms ease; }
+                      .order_section .order_list .order_list_detail .order_class_title .order_class_price .order_class_price_div .order_class_price_detail .order_class_list ul li .radio input[type="radio"]:checked + .radio-label:before {
+                        background-color: #24b499;
+                        box-shadow: inset 0 0 0 4px #f4f4f4; }
+                      .order_section .order_list .order_list_detail .order_class_title .order_class_price .order_class_price_div .order_class_price_detail .order_class_list ul li .radio input[type="radio"]:focus + .radio-label:before {
+                        outline: none;
+                        border-color: #24b499; }
+                      .order_section .order_list .order_list_detail .order_class_title .order_class_price .order_class_price_div .order_class_price_detail .order_class_list ul li .radio input[type="radio"]:disabled + .radio-label:before {
+                        box-shadow: inset 0 0 0 4px #f4f4f4;
+                        border-color: #b4b4b4;
+                        background: #b4b4b4; }
+                      .order_section .order_list .order_list_detail .order_class_title .order_class_price .order_class_price_div .order_class_price_detail .order_class_list ul li .radio input[type="radio"] + .radio-label:empty:before {
+                        margin-right: 0; }
+                .order_section .order_list .order_list_detail .order_class_title .order_class_price .order_class_price_div .order_class_price_detail .order_class_list ul li:last-child {
+                  border-bottom: none; }
+                .order_section .order_list .order_list_detail .order_class_title .order_class_price .order_class_price_div .order_class_price_detail .order_class_list .ord_cls_title {
+                  font-size: 36px;
+                  color: #24b499;
+                  line-height: 60px; }
+                .order_section .order_list .order_list_detail .order_class_title .order_class_price .order_class_price_div .order_class_price_detail .order_class_list .ord_cls_price {
+                  float: right;
+                  color: #666666;
+                  font-size: 32px; }
+                .order_section .order_list .order_list_detail .order_class_title .order_class_price .order_class_price_div .order_class_price_detail .order_class_list .radio {
+                  display: inline-block;
+                  position: relative;
+                  width: 95%; }
+                  .order_section .order_list .order_list_detail .order_class_title .order_class_price .order_class_price_div .order_class_price_detail .order_class_list .radio label {
+                    color: #666666;
+                    font-size: 32px;
+                    font-weight: 800; }
+                  .order_section .order_list .order_list_detail .order_class_title .order_class_price .order_class_price_div .order_class_price_detail .order_class_list .radio .ord_cls_content {
+                    float: left;
+                    width: 75%; }
+                  .order_section .order_list .order_list_detail .order_class_title .order_class_price .order_class_price_div .order_class_price_detail .order_class_list .radio .ord_cls_price {
+                    float: left;
+                    width: 25%;
+                    text-align: right;
+                    color: #666666;
+                    font-size: 32px; }
+              .order_section .order_list .order_list_detail .order_class_title .order_class_price .order_class_price_div .order_class_price_detail .order_class_price_btn {
+                display: table;
+                position: relative;
+                width: 100%; }
+                .order_section .order_list .order_list_detail .order_class_title .order_class_price .order_class_price_div .order_class_price_detail .order_class_price_btn .ord_price_btn_cancel {
+                  float: left;
+                  width: 50%;
+                  background-color: #ececec;
+                  text-align: center;
+                  padding: 20px 0px;
+                  font-size: 50px;
+                  vertical-align: middle;
+                  color: #999999;
+                  font-weight: 700; }
+                  .order_section .order_list .order_list_detail .order_class_title .order_class_price .order_class_price_div .order_class_price_detail .order_class_price_btn .ord_price_btn_cancel .icon {
+                    margin-right: 20px;
+                    vertical-align: middle; }
+                .order_section .order_list .order_list_detail .order_class_title .order_class_price .order_class_price_div .order_class_price_detail .order_class_price_btn .ord_price_btn_ok {
+                  float: left;
+                  width: 50%;
+                  background-color: #24b499;
+                  text-align: center;
+                  padding: 20px 0px;
+                  font-size: 50px;
+                  vertical-align: middle;
+                  color: #ffffff;
+                  font-weight: 700; }
+                  .order_section .order_list .order_list_detail .order_class_title .order_class_price .order_class_price_div .order_class_price_detail .order_class_price_btn .ord_price_btn_ok .icon {
+                    margin-right: 20px;
+                    vertical-align: middle; }
+          .order_section .order_list .order_list_detail .order_class_title .order_class_price .icon_bg {
+            float: right;
+            background-color: #24b499;
+            width: 130px;
+            height: 100px; }
+            .order_section .order_list .order_list_detail .order_class_title .order_class_price .icon_bg .icon {
+              vertical-align: middle;
+              margin: 25px 40px 0px 0px; }
+      .order_section .order_list .order_list_detail .order_add_discount {
+        width: 340px;
+        font-size: 36px;
+        padding: 20px 50px;
+        color: #24b499;
+        border: 1px solid #24b499;
+        border-radius: 10px;
+        float: right;
+        margin: 20px 25px 40px 0px; }
+      .order_section .order_list .order_list_detail .order_discount_div {
+        position: relative;
+        width: 550px;
+        clear: both;
+        float: right; }
+        .order_section .order_list .order_list_detail .order_discount_div .ord_rebate {
+          width: 100%;
+          text-align: right;
+          color: #808080;
+          font-size: 32px;
+          float: right;
+          border-bottom: 1px solid #cccccc;
+          padding: 0px 0px 20px 0px; }
+          .order_section .order_list .order_list_detail .order_discount_div .ord_rebate input {
+            width: 160px;
+            height: 60px;
+            border: 1px solid #808080;
+            margin: 10px 80px 10px 20px;
+            text-align: right;
+            color: #575756;
+            font-size: 32px; }
+        .order_section .order_list .order_list_detail .order_discount_div .order_clear_div {
+          width: 100%;
+          text-align: right;
+          color: #808080;
+          font-size: 32px;
+          float: right;
+          position: relative; }
+          .order_section .order_list .order_list_detail .order_discount_div .order_clear_div .order_clear_btn {
+            width: 130px;
+            border: 1px solid #b3b3b3;
+            border-radius: 10px;
+            color: #b3b3b3;
+            font-size: 36px;
+            margin: 20px 0px 30px 20px;
+            text-align: center;
+            line-height: 70px;
+            float: left; }
+          .order_section .order_list .order_list_detail .order_discount_div .order_clear_div .order_clear_price {
+            float: right;
+            text-align: right;
+            margin-right: 80px;
+            font-size: 32px;
+            line-height: 110px;
+            color: #24b499; }
+        .order_section .order_list .order_list_detail .order_discount_div textarea {
+          position: relative;
+          display: inline-block;
+          margin: 0 auto;
+          border: 1px solid #808080;
+          text-align: left;
+          font-size: 30px;
+          color: #575756;
+          width: 90%;
+          line-height: 34px;
+          padding: 10px;
+          resize: none; }
+        .order_section .order_list .order_list_detail .order_discount_div .ord_rebate_btn {
+          width: 100%;
+          margin: 10px 0px 30px 0px;
+          display: inline-block; }
+          .order_section .order_list .order_list_detail .order_discount_div .ord_rebate_btn .ord_rebate_cancel {
+            float: right;
+            font-size: 36px;
+            color: #b3b3b3;
+            border: 1px solid #b3b3b3;
+            padding: 10px 30px;
+            border-radius: 10px;
+            margin-right: 20px; }
+          .order_section .order_list .order_list_detail .order_discount_div .ord_rebate_btn .ord_rebate_ok {
+            float: right;
+            font-size: 36px;
+            color: #ffffff;
+            background-color: #24b499;
+            padding: 10px 30px;
+            border-radius: 10px;
+            margin-right: 20px; }
+  .order_section .order_signup_div {
+    position: relative;
+    margin: 0 auto;
+    width: 95%;
+    border-top: 1px solid #24b499;
+    border-bottom: 1px solid #24b499; }
+    .order_section .order_signup_div .order_signup_t {
+      width: 100%;
+      font-size: 24px;
+      color: #575756;
+      text-align: left;
+      line-height: 48px;
+      text-indent: 40px;
+      margin: 30px 0px 20px 0px; }
+    .order_section .order_signup_div .order_signup_status {
+      margin: 0px 0px 30px 0px;
+      text-indent: 20px;
+      display: inline-block;
+      width: 98%;
+      background-color: #f9f8f8; }
+      .order_section .order_signup_div .order_signup_status .order_st_left {
+        float: left; }
+        .order_section .order_signup_div .order_signup_status .order_st_left .radio {
+          margin: 0.5rem; }
+          .order_section .order_signup_div .order_signup_status .order_st_left .radio input[type="radio"] {
+            opacity: 0; }
+            .order_section .order_signup_div .order_signup_status .order_st_left .radio input[type="radio"] + .radio-label {
+              margin-left: -30px; }
+              .order_section .order_signup_div .order_signup_status .order_st_left .radio input[type="radio"] + .radio-label:before {
+                content: '';
+                background: #f4f4f4;
+                border-radius: 100%;
+                border: 1px solid #b4b4b4;
+                display: inline-block;
+                width: 0.7em;
+                height: 0.7em;
+                position: relative;
+                margin-right: 0.5em;
+                vertical-align: middle;
+                cursor: pointer;
+                text-align: center;
+                transition: all 250ms ease; }
+            .order_section .order_signup_div .order_signup_status .order_st_left .radio input[type="radio"]:checked + .radio-label:before {
+              background-color: #24b499;
+              box-shadow: inset 0 0 0 4px #f4f4f4; }
+            .order_section .order_signup_div .order_signup_status .order_st_left .radio input[type="radio"]:focus + .radio-label:before {
+              outline: none;
+              border-color: #24b499; }
+            .order_section .order_signup_div .order_signup_status .order_st_left .radio input[type="radio"]:disabled + .radio-label:before {
+              box-shadow: inset 0 0 0 4px #f4f4f4;
+              border-color: #b4b4b4;
+              background: #b4b4b4; }
+            .order_section .order_signup_div .order_signup_status .order_st_left .radio input[type="radio"] + .radio-label:empty:before {
+              margin-right: 0; }
+        .order_section .order_signup_div .order_signup_status .order_st_left .radio {
+          text-align: left;
+          float: left; }
+          .order_section .order_signup_div .order_signup_status .order_st_left .radio label {
+            font-size: 36px;
+            color: #1d1d1b; }
+      .order_section .order_signup_div .order_signup_status .order_st_right {
+        float: right;
+        line-height: 80px;
+        margin-right: 50px;
+        color: #808080;
+        font-size: 32px; }
+  .order_section .order_udollar {
+    width: 95%;
+    position: relative;
+    display: inline-block;
+    margin: 60px 0px 0px 0px; }
+    .order_section .order_udollar .order_udollar_right {
+      float: right;
+      background-color: #f9f8f8;
+      padding: 10px 50px; }
+      .order_section .order_udollar .order_udollar_right .icon {
+        vertical-align: middle;
+        zoom: 0.9;
+        float: left;
+        margin-top: 10px; }
+      .order_section .order_udollar .order_udollar_right .order_udollar_t {
+        color: #526bab;
+        font-size: 51px;
+        line-height: 90px;
+        margin: 0px 160px 0px 30px;
+        vertical-align: middle; }
+      .order_section .order_udollar .order_udollar_right .order_udollar_minus {
+        color: #526bab;
+        font-size: 51px;
+        line-height: 90px;
+        vertical-align: middle;
+        font-weight: 800; }
+      .order_section .order_udollar .order_udollar_right input {
+        width: 250px;
+        height: 86px;
+        border: 1px solid #808080;
+        margin: 10px 10px 10px 20px;
+        font-size: 80px;
+        color: #526bab;
+        vertical-align: middle;
+        text-align: right;
+        padding: 5px; }
+      .order_section .order_udollar .order_udollar_right .order_udollar_yen {
+        color: #526bab;
+        font-size: 28px;
+        vertical-align: bottom;
+        line-height: 80px; }
+  .order_section .order_total_div {
+    width: 95%;
+    position: relative;
+    display: inline-block;
+    margin: 0px 0px 10px 0px; }
+    .order_section .order_total_div .order_total_right {
+      float: right;
+      padding: 0px 50px; }
+      .order_section .order_total_div .order_total_right .order_total_t {
+        font-size: 30px;
+        color: #575756;
+        line-height: 90px;
+        vertical-align: top;
+        margin-right: 20px; }
+      .order_section .order_total_div .order_total_right .order_total_nta {
+        font-size: 30px;
+        color: #cccccc; }
+      .order_section .order_total_div .order_total_right .order_total_price {
+        font-size: 85px;
+        color: #cccccc; }
+      .order_section .order_total_div .order_total_right .order_total_yena {
+        font-size: 30px;
+        color: #575756;
+        margin-right: 50px; }
+      .order_section .order_total_div .order_total_right .order_total_ntb, .order_section .order_total_div .order_total_right .order_total_yenb {
+        font-size: 30px;
+        color: #ff0000;
+        vertical-align: sub; }
+      .order_section .order_total_div .order_total_right input {
+        width: 250px;
+        height: 86px;
+        border: 1px solid #808080;
+        margin: 0px 10px 0px 20px;
+        font-size: 80px;
+        color: #ff0000;
+        vertical-align: middle;
+        text-align: right;
+        padding: 5px; }
+  .order_section .order_process_div {
+    clear: both;
+    position: relative;
+    float: right;
+    margin: 30px 60px 70px 0px; }
+    .order_section .order_process_div .order_process_status:first-child {
+      color: #808080; }
+    .order_section .order_process_div .order_process_status {
+      background-color: #ececec;
+      font-size: 60px;
+      vertical-align: middle;
+      line-height: 190px;
+      color: #24b499;
+      padding: 0px 90px 0px 80px;
+      margin-right: 10px;
+      float: left;
+      vertical-align: middle; }
+      .order_section .order_process_div .order_process_status .icon {
+        margin-right: 20px;
+        vertical-align: middle; }

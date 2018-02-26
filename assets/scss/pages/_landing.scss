@@ -3,7 +3,7 @@ $this-pay-green: $pay-green;
 $this-history-pinky: $history-pinky;
 $this-contact-violet: $contact-violet;
 
-@mixin g_header_tab {
+/*@mixin g_header_tab {
 	.header_tab{
 		width: 2462px;
 		margin: 0 auto;
@@ -44,9 +44,9 @@ $this-contact-violet: $contact-violet;
 			letter-spacing: 2px;
 		}
 	}
-}
+}*/
 
-@mixin g_list_title {
+/*@mixin g_list_title {
 	width: 95%;
 	margin: 0 auto;
 	margin-top: 20px;
@@ -55,7 +55,7 @@ $this-contact-violet: $contact-violet;
 	font-weight: 600;
 	line-height: 80px;
 	text-indent: 20px;
-}
+}*/
 
 .person_order{
 	background-color: #eef2f6;
@@ -316,7 +316,7 @@ $this-contact-violet: $contact-violet;
 			.or_timeline_div{
 				margin: 10px 20px 20px 20px;
 				position: relative;
-				display: inline-block;
+				/*display: inline-block;*/
 				float: left;
 				width: 2200px;
 				padding-top: 30px;
@@ -342,7 +342,7 @@ $this-contact-violet: $contact-violet;
 					}
 					.li {
 						width: 400px;
-						display: inline-block;
+						/*display: inline-block;*/
     					float: left;
 						justify-content: center;
 						position: relative;

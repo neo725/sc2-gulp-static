@@ -1,10 +1,9 @@
 $this-search-green: $pay-green;
 
-@mixin g_radio_style($color1,$color2,$size) {
+/*@mixin g_radio_style($color1,$color2,$size) {
 	.radio {
 		margin: 0.5rem;
 		input[type="radio"] {
-			/*position: absolute;*/
 			opacity: 0;
 			+ .radio-label {
 				margin-left: -30px;
@@ -17,7 +16,6 @@ $this-search-green: $pay-green;
 					width: $size;
 					height: $size;
 					position: relative;
-					/*top: -0.2em;*/
 					margin-right: 0.5em; 
 					vertical-align: middle;
 					cursor: pointer;
@@ -59,7 +57,7 @@ $this-search-green: $pay-green;
 			}
 		}
 	}
-}
+}*/
 
 .search_section{
 	background-color: #eef2f6;
@@ -305,7 +303,7 @@ $this-search-green: $pay-green;
 						color: $this-search-green;
 						.sh_advisory_status{
 							position:relative;
-							display: inline-block;
+							/*display: inline-block;*/
 							float: left;
 							@include g_radio_style(#f4f4f4, $this-search-green, 1em);
 							.radio{

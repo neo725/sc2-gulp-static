@@ -1,0 +1,127 @@
+ul{
+	font-size: initial;
+}
+ul li{
+	list-style: none;
+}
+table{ 
+	border-collapse:collapse; 
+	border-spacing:0; 
+} 
+th,td { 
+	margin:0; 
+	padding:0; 
+} 
+
+@mixin g_header_tab {
+	.header_tab{
+		width: 2462px;
+		margin: 0 auto;
+		background-color: #2f3143;
+		display: table;
+		.header_tab_left{
+			position: relative;
+			float: left;
+			.header_tab_hide{
+				color: #6e6f7c;
+			}
+		}
+		.header_tab_right{
+			position: relative;
+			float: right;
+			.header_tab_hide{
+				color: #6e6f7c;
+			}
+		}
+		.header_tab_left ul, .header_tab_right ul{
+			display: inline-block;
+			margin-top: 20px;
+			margin-bottom: 15px;
+		}
+		.header_tab_left ul li, .header_tab_right ul li{
+			margin-right: 50px;
+		}
+		.header_tab_left ul li .icon, .header_tab_right ul li .icon{
+			width: 90px;
+		}
+		.header_tab_left ul li, .header_tab_right ul li, .header_tab_left ul li > div, .header_tab_right ul li > div{
+			display: block;
+			position: relative;
+			float: left;
+			font-size: 38px;
+			line-height: 80px;
+			color: #ffffff;
+			letter-spacing: 2px;
+		}
+	}
+}
+
+@mixin g_list_title {
+	width: 95%;
+	margin: 0 auto;
+	margin-top: 20px;
+	text-align: left;
+	font-size: 42px;
+	font-weight: 600;
+	line-height: 80px;
+	text-indent: 20px;
+}
+
+@mixin g_radio_style($color1,$color2,$size) {
+	.radio {
+		margin: 0.5rem;
+		input[type="radio"] {
+			opacity: 0;
+			+ .radio-label {
+				margin-left: -30px;
+				&:before {
+					content: '';
+					background: $color1;
+					border-radius: 100%;
+					border: 1px solid darken($color1, 25%);
+					display: inline-block;
+					width: $size;
+					height: $size;
+					position: relative;
+					margin-right: 0.5em; 
+					vertical-align: middle;
+					cursor: pointer;
+					text-align: center;
+					transition: all 250ms ease;
+				}
+			}
+			&:checked {
+				+ .radio-label {
+					&:before {
+					background-color: $color2;
+					box-shadow: inset 0 0 0 4px $color1;
+					}
+				}
+			}
+			&:focus {
+				+ .radio-label {
+					&:before {
+					outline: none;
+					border-color: $color2;
+					}
+				}
+			}
+			&:disabled {
+				+ .radio-label {
+					&:before {
+					box-shadow: inset 0 0 0 4px $color1;
+					border-color: darken($color1, 25%);
+					background: darken($color1, 25%);
+					}
+				}
+			}
+			+ .radio-label {
+				&:empty {
+					&:before {
+					margin-right: 0;
+					}
+				}
+			}
+		}
+	}
+}
