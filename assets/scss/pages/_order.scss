@@ -463,15 +463,18 @@ $this-order-green: $pay-green;
 			.order_total_nta{
 				font-size: 30px;
 				color: #cccccc;
+				vertical-align: sub;
 			}
 			.order_total_price{
 				font-size: 85px;
 				color: #cccccc;
+				vertical-align: sub;
 			}
 			.order_total_yena{
 				font-size: 30px;
 				color: #575756;
 				margin-right: 50px;
+				vertical-align: sub;
 			}
 			.order_total_ntb, .order_total_yenb{
 				font-size: 30px;

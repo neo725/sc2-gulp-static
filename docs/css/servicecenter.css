@@ -2244,14 +2244,17 @@ th, td {
         margin-right: 20px; }
       .order_section .order_total_div .order_total_right .order_total_nta {
         font-size: 30px;
-        color: #cccccc; }
+        color: #cccccc;
+        vertical-align: sub; }
       .order_section .order_total_div .order_total_right .order_total_price {
         font-size: 85px;
-        color: #cccccc; }
+        color: #cccccc;
+        vertical-align: sub; }
       .order_section .order_total_div .order_total_right .order_total_yena {
         font-size: 30px;
         color: #575756;
-        margin-right: 50px; }
+        margin-right: 50px;
+        vertical-align: sub; }
       .order_section .order_total_div .order_total_right .order_total_ntb, .order_section .order_total_div .order_total_right .order_total_yenb {
         font-size: 30px;
         color: #ff0000;
