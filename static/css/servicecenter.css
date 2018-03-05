@@ -2357,7 +2357,8 @@ th, td {
       text-align: center;
       color: #24b499;
       font-size: 42px;
-      line-height: 100px; }
+      line-height: 100px;
+      font-weight: 700; }
   .receipt_section .receipt_list {
     width: 95%;
     margin: 0 auto;
