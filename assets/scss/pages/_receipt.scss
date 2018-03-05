@@ -259,12 +259,12 @@ $this-receipt-green: $pay-green;
 						margin-right: 50px;
 					}
 					.income_t_select::after {
-						content: '∨';
+						content: '▼';
 						position: absolute;
 						top: 0;
 						right: 0;
 						bottom: 0;
-						padding: 0 1em;
+						padding: 0 0.5em;
 						background: #ffffff;
 						pointer-events: none;
 					}
@@ -361,12 +361,12 @@ $this-receipt-green: $pay-green;
 						margin-right: 40px;
 					}
 					.receipt_pay_select::after {
-						content: '∨';
+						content: '▼';
 						position: absolute;
 						top: 0;
 						right: 0;
 						bottom: 0;
-						padding: 0 1em;
+						padding: 0 0.5em;
 						background: #ffffff;
 						pointer-events: none;
 					}
@@ -394,12 +394,12 @@ $this-receipt-green: $pay-green;
 						margin-top: 10px;
 					}
 					.receipt_machine_select::after {
-						content: '∨';
+						content: '▼';
 						position: absolute;
 						top: 0;
 						right: 0;
 						bottom: 0;
-						padding: 0 1em;
+						padding: 0 0.5em;
 						background: #ffffff;
 						pointer-events: none;
 					}
@@ -444,12 +444,12 @@ $this-receipt-green: $pay-green;
 						margin-top: 10px;
 					}
 					.receipt_installment_select::after {
-						content: '∨';
+						content: '▼';
 						position: absolute;
 						top: 0;
 						right: 0;
 						bottom: 0;
-						padding: 0 1em;
+						padding: 0 0.5em;
 						background: #ffffff;
 						pointer-events: none;
 					}

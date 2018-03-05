@@ -2561,12 +2561,12 @@ th, td {
               line-height: 90px;
               background-color: #ffffff; }
           .receipt_section .receipt_list .receipt_list_detail .receipt_detail_content .receipt_detail_content_1 .income_t_select::after {
-            content: '∨';
+            content: '▼';
             position: absolute;
             top: 0;
             right: 0;
             bottom: 0;
-            padding: 0 1em;
+            padding: 0 0.5em;
             background: #ffffff;
             pointer-events: none; }
           .receipt_section .receipt_list .receipt_list_detail .receipt_detail_content .receipt_detail_content_1 .receipt_detail_content_right {
@@ -2672,12 +2672,12 @@ th, td {
               line-height: 90px;
               background-color: #ffffff; }
           .receipt_section .receipt_list .receipt_pay_div .receipt_pay_row1 .receipt_pay_row1_right .receipt_pay_select::after {
-            content: '∨';
+            content: '▼';
             position: absolute;
             top: 0;
             right: 0;
             bottom: 0;
-            padding: 0 1em;
+            padding: 0 0.5em;
             background: #ffffff;
             pointer-events: none; }
       .receipt_section .receipt_list .receipt_pay_div .receipt_pay_row2 {
@@ -2727,12 +2727,12 @@ th, td {
               line-height: 90px;
               background-color: #ffffff; }
           .receipt_section .receipt_list .receipt_pay_div .receipt_pay_row2 .receipt_pay_row2_left .receipt_machine_select::after {
-            content: '∨';
+            content: '▼';
             position: absolute;
             top: 0;
             right: 0;
             bottom: 0;
-            padding: 0 1em;
+            padding: 0 0.5em;
             background: #ffffff;
             pointer-events: none; }
           .receipt_section .receipt_list .receipt_pay_div .receipt_pay_row2 .receipt_pay_row2_left input::-webkit-input-placeholder {
@@ -2794,12 +2794,12 @@ th, td {
               line-height: 90px;
               background-color: #ffffff; }
           .receipt_section .receipt_list .receipt_pay_div .receipt_pay_row2 .receipt_pay_row2_left .receipt_installment_select::after {
-            content: '∨';
+            content: '▼';
             position: absolute;
             top: 0;
             right: 0;
             bottom: 0;
-            padding: 0 1em;
+            padding: 0 0.5em;
             background: #ffffff;
             pointer-events: none; }
         .receipt_section .receipt_list .receipt_pay_div .receipt_pay_row2 .receipt_pay_row2_right {
