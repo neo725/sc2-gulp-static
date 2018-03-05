@@ -2415,7 +2415,7 @@ th, td {
         margin: 10px 20px; }
       .receipt_section .receipt_list .receipt_list_head .head_r1_7 {
         width: 230px;
-        margin-right: 30px; }
+        margin-right: 27px; }
       .receipt_section .receipt_list .receipt_list_head .head_r1_8 {
         width: 975px; }
       .receipt_section .receipt_list .receipt_list_head .head_r1_9 {
@@ -2684,7 +2684,7 @@ th, td {
         width: 100%; }
         .receipt_section .receipt_list .receipt_pay_div .receipt_pay_row2 .receipt_pay_row2_left {
           float: left;
-          width: 65%;
+          width: 68%;
           padding: 0px 0px 0px 1%; }
           .receipt_section .receipt_list .receipt_pay_div .receipt_pay_row2 .receipt_pay_row2_left .receipt_machine_select {
             float: left;
@@ -2803,7 +2803,7 @@ th, td {
             pointer-events: none; }
         .receipt_section .receipt_list .receipt_pay_div .receipt_pay_row2 .receipt_pay_row2_right {
           float: right;
-          width: 31%; }
+          width: 30%; }
           .receipt_section .receipt_list .receipt_pay_div .receipt_pay_row2 .receipt_pay_row2_right .receipt_need_pay {
             line-height: 160px;
             font-size: 50px;
