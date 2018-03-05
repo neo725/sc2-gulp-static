@@ -2409,7 +2409,7 @@ th, td {
       .receipt_section .receipt_list .receipt_list_head .head_r1_4 {
         width: 330px; }
       .receipt_section .receipt_list .receipt_list_head .head_r1_5 {
-        width: 220px; }
+        width: 200px; }
       .receipt_section .receipt_list .receipt_list_head .head_r1_6 {
         width: 410px;
         margin: 10px 20px; }
@@ -2417,9 +2417,9 @@ th, td {
         width: 230px;
         margin-right: 60px; }
       .receipt_section .receipt_list .receipt_list_head .head_r1_8 {
-        width: 983px; }
+        width: 963px; }
       .receipt_section .receipt_list .receipt_list_head .head_r1_9 {
-        width: 290px; }
+        width: 280px; }
       .receipt_section .receipt_list .receipt_list_head .head_r1_10 {
         width: 670px; }
       .receipt_section .receipt_list .receipt_list_head .device_rd .radio {
@@ -2685,7 +2685,7 @@ th, td {
         .receipt_section .receipt_list .receipt_pay_div .receipt_pay_row2 .receipt_pay_row2_left {
           float: left;
           width: 65%;
-          padding: 0px 1%; }
+          padding: 0px 0px 0px 1%; }
           .receipt_section .receipt_list .receipt_pay_div .receipt_pay_row2 .receipt_pay_row2_left .receipt_machine_select {
             float: left;
             position: relative;
@@ -2746,7 +2746,7 @@ th, td {
             width: 120px;
             margin-right: 40px; }
           .receipt_section .receipt_list .receipt_pay_div .receipt_pay_row2 .receipt_pay_row2_left .pay_row2_4 {
-            width: 210px;
+            width: 200px;
             margin-right: 40px; }
           .receipt_section .receipt_list .receipt_pay_div .receipt_pay_row2 .receipt_pay_row2_left .pay_row2_5 {
             width: 180px;
