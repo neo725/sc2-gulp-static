@@ -129,13 +129,13 @@ $this-receipt-green: $pay-green;
 				margin-right: 80px;
 			}
 			.head_r1_4{
-				width: 340px;
+				width: 330px;
 			}
 			.head_r1_5{
 				width: 220px;
 			}
 			.head_r1_6{
-				width: 420px;
+				width: 410px;
 				margin: 10px 20px;
 			}
 			.head_r1_7{
@@ -143,13 +143,13 @@ $this-receipt-green: $pay-green;
 				margin-right: 60px;
 			}
 			.head_r1_8{
-				width: 993px;
+				width: 983px;
 			}
 			.head_r1_9{
-				width: 300px;
+				width: 290px;
 			}
 			.head_r1_10{
-				width: 680px;
+				width: 670px;
 			}
 			.device_rd{
 				@include g_radio_style(#f4f4f4, $this-search-green, 0.8em);
@@ -217,7 +217,7 @@ $this-receipt-green: $pay-green;
 					margin-right: 20px;
 				}
 				.head_r2_3{
-					width: 1400px;
+					width: 1300px;
 					margin-right: 40px;
 				}
 				.head_r2_4{
@@ -279,15 +279,15 @@ $this-receipt-green: $pay-green;
 						color: #999999 !important;
 					}
 					.head_r2_5{
-						width: 32%;
+						width: 31%;
 						margin-right: 35px;
 					}
 					.head_r2_6{
-						width: 32%;
+						width: 31%;
 						margin-right: 35px;
 					}
 					.head_r2_7{
-						width: 32%;
+						width: 31%;
 					}
 				}
 			}
@@ -405,7 +405,7 @@ $this-receipt-green: $pay-green;
 						color: #999999 !important;
 					}
 					.pay_row2_1{
-						width: 320px;
+						width: 310px;
 						margin-right: 40px;
 					}
 					.pay_row2_2{
@@ -414,7 +414,7 @@ $this-receipt-green: $pay-green;
 					}
 					.pay_row2_3{
 						width: 120px;
-						margin-right: 100px;
+						margin-right: 40px;
 					}
 					.pay_row2_4{
 						width: 210px;
@@ -426,7 +426,6 @@ $this-receipt-green: $pay-green;
 					}
 					.pay_row2_6{
 						width: 180px;
-						margin-right: 40px;
 					}
 					.receipt_installment_select{
 						float: left;

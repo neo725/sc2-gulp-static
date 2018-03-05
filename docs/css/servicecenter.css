@@ -2407,21 +2407,21 @@ th, td {
         width: 180px;
         margin-right: 80px; }
       .receipt_section .receipt_list .receipt_list_head .head_r1_4 {
-        width: 340px; }
+        width: 330px; }
       .receipt_section .receipt_list .receipt_list_head .head_r1_5 {
         width: 220px; }
       .receipt_section .receipt_list .receipt_list_head .head_r1_6 {
-        width: 420px;
+        width: 410px;
         margin: 10px 20px; }
       .receipt_section .receipt_list .receipt_list_head .head_r1_7 {
         width: 230px;
         margin-right: 60px; }
       .receipt_section .receipt_list .receipt_list_head .head_r1_8 {
-        width: 993px; }
+        width: 983px; }
       .receipt_section .receipt_list .receipt_list_head .head_r1_9 {
-        width: 300px; }
+        width: 290px; }
       .receipt_section .receipt_list .receipt_list_head .head_r1_10 {
-        width: 680px; }
+        width: 670px; }
       .receipt_section .receipt_list .receipt_list_head .device_rd .radio {
         margin: 0.5rem; }
         .receipt_section .receipt_list .receipt_list_head .device_rd .radio input[type="radio"] {
@@ -2503,7 +2503,7 @@ th, td {
           width: 240px;
           margin-right: 20px; }
         .receipt_section .receipt_list .receipt_list_detail .receipt_detail_title .head_r2_3 {
-          width: 1400px;
+          width: 1300px;
           margin-right: 40px; }
         .receipt_section .receipt_list .receipt_list_detail .receipt_detail_title .head_r2_4 {
           color: #575756;
@@ -2578,13 +2578,13 @@ th, td {
           .receipt_section .receipt_list .receipt_list_detail .receipt_detail_content .receipt_detail_content_2 input::-webkit-input-placeholder {
             color: #999999 !important; }
           .receipt_section .receipt_list .receipt_list_detail .receipt_detail_content .receipt_detail_content_2 .head_r2_5 {
-            width: 32%;
+            width: 31%;
             margin-right: 35px; }
           .receipt_section .receipt_list .receipt_list_detail .receipt_detail_content .receipt_detail_content_2 .head_r2_6 {
-            width: 32%;
+            width: 31%;
             margin-right: 35px; }
           .receipt_section .receipt_list .receipt_list_detail .receipt_detail_content .receipt_detail_content_2 .head_r2_7 {
-            width: 32%; }
+            width: 31%; }
     .receipt_section .receipt_list .receipt_pay_div {
       display: inline-block;
       width: 96%;
@@ -2737,14 +2737,14 @@ th, td {
           .receipt_section .receipt_list .receipt_pay_div .receipt_pay_row2 .receipt_pay_row2_left input::-webkit-input-placeholder {
             color: #999999 !important; }
           .receipt_section .receipt_list .receipt_pay_div .receipt_pay_row2 .receipt_pay_row2_left .pay_row2_1 {
-            width: 320px;
+            width: 310px;
             margin-right: 40px; }
           .receipt_section .receipt_list .receipt_pay_div .receipt_pay_row2 .receipt_pay_row2_left .pay_row2_2 {
             width: 140px;
             margin-right: 40px; }
           .receipt_section .receipt_list .receipt_pay_div .receipt_pay_row2 .receipt_pay_row2_left .pay_row2_3 {
             width: 120px;
-            margin-right: 100px; }
+            margin-right: 40px; }
           .receipt_section .receipt_list .receipt_pay_div .receipt_pay_row2 .receipt_pay_row2_left .pay_row2_4 {
             width: 210px;
             margin-right: 40px; }
@@ -2752,8 +2752,7 @@ th, td {
             width: 180px;
             margin-right: 40px; }
           .receipt_section .receipt_list .receipt_pay_div .receipt_pay_row2 .receipt_pay_row2_left .pay_row2_6 {
-            width: 180px;
-            margin-right: 40px; }
+            width: 180px; }
           .receipt_section .receipt_list .receipt_pay_div .receipt_pay_row2 .receipt_pay_row2_left .receipt_installment_select {
             float: left;
             position: relative;
