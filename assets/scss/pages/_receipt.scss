@@ -1,0 +1,526 @@
+$this-receipt-green: $pay-green;
+
+.receipt_section{
+	background-color: #eef2f6;
+	width: 2730px;
+	margin: 0 auto;
+	padding-bottom: 120px;
+	.cls_preview_icon{
+		position: absolute;
+		right: 15px;
+		top: 30vh;
+	}
+	.cls_push_icon{
+		position: absolute;
+		right: 15px;
+		top: 38vh;
+	}
+	.od_title_div{
+			position: relative;
+			display: inline-block;
+			width: 100%;
+		.od_title{
+			position: relative;
+			width: auto;
+			float: left;
+			margin: 30px;
+			font-size: 24px;
+			line-height: 46px;
+			color: #adadad;
+		}
+		.od_more{
+			position: relative;
+			width: auto;
+			float: right;
+			margin: 30px;
+		}
+		.od_more .icon{
+			width: 35px;
+		}
+	}
+
+	/* receipt list */
+	.receipt_list_div{
+		width: 2560px;
+		margin: 0 auto;
+		background-color: #ffffff;
+		display: table;
+		.receipt_list_t{
+			@include g_list_title;
+			color: $this-receipt-green;
+			border-bottom: 4px solid $this-receipt-green;
+			display: inline-block;
+			.receipt_list_t_right{
+				float: right;
+				font-size: 24px;
+				text-align: center;
+				vertical-align: middle;
+				line-height: 100px;
+				margin-right: 10px;
+				color: #575756;
+			}
+			.icon{
+				float: right;
+				width: 80px;
+				margin: 10px;
+			}
+		}
+		.receipt_title{
+			text-align: center;
+			color: $this-receipt-green;
+			font-size: 42px;
+			line-height: 100px;
+		}
+	}
+
+	.receipt_list{
+		width: 95%;
+		margin: 0 auto;
+		display: inline-block;
+		margin-bottom: 30px;
+		background-color: #f2f2f2;
+		-webkit-box-shadow: 0px 1px 5px 0px #cccccc;
+		-moz-box-shadow: 0px 1px 5px 0px #cccccc;
+		box-shadow: 0px 1px 5px 0px #cccccc;
+		.receipt_red{
+			color: #ed1c24;
+			font-size: 36px;
+			line-height: 80px;
+			vertical-align: middle;
+			text-align: left;
+		}
+		.receipt_black{
+			color: #575756;
+			font-size: 28px;
+			line-height: 60px;
+			vertical-align: middle;
+			text-align: left;
+			margin: 10px 0px;
+			text-indent: 5px;
+			border: none;
+			float: left;
+		}
+		.receipt_t_span{
+			color: $this-receipt-green;
+			font-size: 28px;
+			line-height: 80px;
+			float: left;
+			vertical-align: middle;
+			margin-right: 20px;
+		}
+		.receipt_list_head{
+			display: inline-block;
+			width: 96%;
+			margin: 0 auto;
+			border-bottom: 1px solid $this-receipt-green; 
+			padding: 20px 20px;
+			div{
+				float: left;
+			}
+			.head_r1_1{
+				width: 220px;
+			}
+			.head_r1_2{
+				width: 400px;
+			}
+			.head_r1_3{
+				width: 180px;
+				margin-right: 80px;
+			}
+			.head_r1_4{
+				width: 340px;
+			}
+			.head_r1_5{
+				width: 220px;
+			}
+			.head_r1_6{
+				width: 420px;
+				margin: 10px 20px;
+			}
+			.head_r1_7{
+				width: 230px;
+				margin-right: 60px;
+			}
+			.head_r1_8{
+				width: 993px;
+			}
+			.head_r1_9{
+				width: 300px;
+			}
+			.head_r1_10{
+				width: 680px;
+			}
+			.device_rd{
+				@include g_radio_style(#f4f4f4, $this-search-green, 0.8em);
+				label{
+					color: #575756;
+					font-size: 28px;
+				}
+			}
+			.receipt_person_detail{
+				width: 50%;
+				float: left;
+			}
+			.receipt_niform{
+				width: 50%;
+				float: left;
+				.icon{
+					margin: 55px 20px 20px 0px;
+				}
+				.receipt_niform_no{
+					width: 28%;
+					border-right: 1px solid $this-receipt-green;
+				}
+				.receipt_niform_title{
+					margin-left: 30px;
+					width: 50%;
+				}
+			}
+		}
+		ul{
+			padding: 0px;
+			border-bottom:none;
+			width: 97%;
+			margin: 0 auto;
+			margin-top: 20px;
+			margin-bottom: 30px;
+		}
+		li{
+			border: $this-receipt-green solid 1px;
+			margin-bottom: 20px;
+		}
+		.receipt_list_detail{
+			position: relative;
+			display: table;
+			width: 100%;
+			div{
+				float: left;
+			}
+			.receipt_detail_right{
+				float: right;
+			}
+			.receipt_detail_title{
+				background-color: #deece9;
+				display: table;
+				width: 98%;
+				padding: 20px 1%;
+				.icon{
+					margin: 0px 20px 0px 0px;
+				}
+				.head_r2_1{
+					width: 120px;
+					margin-right: 40px;
+				}
+				.head_r2_2{
+					width: 240px;
+					margin-right: 20px;
+				}
+				.head_r2_3{
+					width: 1400px;
+					margin-right: 40px;
+				}
+				.head_r2_4{
+					color: #575756;
+    				font-size: 36px;
+				}
+				.receipt_detail_right{
+					.icon{
+						margin: 25px 0px 0px 0px;
+					}
+				}
+			}
+			.receipt_detail_content{
+				display: inline-block;
+				width: 98%;
+				padding: 20px 1%;
+				border-top: 1px solid $this-receipt-green;
+				div{
+					float: left;
+				}
+				.receipt_span_mleft{
+					margin-left: 30px;
+				}
+				.receipt_detail_content_1{
+					display: block;
+					width: 100%;
+					.income_t_select{
+						position: relative;
+						display: block;
+						width: 500px;
+						height: auto;
+						line-height: 85px;
+						background: #ffffff;
+						overflow: hidden;
+						border-radius: .25em;
+						@include g_select(#ffffff,#575756,28px);
+						margin-right: 50px;
+					}
+					.income_t_select::after {
+						content: '∨';
+						position: absolute;
+						top: 0;
+						right: 0;
+						bottom: 0;
+						padding: 0 1em;
+						background: #ffffff;
+						pointer-events: none;
+					}
+					.receipt_detail_content_right{
+						float: right;
+						margin-right: 20px;
+					}
+				}
+				.receipt_detail_content_2{
+					width: 100%;
+					display: inline-block;
+					margin-top: 20px;
+					input::-webkit-input-placeholder {
+						color: #999999 !important;
+					}
+					.head_r2_5{
+						width: 32%;
+						margin-right: 35px;
+					}
+					.head_r2_6{
+						width: 32%;
+						margin-right: 35px;
+					}
+					.head_r2_7{
+						width: 32%;
+					}
+				}
+			}
+		}
+		.receipt_pay_div{
+			display: inline-block;
+			width: 96%;
+			margin: 0 auto;
+			border-top: 1px solid $this-receipt-green;
+			padding: 20px 20px;
+			.receipt_pay_row1{
+				display: inline-block;
+				width: 100%;
+				margin-top: 20px;
+				.receipt_pay_row1_right{
+					float: right;
+					display: block;
+					ul{
+						padding: 0px;
+						border-bottom: none;
+						width: auto;
+						margin: 0 auto; 
+						float: left;
+						li{
+							border: none;
+							background-color: $this-receipt-green;
+							float: left;
+							vertical-align: middle;
+							margin-right: 20px;
+							padding: 10px 30px;
+							border-radius: 38px;
+							span:first-child{
+								color: #ffffff;
+								font-size: 42px;
+							}
+							span:last-child{
+								margin-left: 50px;
+								color: #ffffff;
+								font-size: 33px;
+							}
+						}
+					}
+					.receipt_pay_row1_add{
+						background-color: $this-receipt-green;
+						float: left;
+						vertical-align: middle;
+						border-radius: 50px;
+						height: 78px;
+						width: 78px;
+						font-size: 54px;
+						display: table;
+						color: #ffffff;
+					}
+					.receipt_pay_row1_span{
+						margin: 0px 40px 0px 50px;
+						font-size: 36px;
+					}
+					.receipt_pay_select{
+						float: left;
+						position: relative;
+						display: block;
+						width: 350px;
+						height: auto;
+						line-height: 85px;
+						background: #ffffff;
+						overflow: hidden;
+						border-radius: .25em;
+						@include g_select(#ffffff,#575756,28px);
+						margin-right: 50px;
+					}
+					.receipt_pay_select::after {
+						content: '∨';
+						position: absolute;
+						top: 0;
+						right: 0;
+						bottom: 0;
+						padding: 0 1em;
+						background: #ffffff;
+						pointer-events: none;
+					}
+				}
+			}
+			.receipt_pay_row2{
+				display: inline-block;
+				width: 100%;
+				.receipt_pay_row2_left{
+					float: left;
+					width: 65%;
+					padding: 0px 1%;
+					.receipt_machine_select{
+						float: left;
+						position: relative;
+						display: block;
+						width: 220px;
+						height: auto;
+						line-height: 60px;
+						background: #ffffff;
+						overflow: hidden;
+						border-radius: .25em;
+						@include g_select(#ffffff,#575756,28px);
+						margin-right: 40px;
+						margin-top: 10px;
+					}
+					.receipt_machine_select::after {
+						content: '∨';
+						position: absolute;
+						top: 0;
+						right: 0;
+						bottom: 0;
+						padding: 0 1em;
+						background: #ffffff;
+						pointer-events: none;
+					}
+					input::-webkit-input-placeholder {
+						color: #999999 !important;
+					}
+					.pay_row2_1{
+						width: 320px;
+						margin-right: 40px;
+					}
+					.pay_row2_2{
+						width: 140px;
+						margin-right: 40px;
+					}
+					.pay_row2_3{
+						width: 120px;
+						margin-right: 100px;
+					}
+					.pay_row2_4{
+						width: 210px;
+						margin-right: 40px;
+					}
+					.pay_row2_5{
+						width: 180px;
+						margin-right: 40px;
+					}
+					.pay_row2_6{
+						width: 180px;
+						margin-right: 40px;
+					}
+					.receipt_installment_select{
+						float: left;
+						position: relative;
+						display: block;
+						width: 135px;
+						height: auto;
+						line-height: 60px;
+						background: #ffffff;
+						overflow: hidden;
+						border-radius: .25em;
+						@include g_select(#ffffff,#575756,28px);
+						margin-right: 40px;
+						margin-top: 10px;
+					}
+					.receipt_installment_select::after {
+						content: '∨';
+						position: absolute;
+						top: 0;
+						right: 0;
+						bottom: 0;
+						padding: 0 1em;
+						background: #ffffff;
+						pointer-events: none;
+					}
+				}
+				.receipt_pay_row2_right{
+					float: right;
+					width: 31%;
+					.receipt_need_pay{
+						line-height: 160px;
+						font-size: 50px;
+						font-weight: 700;
+					}
+					.pay_row2_7{
+						line-height: 120px;
+						font-size: 50px;
+						width: 348px;
+						margin-top: 20px;
+					}
+				}
+			}
+		}
+	}
+	.receipt_login{
+		width: 95%;
+		margin: 0 auto;
+		display: inline-block; 
+		margin-top: 20px;
+		margin-bottom: 50px;
+		.receipt_login_left{
+			float: left;
+			.icon{
+				margin-left: 30px;
+			}
+			.receipt_login_tip{
+				margin-left: 10px;
+				font-size: 32px;
+				color: #39434e;
+				font-weight: 700;
+				vertical-align: super;
+			}
+		}
+		.receipt_login_right{
+			float: right;
+			input::-webkit-input-placeholder {
+				color: #999999 !important;
+			}
+			input{
+				float: left;
+				border: none;
+				border-bottom: 1px solid $this-receipt-green;
+				vertical-align: middle;
+				margin-right: 40px;
+				width: 350px;
+				font-size: 32px;
+				line-height: 70px;
+			}
+			.receipt_login_print{
+				float: left;
+				background-color: $this-receipt-green;
+				vertical-align: middle;
+				padding: 10px 30px;
+				border-radius: 45px;
+				.icon{
+					vertical-align: middle;
+				}
+				span{
+					color: #ffffff;
+					font-size: 48px;
+					line-height: 60px;
+					margin-left: 10px;
+					vertical-align: middle;
+				}
+			}
+		}
+	}
+}
