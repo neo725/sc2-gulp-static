@@ -2411,13 +2411,13 @@ th, td {
       .receipt_section .receipt_list .receipt_list_head .head_r1_5 {
         width: 200px; }
       .receipt_section .receipt_list .receipt_list_head .head_r1_6 {
-        width: 410px;
+        width: 420px;
         margin: 10px 20px; }
       .receipt_section .receipt_list .receipt_list_head .head_r1_7 {
         width: 230px;
-        margin-right: 60px; }
+        margin-right: 30px; }
       .receipt_section .receipt_list .receipt_list_head .head_r1_8 {
-        width: 963px; }
+        width: 975px; }
       .receipt_section .receipt_list .receipt_list_head .head_r1_9 {
         width: 280px; }
       .receipt_section .receipt_list .receipt_list_head .head_r1_10 {
@@ -2746,7 +2746,7 @@ th, td {
             width: 120px;
             margin-right: 40px; }
           .receipt_section .receipt_list .receipt_pay_div .receipt_pay_row2 .receipt_pay_row2_left .pay_row2_4 {
-            width: 200px;
+            width: 180px;
             margin-right: 40px; }
           .receipt_section .receipt_list .receipt_pay_div .receipt_pay_row2 .receipt_pay_row2_left .pay_row2_5 {
             width: 180px;
