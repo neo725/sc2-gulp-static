@@ -142,10 +142,10 @@ $this-receipt-green: $pay-green;
 				margin: 10px 20px;
 			}
 			.head_r1_7{
-				width: 215px;
+				width: 205px;
 			}
 			.head_r1_8{
-				width: 998px;
+				width: 1000px;
 			}
 			.head_r1_9{
 				width: 270px;
@@ -358,7 +358,7 @@ $this-receipt-green: $pay-green;
 						overflow: hidden;
 						border-radius: .25em;
 						@include g_select(#ffffff,#575756,28px);
-						margin-right: 50px;
+						margin-right: 40px;
 					}
 					.receipt_pay_select::after {
 						content: '∨';

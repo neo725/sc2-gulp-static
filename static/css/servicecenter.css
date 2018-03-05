@@ -2416,9 +2416,9 @@ th, td {
         width: 420px;
         margin: 10px 20px; }
       .receipt_section .receipt_list .receipt_list_head .head_r1_7 {
-        width: 215px; }
+        width: 205px; }
       .receipt_section .receipt_list .receipt_list_head .head_r1_8 {
-        width: 998px; }
+        width: 1000px; }
       .receipt_section .receipt_list .receipt_list_head .head_r1_9 {
         width: 270px; }
       .receipt_section .receipt_list .receipt_list_head .head_r1_10 {
@@ -2643,7 +2643,7 @@ th, td {
             background: #ffffff;
             overflow: hidden;
             border-radius: .25em;
-            margin-right: 50px; }
+            margin-right: 40px; }
             .receipt_section .receipt_list .receipt_pay_div .receipt_pay_row1 .receipt_pay_row1_right .receipt_pay_select select {
               line-height: normal;
               -webkit-appearance: none;
