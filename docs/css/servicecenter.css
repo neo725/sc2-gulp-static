@@ -2857,3 +2857,148 @@ th, td {
           line-height: 60px;
           margin-left: 10px;
           vertical-align: middle; }
+
+.student_section {
+  height: auto;
+  min-height: 100vh;
+  width: 2730px;
+  margin: 0 auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* student list */ }
+  .student_section .st_day_div {
+    position: relative;
+    display: inline-block;
+    width: 100%; }
+    .student_section .st_day_div .st_day {
+      position: relative;
+      width: auto;
+      float: left;
+      margin: 30px 0px 0px 50px;
+      font-size: 30px;
+      line-height: 36px;
+      color: #eeeeee; }
+  .student_section .student_status_div {
+    width: 100%;
+    margin: 0 auto;
+    display: inline-block;
+    position: relative; }
+    .student_section .student_status_div .student_status_right {
+      float: right; }
+      .student_section .student_status_div .student_status_right .student_status {
+        float: left;
+        background-color: #2c60a7;
+        padding: 50px 80px;
+        vertical-align: middle;
+        border-radius: 100px; }
+        .student_section .student_status_div .student_status_right .student_status .student_status_a {
+          font-size: 73px;
+          color: #ffff00; }
+        .student_section .student_status_div .student_status_right .student_status .student_status_b {
+          font-size: 28px;
+          color: #ffff00;
+          margin: 0px 30px 0px 10px; }
+        .student_section .student_status_div .student_status_right .student_status .student_status_c {
+          font-size: 28px;
+          color: #ffffff;
+          vertical-align: super;
+          margin: 0px 0px 0px 30px; }
+        .student_section .student_status_div .student_status_right .student_status .icon {
+          margin: 0px 0px 0px 40px;
+          vertical-align: sub; }
+      .student_section .student_status_div .student_status_right .student_shopcar {
+        float: left; }
+        .student_section .student_status_div .student_status_right .student_shopcar .icon {
+          margin: 60px 100px 0px 80px; }
+        .student_section .student_status_div .student_status_right .student_shopcar .shopping_number {
+          position: absolute;
+          background-color: #ffffff;
+          border-radius: 40px;
+          padding: 5px 16px;
+          right: 80px;
+          top: 45px;
+          font-size: 25px; }
+  .student_section .student_class_div {
+    width: 78%;
+    margin: 0 auto;
+    display: inline-block;
+    background-color: #ffffff;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    padding: 60px 120px; }
+    .student_section .student_class_div .student_class_post {
+      font-size: 26px;
+      line-height: 28px;
+      color: #808080;
+      text-align: right; }
+    .student_section .student_class_div .student_class_no {
+      font-size: 40px;
+      line-height: 60px;
+      color: #575756;
+      text-align: left; }
+    .student_section .student_class_div .student_class_name {
+      font-size: 120px;
+      line-height: 140px;
+      color: #000000;
+      text-align: left;
+      font-weight: 700; }
+    .student_section .student_class_div .student_class_sub {
+      font-size: 50px;
+      line-height: 68px;
+      margin-top: 15px;
+      color: #24b499;
+      text-align: left; }
+    .student_section .student_class_div .student_class_detail {
+      margin-top: 80px; }
+      .student_section .student_class_div .student_class_detail table tr td:nth-child(1) {
+        font-size: 26px;
+        color: #b3b3b3;
+        vertical-align: middle;
+        line-height: 32px;
+        padding: 70px 60px 70px 10px;
+        text-align: left;
+        min-width: 200px; }
+        .student_section .student_class_div .student_class_detail table tr td:nth-child(1) .icon {
+          vertical-align: middle;
+          margin-right: 15px; }
+      .student_section .student_class_div .student_class_detail table tr td:nth-child(2) {
+        border-left: 1px solid #cccccc;
+        color: #24b499;
+        vertical-align: middle;
+        text-align: left;
+        padding-left: 70px;
+        font-size: 59px; }
+        .student_section .student_class_div .student_class_detail table tr td:nth-child(2) .week_span {
+          background-color: #24b499;
+          font-size: 37px;
+          line-height: 40px;
+          color: #ffffff;
+          padding: 16px 20px;
+          border-radius: 40px;
+          vertical-align: middle; }
+        .student_section .student_class_div .student_class_detail table tr td:nth-child(2) .week_time {
+          font-size: 80px;
+          color: #24b499;
+          vertical-align: middle;
+          margin-right: 40px; }
+    .student_section .student_class_div .student_class_money {
+      display: inline-block;
+      width: 100%; }
+      .student_section .student_class_div .student_class_money .class_money_right {
+        float: right; }
+        .student_section .student_class_div .student_class_money .class_money_right .class_money_title {
+          font-size: 37px;
+          color: #575756;
+          text-align: left;
+          line-height: 45px; }
+        .student_section .student_class_div .student_class_money .class_money_right .class_money {
+          font-size: 100px;
+          line-height: 140px;
+          color: #ed1c24;
+          text-align: left; }
+        .student_section .student_class_div .student_class_money .class_money_right .class_money_org {
+          font-size: 28px;
+          line-height: 36px;
+          color: #808080;
+          text-align: right;
+          text-decoration: line-through; }
