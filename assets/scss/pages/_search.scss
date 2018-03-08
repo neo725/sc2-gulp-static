@@ -381,4 +381,34 @@ $this-search-green: $pay-green;
 			}
 		}
 	}
+	.sh_buy_popup{
+		@include g_popup_bg(rgba(0%, 0%, 0%, 0.7) , 1000);
+		.sh_buy_popup_div{
+			background-color: #ffffff;
+			display: inline-block;
+			margin: 0 auto;
+			margin-top:30vh;
+			width: 650px;
+			height: auto;
+			.icon{
+				display: table;
+    			margin: 0 auto;
+				margin-top: 165px;
+				margin-bottom: 165px;
+			}
+			.sh_buy_popup_btn{
+				width: 49.9%;
+				float: left;
+				background-color: $this-search-green;
+				font-size: 42px;
+				color: #ffffff;
+				line-height: 140px;
+				font-weight: 700;
+				letter-spacing: 3px;
+			}
+			.sh_buy_popup_btn:nth-child(2){
+				float: right;
+			}
+		}
+	}
 }

@@ -1785,6 +1785,38 @@ th, td {
                 margin: -20px 40px 30px 0px; }
               .search_section .sh_list .sh_list_detail .sh_content_right .sh_advisory .sh_advisory_pop .sh_advisory_remarks .sh_remarks_save_click {
                 background-color: #24b499; }
+  .search_section .sh_buy_popup {
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    z-index: 1000; }
+    .search_section .sh_buy_popup .sh_buy_popup_div {
+      background-color: #ffffff;
+      display: inline-block;
+      margin: 0 auto;
+      margin-top: 30vh;
+      width: 650px;
+      height: auto; }
+      .search_section .sh_buy_popup .sh_buy_popup_div .icon {
+        display: table;
+        margin: 0 auto;
+        margin-top: 165px;
+        margin-bottom: 165px; }
+      .search_section .sh_buy_popup .sh_buy_popup_div .sh_buy_popup_btn {
+        width: 49.9%;
+        float: left;
+        background-color: #24b499;
+        font-size: 42px;
+        color: #ffffff;
+        line-height: 140px;
+        font-weight: 700;
+        letter-spacing: 3px; }
+      .search_section .sh_buy_popup .sh_buy_popup_div .sh_buy_popup_btn:nth-child(2) {
+        float: right; }
 
 .order_section {
   background-color: #eef2f6;
