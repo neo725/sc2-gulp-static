@@ -1308,6 +1308,35 @@ th, td {
       background-color: #e3e8f4; }
     .person_order .contact_div .cnt_list_opacity {
       opacity: 0.3; }
+    .person_order .contact_div .cnt_buy_div {
+      float: right;
+      vertical-align: middle;
+      margin: 15px 60px 50px 0px; }
+      .person_order .contact_div .cnt_buy_div .cnt_buy_total {
+        float: left;
+        font-size: 36px;
+        color: #999999;
+        vertical-align: middle;
+        margin-right: 50px; }
+        .person_order .contact_div .cnt_buy_div .cnt_buy_total span {
+          vertical-align: middle;
+          font-size: 60px;
+          color: #999999;
+          margin-left: 10px;
+          margin-right: 10px; }
+      .person_order .contact_div .cnt_buy_div .cnt_buy_btn {
+        float: left;
+        background-color: #4564ad;
+        font-size: 48px;
+        color: #ffffff;
+        width: 310px;
+        line-height: 100px;
+        text-align: center;
+        border-radius: 50px;
+        vertical-align: middle; }
+        .person_order .contact_div .cnt_buy_div .cnt_buy_btn .icon {
+          vertical-align: sub;
+          margin-right: 20px; }
 
 .eform {
   background-color: #eef2f6;
@@ -1423,6 +1452,128 @@ th, td {
       background-color: #ececec; }
     .eform .eform_list_div .eform_list_opacity {
       opacity: 0.3; }
+
+.cls_pre_popup {
+  top: 0;
+  left: 0;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  z-index: 1000;
+  overflow-y: scroll; }
+  .cls_pre_popup .student_class_div {
+    width: 78%;
+    margin: 0 auto;
+    display: inline-block;
+    background-color: #ffffff;
+    margin-top: 120px;
+    margin-bottom: 40px;
+    padding: 60px 120px; }
+    .cls_pre_popup .student_class_div .student_class_post {
+      font-size: 26px;
+      line-height: 28px;
+      color: #808080;
+      text-align: right; }
+    .cls_pre_popup .student_class_div .student_class_no {
+      font-size: 40px;
+      line-height: 60px;
+      color: #575756;
+      text-align: left; }
+    .cls_pre_popup .student_class_div .student_class_name {
+      font-size: 120px;
+      line-height: 140px;
+      color: #000000;
+      text-align: left;
+      font-weight: 700; }
+    .cls_pre_popup .student_class_div .student_class_sub {
+      font-size: 50px;
+      line-height: 68px;
+      margin-top: 15px;
+      color: #24b499;
+      text-align: left; }
+    .cls_pre_popup .student_class_div .student_class_detail {
+      margin-top: 80px; }
+      .cls_pre_popup .student_class_div .student_class_detail table tr td:nth-child(1) {
+        font-size: 26px;
+        color: #b3b3b3;
+        vertical-align: middle;
+        line-height: 32px;
+        padding: 70px 60px 70px 10px;
+        text-align: left;
+        min-width: 200px; }
+        .cls_pre_popup .student_class_div .student_class_detail table tr td:nth-child(1) .icon {
+          vertical-align: middle;
+          margin-right: 15px; }
+      .cls_pre_popup .student_class_div .student_class_detail table tr td:nth-child(2) {
+        border-left: 1px solid #cccccc;
+        color: #24b499;
+        vertical-align: middle;
+        text-align: left;
+        padding-left: 70px;
+        font-size: 59px; }
+        .cls_pre_popup .student_class_div .student_class_detail table tr td:nth-child(2) .week_span {
+          background-color: #24b499;
+          font-size: 37px;
+          line-height: 40px;
+          color: #ffffff;
+          padding: 16px 20px;
+          border-radius: 40px;
+          vertical-align: middle; }
+        .cls_pre_popup .student_class_div .student_class_detail table tr td:nth-child(2) .week_time {
+          font-size: 80px;
+          color: #24b499;
+          vertical-align: middle;
+          margin-right: 40px; }
+    .cls_pre_popup .student_class_div .student_class_money {
+      display: inline-block;
+      width: 100%; }
+      .cls_pre_popup .student_class_div .student_class_money .class_money_right {
+        float: right; }
+        .cls_pre_popup .student_class_div .student_class_money .class_money_right .class_money_title {
+          font-size: 37px;
+          color: #575756;
+          text-align: left;
+          line-height: 45px; }
+        .cls_pre_popup .student_class_div .student_class_money .class_money_right .class_money {
+          font-size: 100px;
+          line-height: 140px;
+          color: #ed1c24;
+          text-align: left; }
+        .cls_pre_popup .student_class_div .student_class_money .class_money_right .class_money_org {
+          font-size: 28px;
+          line-height: 36px;
+          color: #808080;
+          text-align: right;
+          text-decoration: line-through; }
+  .cls_pre_popup .cls_pre_btn_div {
+    display: inline-block;
+    width: 100%; }
+    .cls_pre_popup .cls_pre_btn_div .cls_pre_btn {
+      float: right;
+      background-color: #ececec;
+      vertical-align: middle;
+      margin-right: 180px; }
+      .cls_pre_popup .cls_pre_btn_div .cls_pre_btn .cls_pre_close {
+        font-size: 60px;
+        line-height: 180px;
+        color: #808080;
+        float: left;
+        padding: 0px 80px; }
+        .cls_pre_popup .cls_pre_btn_div .cls_pre_btn .cls_pre_close .icon {
+          vertical-align: sub;
+          margin-right: 20px; }
+      .cls_pre_popup .cls_pre_btn_div .cls_pre_btn .cls_pre_push {
+        font-size: 60px;
+        line-height: 180px;
+        color: #1871c0;
+        float: left;
+        padding: 0px 80px;
+        border-left: 2px solid #ffffff; }
+        .cls_pre_popup .cls_pre_btn_div .cls_pre_btn .cls_pre_push .icon {
+          vertical-align: sub;
+          margin-right: 20px; }
 
 /*@mixin g_radio_style($color1,$color2,$size) {
 	.radio {
@@ -1793,7 +1944,8 @@ th, td {
     width: 100%;
     height: 100%;
     min-height: 100vh;
-    z-index: 1000; }
+    z-index: 1000;
+    overflow-y: scroll; }
     .search_section .sh_buy_popup .sh_buy_popup_div {
       background-color: #ffffff;
       display: inline-block;

@@ -950,6 +950,40 @@ $this-contact-violet: $contact-violet;
 		.cnt_list_opacity{
 			opacity: 0.3;
 		}
+		.cnt_buy_div{
+			float: right;
+			vertical-align: middle;
+			margin: 15px 60px 50px 0px;
+			.cnt_buy_total{
+				float: left;
+				font-size: 36px;
+				color: #999999;
+				vertical-align: middle;
+				margin-right: 50px;
+				span{
+					vertical-align: middle;
+					font-size: 60px;
+					color: #999999;
+					margin-left: 10px;
+					margin-right: 10px;
+				}
+			}
+			.cnt_buy_btn{
+				float: left;
+				background-color: #4564ad;
+				font-size: 48px;
+				color: #ffffff;
+				width: 310px;
+				line-height: 100px;
+				text-align: center;
+				border-radius: 50px;
+				vertical-align: middle;
+				.icon{
+					vertical-align: sub;
+					margin-right: 20px;
+				}
+			}
+		}
 	}
 }
 .eform{
@@ -1047,6 +1081,52 @@ $this-contact-violet: $contact-violet;
 		}
 		.eform_list_opacity{
 			opacity: 0.3;
+		}
+	}
+}
+.cls_pre_popup{
+	@include g_popup_bg(rgba(0%, 0%, 0%, 0.7) , 1000);
+	.student_class_div{
+		width: 78%;
+		margin: 0 auto;
+		display: inline-block;
+		background-color: #ffffff;
+		margin-top: 120px;
+		margin-bottom: 40px;
+		padding: 60px 120px;
+		@include g_student_view($this-pay-green);
+	}
+	.cls_pre_btn_div{
+		display: inline-block;
+		width: 100%;
+		.cls_pre_btn{
+			float: right;
+			background-color: #ececec;
+			vertical-align: middle;
+			margin-right: 180px;
+			.cls_pre_close{
+				font-size: 60px;
+				line-height: 180px;
+				color: #808080;
+				float: left;
+				padding: 0px 80px;
+				.icon{
+					vertical-align: sub;
+					margin-right: 20px;
+				}
+			}
+			.cls_pre_push{
+				font-size: 60px;
+				line-height: 180px;
+				color: #1871c0;
+				float: left;
+				padding: 0px 80px;
+				border-left: 2px solid #ffffff;
+				.icon{
+					vertical-align: sub;
+					margin-right: 20px;
+				}
+			}
 		}
 	}
 }
