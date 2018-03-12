@@ -3254,3 +3254,82 @@ th, td {
           color: #808080;
           text-align: right;
           text-decoration: line-through; }
+
+.class_detail_section {
+  background-color: #eef2f6;
+  width: 2730px;
+  margin: 0 auto;
+  padding-bottom: 120px;
+  /* receipt list */ }
+  .class_detail_section .cls_preview_icon {
+    position: absolute;
+    right: 15px;
+    top: 30vh; }
+  .class_detail_section .cls_push_icon {
+    position: absolute;
+    right: 15px;
+    top: 38vh; }
+  .class_detail_section .od_title_div {
+    position: relative;
+    display: inline-block;
+    width: 100%; }
+    .class_detail_section .od_title_div .od_title {
+      position: relative;
+      width: auto;
+      float: left;
+      margin: 30px;
+      font-size: 24px;
+      line-height: 46px;
+      color: #adadad; }
+    .class_detail_section .od_title_div .od_more {
+      position: relative;
+      width: auto;
+      float: right;
+      margin: 30px; }
+    .class_detail_section .od_title_div .od_more .icon {
+      width: 35px; }
+  .class_detail_section .class_detail_div {
+    width: 2560px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    display: table; }
+    .class_detail_section .class_detail_div table:first-child {
+      padding-top: 40px; }
+    .class_detail_section .class_detail_div table:last-child {
+      padding-bottom: 40px; }
+    .class_detail_section .class_detail_div table {
+      width: 100%;
+      padding: 0px 40px;
+      display: table-cell;
+      float: left; }
+      .class_detail_section .class_detail_div table td {
+        border-top: 10px solid #ffffff;
+        border-left: 10px solid #ffffff; }
+      .class_detail_section .class_detail_div table .t_name {
+        font-size: 30px;
+        color: #ffffff;
+        background-color: #1871c0;
+        width: 200px;
+        text-align: center;
+        padding: 10px;
+        line-height: 60px; }
+      .class_detail_section .class_detail_div table .t_content_title {
+        font-weight: 700; }
+      .class_detail_section .class_detail_div table .t_content_1 {
+        color: #4d4d4d;
+        font-size: 36px;
+        width: 500px;
+        background-color: #eef2f6;
+        text-align: left;
+        padding: 15px;
+        font-weight: 700;
+        line-height: 60px; }
+      .class_detail_section .class_detail_div table .t_content_2 {
+        color: #4d4d4d;
+        font-size: 30px;
+        width: 2040px;
+        background-color: #eef2f6;
+        text-align: left;
+        padding: 15px;
+        line-height: 45px;
+        letter-spacing: 2px; }
