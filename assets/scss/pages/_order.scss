@@ -519,3 +519,83 @@ $this-order-green: $pay-green;
 		}
 	}
 }
+.or_atm_popup{
+	@include g_popup_bg(rgba(0%, 0%, 0%, 0.7) , 1000);
+	.or_atm_popup_div{
+		background-color: #ffffff;
+		display: inline-block;
+		margin: 0 auto;
+		margin-top:150px;
+		width: 1800px;
+		height: auto;
+		.or_atm_table{
+			border-collapse: collapse;
+			border-spacing: 0px;
+			margin: 0 auto;
+			width: 90%;
+			margin-top: 50px;
+			margin-bottom: 50px;
+
+			thead{
+				border-spacing: 0px;
+				background-color: $this-order-green;
+				th{
+					padding: 20px 0px;
+					font-size: 36px;
+					color: #ffffff;
+					text-align: center;
+				}
+				th:nth-child(1){
+					width: 8%;
+				}
+				th:nth-child(2){
+					width: 15%;
+				}
+				th:nth-child(3){
+					width: 12%;
+				}
+				th:nth-child(4){
+					width: 25%;
+				}
+				th:nth-child(5){
+					width: 15%;
+				}
+				th:nth-child(6){
+					width: 25%;
+				}
+			}
+			tbody{
+				tr{
+					border-bottom: 1px solid #cccccc;
+					td{
+						vertical-align: middle;
+						padding: 20px 10px;
+						font-size: 32px;
+						color: #666666;
+						word-break: break-all;
+					}
+					td:nth-child(1){
+						input[type="checkbox"]{
+							width: 30px;
+							height: 30px;
+							vertical-align: sub;
+						}
+					}
+				}
+			}
+		}
+		.or_atm_popup_ok{
+			float: right;
+			background-color: #ececec;
+			font-size: 60px;
+			color: $this-order-green;
+			padding: 30px 60px;
+			margin-right: 90px;
+			margin-bottom: 50px;
+			.icon{
+				vertical-align: middle;
+				margin-right: 10px;
+			}
+		}
+	}
+}
