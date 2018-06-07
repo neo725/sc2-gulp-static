@@ -3360,7 +3360,7 @@ th, td {
       .stview_section .stview_weather .stview_weather_div > div, .stview_section .stview_clock .stview_weather_div > div {
         float: left; }
       .stview_section .stview_weather .stview_weather_div .stview_tprt, .stview_section .stview_clock .stview_weather_div .stview_tprt {
-        font-size: 550px;
+        font-size: 560px;
         font-weight: 400;
         color: #ffffff;
         vertical-align: baseline; }
