@@ -5,8 +5,7 @@
 	margin: 0 auto;
 	background-size: cover;
 	background-repeat: no-repeat;
-	/*background-color: #5a88fd;*/
-	background-color: #1871c0;
+	background-color: #5a88fd;
 	.stview_weather, .stview_clock{
 		position: relative;
 		display: inline-block;
@@ -216,9 +215,12 @@
 			&>div{
 				float:left;
 			}
-			padding: 0px 0px 0px 80px; 
+			padding: 0px 0px 0px 65px; 
 			.sv_good{
-				padding: 10px 20px 0px 20px;
+				margin-right: 30px;
+				padding: 10px 15px 0px 15px;
+				border: 5px solid #30346d;
+				border-radius: 100px;
 				span{
 					padding-left: 10px;
 					font-size: 40px;
