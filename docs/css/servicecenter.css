@@ -3333,3 +3333,195 @@ th, td {
         padding: 15px;
         line-height: 45px;
         letter-spacing: 2px; }
+
+.stview_section {
+  height: auto;
+  min-height: 100vh;
+  width: 2730px;
+  margin: 0 auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*background-color: #5a88fd;*/
+  background-color: #1871c0;
+  /*list*/
+  /*service*/ }
+  .stview_section .stview_weather, .stview_section .stview_clock {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 1270px;
+    overflow: hidden;
+    /*weather*/
+    /*clock*/ }
+    .stview_section .stview_weather .stview_weather_div, .stview_section .stview_clock .stview_weather_div {
+      margin: 0 auto;
+      display: inline-block;
+      margin-top: 250px; }
+      .stview_section .stview_weather .stview_weather_div > div, .stview_section .stview_clock .stview_weather_div > div {
+        float: left; }
+      .stview_section .stview_weather .stview_weather_div .stview_tprt, .stview_section .stview_clock .stview_weather_div .stview_tprt {
+        font-size: 550px;
+        font-weight: 400;
+        color: #ffffff;
+        vertical-align: baseline; }
+      .stview_section .stview_weather .stview_weather_div .stview_tprt_range, .stview_section .stview_clock .stview_weather_div .stview_tprt_range {
+        margin: 400px 150px 0px 50px; }
+        .stview_section .stview_weather .stview_weather_div .stview_tprt_range > div, .stview_section .stview_clock .stview_weather_div .stview_tprt_range > div {
+          font-size: 90px;
+          color: #ffffff;
+          line-height: 90px; }
+        .stview_section .stview_weather .stview_weather_div .stview_tprt_range .icon, .stview_section .stview_clock .stview_weather_div .stview_tprt_range .icon {
+          vertical-align: middle;
+          margin-right: 30px; }
+    .stview_section .stview_weather .stview_clock_div, .stview_section .stview_clock .stview_clock_div {
+      margin: 0 auto;
+      display: inline-block;
+      margin-top: 250px; }
+      .stview_section .stview_weather .stview_clock_div > div, .stview_section .stview_clock .stview_clock_div > div {
+        float: left;
+        font-size: 550px;
+        font-weight: 400;
+        color: #ffffff;
+        vertical-align: baseline;
+        margin: 0px 20px; }
+  .stview_section .stview_list {
+    width: 66.9%;
+    height: 778px;
+    overflow: hidden;
+    float: left;
+    background-color: #4864ab;
+    overflow: hidden; }
+    .stview_section .stview_list .stview_list_t {
+      font-size: 62px;
+      color: #ffffff;
+      font-weight: 600;
+      border-bottom: 1px solid #ffffff;
+      margin-left: 100px;
+      text-align: left;
+      line-height: 120px;
+      margin-top: 20px;
+      letter-spacing: 5px; }
+  .stview_section .stview_list_line {
+    width: 100px;
+    height: 480px;
+    margin: 155px 0px 0px 0px;
+    padding-left: 115px;
+    border-right: 3px solid #ffffff;
+    position: absolute;
+    display: block; }
+  .stview_section .stview_list_div ul {
+    margin-left: 100px;
+    margin-top: 70px; }
+  .stview_section .stview_list_div ul li {
+    display: inline-block;
+    width: 100%; }
+  .stview_section .stview_list_div ul li > div {
+    float: left; }
+  .stview_section .stview_list_div .stview_list_day {
+    position: relative;
+    float: left;
+    width: 300px;
+    height: 300px; }
+    .stview_section .stview_list_div .stview_list_day .date_month {
+      position: absolute;
+      margin-top: -30px;
+      padding: 0px 0px 0px 50px;
+      font-size: 100px;
+      color: #ffffff; }
+    .stview_section .stview_list_div .stview_list_day .date_line {
+      position: absolute;
+      font-size: 100px;
+      margin-top: 80px;
+      width: 220px;
+      border-bottom: 1px solid #ffffff;
+      -ms-transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+      margin-left: 45px; }
+    .stview_section .stview_list_div .stview_list_day .date_day {
+      position: absolute;
+      padding: 70px 0px 0px 140px;
+      font-size: 100px;
+      color: #ffffff; }
+    .stview_section .stview_list_div .stview_list_day .date_week {
+      font-size: 40px;
+      color: #000000;
+      width: 160px;
+      height: 60px;
+      margin: 0 auto;
+      margin-top: 210px;
+      background-color: #ffffff;
+      text-align: center;
+      border-radius: 60px; }
+  .stview_section .stview_list_div .stview_list_content {
+    padding-left: 30px;
+    max-width: 1100px; }
+    .stview_section .stview_list_div .stview_list_content > div {
+      text-align: left;
+      color: #e6e6e6;
+      vertical-align: middle;
+      word-break: break-all; }
+    .stview_section .stview_list_div .stview_list_content .stview_list_address {
+      font-size: 38px;
+      line-height: 100px; }
+    .stview_section .stview_list_div .stview_list_content .stview_list_class a {
+      font-size: 60px;
+      line-height: 70px; }
+    .stview_section .stview_list_div .stview_list_content .stview_list_time {
+      font-size: 29px;
+      line-height: 100px; }
+    .stview_section .stview_list_div .stview_list_content .stview_list_time span {
+      vertical-align: super; }
+  .stview_section .stview_list_div .small {
+    transform: scale(0.6);
+    opacity: 0.7; }
+  .stview_section .stview_list_div .stview_list_content.small {
+    transform-origin: left; }
+  .stview_section .stview_service {
+    width: 33.1%;
+    height: 778px;
+    overflow: hidden;
+    float: left;
+    background-color: #3f4e79; }
+    .stview_section .stview_service > div {
+      width: 100%; }
+    .stview_section .stview_service .stview_sv_person {
+      display: inline-block;
+      width: 100%; }
+      .stview_section .stview_service .stview_sv_person > div {
+        position: relative;
+        float: left; }
+      .stview_section .stview_service .stview_sv_person .stview_person_left {
+        margin: 100px 50px 0px 100px; }
+      .stview_section .stview_service .stview_sv_person .stview_person_right {
+        margin: 120px 0px 0px 0px; }
+        .stview_section .stview_service .stview_sv_person .stview_person_right .stview_person_t {
+          font-size: 50px;
+          color: #ffffff;
+          text-align: left; }
+        .stview_section .stview_service .stview_sv_person .stview_person_right .stview_person_name {
+          font-size: 80px;
+          color: #ffffff;
+          text-align: left; }
+    .stview_section .stview_service .stview_sv_t {
+      font-size: 40px;
+      color: #ffffff;
+      text-align: left;
+      padding-left: 100px;
+      margin-top: 30px;
+      margin-bottom: 50px; }
+    .stview_section .stview_service .stview_sv_val {
+      padding: 0px 0px 0px 80px; }
+      .stview_section .stview_service .stview_sv_val > div {
+        float: left; }
+      .stview_section .stview_service .stview_sv_val .sv_good {
+        padding: 10px 20px 0px 20px; }
+        .stview_section .stview_service .stview_sv_val .sv_good span {
+          padding-left: 10px;
+          font-size: 40px;
+          color: #ffffff;
+          line-height: 80px;
+          vertical-align: top; }
+      .stview_section .stview_service .stview_sv_val .sv_good_sel {
+        border: 5px solid #ffff00;
+        border-radius: 100px; }
