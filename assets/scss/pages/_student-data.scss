@@ -29,7 +29,7 @@
 	}
 	.stdata_bg{
 		.stdata_left{
-			position: absolute;
+			position: relative;
 			margin: 20px 0px 0px 135px;
 			width: 1760px;
 			min-height: 1935px;
@@ -219,10 +219,11 @@
 			}
 		}
 		.stdata_right{
-			position: absolute;
+			position: relative;
 			margin: 150px 0px 0px 1895px;
 			width: 700px;
 			min-height: 1805px;
+			margin-top: -1805px;
 			background-color: #ffffff;
 			border-top-right-radius: 20px;
 			-webkit-box-shadow: 2px 0px 5px 0px rgba(170, 170, 170, 0.6);
@@ -230,10 +231,14 @@
 			box-shadow: 2px 0px 5px 0px rgba(170, 170, 170, 0.6);	
 			z-index: 5;
 			.stdata_learn_t{
+				position: relative;
+				display: inline-block;
 				font-size: 43px;
 				color: #575756;
 				text-align: left;
-				margin: 50px 0px 40px 40px;
+				margin: 50px 0px 40px 0px;
+				width: 90%;
+				padding-left: 50px;
 			}
 			.stdata_pie_chart_t{
 				position: absolute;
