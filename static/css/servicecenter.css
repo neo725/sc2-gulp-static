@@ -3706,7 +3706,7 @@ th, td {
         margin-left: 90px;
         width: 55%; }
         .stdata_section .stdata_bg .stdata_left .stdata_foreign .stdata_en_name input {
-          width: 75%; }
+          width: 72%; }
       .stdata_section .stdata_bg .stdata_left .stdata_foreign .stdata_en_country {
         clear: both;
         float: left;
@@ -3719,7 +3719,7 @@ th, td {
         width: 55%;
         margin-top: 30px; }
         .stdata_section .stdata_bg .stdata_left .stdata_foreign .stdata_en_country input {
-          width: 75%; }
+          width: 72%; }
       .stdata_section .stdata_bg .stdata_left .stdata_foreign .stdata_en_passport {
         clear: both;
         float: left;
@@ -3733,7 +3733,7 @@ th, td {
         margin-top: 30px;
         margin-bottom: 50px; }
         .stdata_section .stdata_bg .stdata_left .stdata_foreign .stdata_en_passport input {
-          width: 75%; }
+          width: 72%; }
     .stdata_section .stdata_bg .stdata_left .stdata_urgent {
       clear: both;
       float: left;
@@ -3744,7 +3744,7 @@ th, td {
       margin-top: 50px;
       width: 80%; }
       .stdata_section .stdata_bg .stdata_left .stdata_urgent input {
-        width: 30%; }
+        width: 28%; }
   .stdata_section .stdata_bg .stdata_right {
     position: absolute;
     margin: 150px 0px 0px 1895px;
