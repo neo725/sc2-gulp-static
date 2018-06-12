@@ -152,6 +152,11 @@ a {
   color: #ffffff;
   z-index: 9999999; }
 
+.weather001 {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-image: url("../images/weather001.png"); }
+
 .login-view {
   height: 100%;
   padding-left: 58px;
@@ -3372,6 +3377,9 @@ th, td {
         .stview_section .stview_weather .stview_weather_div .stview_tprt_range .icon, .stview_section .stview_clock .stview_weather_div .stview_tprt_range .icon {
           vertical-align: middle;
           margin-right: 30px; }
+      .stview_section .stview_weather .stview_weather_div .stview_tprt_icon .wsize, .stview_section .stview_clock .stview_weather_div .stview_tprt_icon .wsize {
+        height: 720px;
+        width: 720px; }
     .stview_section .stview_weather .stview_clock_div, .stview_section .stview_clock .stview_clock_div {
       margin: 0 auto;
       display: inline-block;
@@ -3527,3 +3535,276 @@ th, td {
       .stview_section .stview_service .stview_sv_val .sv_good_sel {
         border: 5px solid #ffff00;
         border-radius: 100px; }
+
+.stdata_section {
+  height: auto;
+  min-height: 100vh;
+  width: 2730px;
+  margin: 0 auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #1871c0;
+  overflow: hidden; }
+  .stdata_section .stdata_day_div {
+    position: relative;
+    display: inline-block;
+    width: 100%; }
+    .stdata_section .stdata_day_div .stdata_day {
+      position: relative;
+      width: auto;
+      float: right;
+      margin: 30px 50px 0px 0px;
+      font-size: 30px;
+      line-height: 50px;
+      color: #eeeeee; }
+      .stdata_section .stdata_day_div .stdata_day .wsize {
+        float: right;
+        height: 50px;
+        width: 50px;
+        margin-left: 10px; }
+  .stdata_section .stdata_bg .stdata_left {
+    position: absolute;
+    margin: 20px 0px 0px 135px;
+    width: 1760px;
+    min-height: 1935px;
+    background-color: #ffffff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    -webkit-box-shadow: 2px 0px 5px 0px rgba(170, 170, 170, 0.6);
+    -moz-box-shadow: 2px 0px 5px 0px rgba(170, 170, 170, 0.6);
+    box-shadow: 2px 0px 5px 0px rgba(170, 170, 170, 0.6);
+    z-index: 10; }
+    .stdata_section .stdata_bg .stdata_left .stdata_left_t {
+      font-size: 90px;
+      color: #1871c0;
+      text-align: left;
+      line-height: 200px;
+      border-bottom: 1px solid #cccccc;
+      margin: 20px 50px 0px 50px;
+      padding-left: 50px; }
+      .stdata_section .stdata_bg .stdata_left .stdata_left_t .icon {
+        vertical-align: sub; }
+    .stdata_section .stdata_bg .stdata_left .stdata_left_pid {
+      text-align: left;
+      margin-left: 140px;
+      margin-top: 30px; }
+      .stdata_section .stdata_bg .stdata_left .stdata_left_pid span {
+        font-size: 33px;
+        color: #575756;
+        line-height: 80px; }
+      .stdata_section .stdata_bg .stdata_left .stdata_left_pid .stdata_left_pid_tip {
+        font-size: 26px;
+        color: #ff0000;
+        line-height: 80px; }
+      .stdata_section .stdata_bg .stdata_left .stdata_left_pid .btn_person_data {
+        text-shadow: none;
+        outline: 0;
+        border: none;
+        position: relative;
+        float: right;
+        color: #e9f2fa;
+        font-size: 40px;
+        background-color: #2480d1;
+        width: 150px;
+        height: 75px;
+        margin: 0px 50px 0px 0px;
+        text-align: center;
+        line-height: 70px;
+        z-index: 5; }
+    .stdata_section .stdata_bg .stdata_left .stdata_left_name {
+      text-align: left;
+      margin-left: 140px; }
+      .stdata_section .stdata_bg .stdata_left .stdata_left_name span {
+        font-size: 78px;
+        color: #1d1d1b;
+        line-height: 90px; }
+      .stdata_section .stdata_bg .stdata_left .stdata_left_name .stdata_left_sex {
+        font-size: 30px;
+        color: #1d1d1b;
+        margin-left: 10px; }
+      .stdata_section .stdata_bg .stdata_left .stdata_left_name .icon {
+        margin-left: 80px; }
+      .stdata_section .stdata_bg .stdata_left .stdata_left_name .stdata_left_bday span {
+        font-size: 50px;
+        color: #1d1d1b;
+        line-height: 60px; }
+      .stdata_section .stdata_bg .stdata_left .stdata_left_name .stdata_left_bday .bday_small {
+        font-size: 30px;
+        color: #808080;
+        margin-left: 10px; }
+    .stdata_section .stdata_bg .stdata_left .stdata_span_t {
+      line-height: 80px;
+      font-size: 31px;
+      color: #1871c0;
+      margin: 0px 30px 0px 30px;
+      vertical-align: top; }
+    .stdata_section .stdata_bg .stdata_left .stdata_text {
+      outline: none;
+      background-color: transparent;
+      border: none;
+      line-height: 80px;
+      font-size: 45px;
+      color: #4d4d4d; }
+    .stdata_section .stdata_bg .stdata_left .stdata_phone {
+      clear: both;
+      float: left;
+      margin-left: 140px;
+      background-color: #eef2f6;
+      border-radius: 40px;
+      text-align: left;
+      margin-top: 30px;
+      width: 35%; }
+      .stdata_section .stdata_bg .stdata_left .stdata_phone input {
+        width: 60%; }
+    .stdata_section .stdata_bg .stdata_left .stdata_email {
+      clear: both;
+      float: left;
+      margin-left: 140px;
+      background-color: #eef2f6;
+      border-radius: 40px;
+      text-align: left;
+      margin-top: 30px;
+      width: 80%; }
+      .stdata_section .stdata_bg .stdata_left .stdata_email input {
+        width: 80%; }
+    .stdata_section .stdata_bg .stdata_left .stdata_address {
+      clear: both;
+      float: left;
+      margin-left: 140px;
+      background-color: #eef2f6;
+      border-radius: 40px;
+      text-align: left;
+      margin-top: 30px;
+      width: 80%; }
+      .stdata_section .stdata_bg .stdata_left .stdata_address input {
+        width: 80%; }
+    .stdata_section .stdata_bg .stdata_left .stdata_slideup {
+      clear: both;
+      display: inline-block;
+      width: 94%;
+      border-top: 1px solid #cccccc;
+      margin: 60px 0px 0px 0px;
+      margin-bottom: 10px; }
+      .stdata_section .stdata_bg .stdata_left .stdata_slideup .icon {
+        display: table;
+        float: right;
+        margin-top: 25px;
+        margin-right: 20px; }
+    .stdata_section .stdata_bg .stdata_left .stdata_foreign {
+      width: 94%;
+      margin: 0 auto;
+      display: table;
+      border-bottom: 1px solid #cccccc; }
+      .stdata_section .stdata_bg .stdata_left .stdata_foreign .stdata_en_name {
+        clear: both;
+        float: left;
+        margin-left: 140px;
+        background-color: #eef2f6;
+        border-radius: 40px;
+        text-align: left;
+        margin-top: 0px;
+        margin-left: 90px;
+        width: 55%; }
+        .stdata_section .stdata_bg .stdata_left .stdata_foreign .stdata_en_name input {
+          width: 75%; }
+      .stdata_section .stdata_bg .stdata_left .stdata_foreign .stdata_en_country {
+        clear: both;
+        float: left;
+        margin-left: 140px;
+        background-color: #eef2f6;
+        border-radius: 40px;
+        text-align: left;
+        margin-top: 0px;
+        margin-left: 90px;
+        width: 55%;
+        margin-top: 30px; }
+        .stdata_section .stdata_bg .stdata_left .stdata_foreign .stdata_en_country input {
+          width: 75%; }
+      .stdata_section .stdata_bg .stdata_left .stdata_foreign .stdata_en_passport {
+        clear: both;
+        float: left;
+        margin-left: 140px;
+        background-color: #eef2f6;
+        border-radius: 40px;
+        text-align: left;
+        margin-top: 0px;
+        margin-left: 90px;
+        width: 55%;
+        margin-top: 30px;
+        margin-bottom: 50px; }
+        .stdata_section .stdata_bg .stdata_left .stdata_foreign .stdata_en_passport input {
+          width: 75%; }
+    .stdata_section .stdata_bg .stdata_left .stdata_urgent {
+      clear: both;
+      float: left;
+      margin-left: 140px;
+      background-color: #eef2f6;
+      border-radius: 40px;
+      text-align: left;
+      margin-top: 50px;
+      width: 80%; }
+      .stdata_section .stdata_bg .stdata_left .stdata_urgent input {
+        width: 30%; }
+  .stdata_section .stdata_bg .stdata_right {
+    position: absolute;
+    margin: 150px 0px 0px 1895px;
+    width: 700px;
+    min-height: 1805px;
+    background-color: #ffffff;
+    border-top-right-radius: 20px;
+    -webkit-box-shadow: 2px 0px 5px 0px rgba(170, 170, 170, 0.6);
+    -moz-box-shadow: 2px 0px 5px 0px rgba(170, 170, 170, 0.6);
+    box-shadow: 2px 0px 5px 0px rgba(170, 170, 170, 0.6);
+    z-index: 5; }
+    .stdata_section .stdata_bg .stdata_right .stdata_learn_t {
+      font-size: 43px;
+      color: #575756;
+      text-align: left;
+      margin: 50px 0px 40px 40px; }
+    .stdata_section .stdata_bg .stdata_right .stdata_pie_chart_t {
+      position: absolute;
+      content: '';
+      background-color: #ffffff;
+      border-radius: 50%;
+      height: 360px;
+      width: 360px;
+      top: 0;
+      left: 0;
+      margin-top: 210px;
+      margin-left: 170px;
+      font-size: 43px;
+      color: #575756;
+      line-height: 360px; }
+    .stdata_section .stdata_bg .stdata_right .stdata_class_list {
+      text-align: left;
+      padding-left: 80px;
+      margin-top: 50px; }
+      .stdata_section .stdata_bg .stdata_right .stdata_class_list span {
+        font-size: 43px;
+        color: #575756; }
+      .stdata_section .stdata_bg .stdata_right .stdata_class_list .stdata_cl_color {
+        display: inline-block;
+        height: 50px;
+        width: 50px;
+        border-radius: 25px;
+        vertical-align: text-bottom; }
+      .stdata_section .stdata_bg .stdata_right .stdata_class_list .stdata_cl_name {
+        margin-left: 20px; }
+      .stdata_section .stdata_bg .stdata_right .stdata_class_list .stdata_cl_totle {
+        font-size: 72px;
+        margin: 0px 5px 0px 5px; }
+    .stdata_section .stdata_bg .stdata_right .stdata_totalday_t {
+      font-size: 30px;
+      color: #575756;
+      text-align: left;
+      padding-left: 90px;
+      margin-top: 80px; }
+    .stdata_section .stdata_bg .stdata_right .stdata_totalday_class, .stdata_section .stdata_bg .stdata_right .stdata_totalday_hours {
+      font-size: 30px;
+      color: #575756;
+      text-align: left;
+      padding-left: 90px;
+      margin-top: 20px; }
+      .stdata_section .stdata_bg .stdata_right .stdata_totalday_class span, .stdata_section .stdata_bg .stdata_right .stdata_totalday_hours span {
+        font-size: 72px;
+        margin: 0px 10px 0px 10px; }

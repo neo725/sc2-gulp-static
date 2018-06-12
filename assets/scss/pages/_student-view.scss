@@ -38,6 +38,10 @@
 					margin-right: 30px;
 				}
 			}
+			.stview_tprt_icon .wsize{
+				height: 720px;
+				width: 720px;
+			}
 		}
 		/*clock*/
 		.stview_clock_div{
@@ -212,10 +216,10 @@
 			margin-bottom: 50px;
 		}
 		.stview_sv_val{
+			padding: 0px 0px 0px 65px; 
 			&>div{
 				float:left;
 			}
-			padding: 0px 0px 0px 65px; 
 			.sv_good{
 				margin-right: 30px;
 				padding: 10px 15px 0px 15px;

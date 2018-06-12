@@ -1,0 +1,8 @@
+@mixin weather_pic($pic) {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url($pic);
+}
+.weather001{
+    @include weather_pic('../images/weather001.png');
+}
