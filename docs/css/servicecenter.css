@@ -3815,3 +3815,308 @@ th, td {
       .stdata_section .stdata_bg .stdata_right .stdata_totalday_class span, .stdata_section .stdata_bg .stdata_right .stdata_totalday_hours span {
         font-size: 72px;
         margin: 0px 10px 0px 10px; }
+
+.storder_section {
+  background-color: #1871c0;
+  min-height: 100vh;
+  width: 2730px;
+  margin: 0 auto;
+  padding-bottom: 120px;
+  /* storder list */ }
+  .storder_section .od_title_div {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 110px; }
+    .storder_section .od_title_div .od_title {
+      position: relative;
+      width: auto;
+      float: left;
+      margin: 30px;
+      font-size: 24px;
+      line-height: 46px;
+      color: #adadad; }
+    .storder_section .od_title_div .od_more {
+      position: relative;
+      width: auto;
+      float: right;
+      margin: 30px; }
+    .storder_section .od_title_div .od_more .icon {
+      width: 35px; }
+    .storder_section .od_title_div .storder_day {
+      position: relative;
+      width: auto;
+      float: right;
+      margin: 30px 50px 0px 0px;
+      font-size: 30px;
+      line-height: 50px;
+      color: #eeeeee; }
+      .storder_section .od_title_div .storder_day .wsize {
+        float: right;
+        height: 50px;
+        width: 50px;
+        margin-left: 10px; }
+  .storder_section .storder_list_div:before {
+    top: -15px;
+    background: radial-gradient(circle, transparent, transparent 50%, #FBFBFB 50%, #FBFBFB 100%) 10px -21px/48px 42px repeat-x;
+    content: '';
+    position: absolute;
+    left: 0px;
+    height: 18px;
+    width: 100%; }
+  .storder_section .storder_list_div {
+    position: relative;
+    width: 2560px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    display: table; }
+    .storder_section .storder_list_div .storder_list_t {
+      width: 95%;
+      margin: 0 auto;
+      margin-top: 20px;
+      text-align: left;
+      font-size: 42px;
+      font-weight: 600;
+      line-height: 80px;
+      text-indent: 20px;
+      color: #1871c0;
+      border-bottom: 1px solid #666666;
+      display: inline-block;
+      /*.icon{
+				float: right;
+				width: 80px;
+				margin: 10px;
+			}*/ }
+      .storder_section .storder_list_div .storder_list_t .storder_list_t_left {
+        float: left;
+        text-align: center;
+        vertical-align: middle;
+        margin: 20px 0px 0px 0px; }
+        .storder_section .storder_list_div .storder_list_t .storder_list_t_left span {
+          display: inline-block;
+          font-size: 80px;
+          line-height: 100px;
+          margin-right: 10px;
+          margin-bottom: 40px; }
+        .storder_section .storder_list_div .storder_list_t .storder_list_t_left .icon {
+          vertical-align: top; }
+      .storder_section .storder_list_div .storder_list_t .storder_list_t_right {
+        float: right;
+        font-size: 28px;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 100px;
+        margin-right: 10px;
+        margin-top: 55px;
+        color: #575756; }
+  .storder_section .storder_list {
+    width: 95%;
+    margin: 0 auto;
+    display: inline-block;
+    margin-bottom: 30px; }
+    .storder_section .storder_list .storder_red {
+      color: #ed1c24;
+      font-size: 40px;
+      line-height: 80px;
+      vertical-align: middle;
+      text-align: left; }
+    .storder_section .storder_list .storder_black {
+      color: #575756;
+      font-size: 32px;
+      line-height: 60px;
+      vertical-align: middle;
+      text-align: left;
+      margin: 10px 0px;
+      text-indent: 5px;
+      border: none;
+      float: left; }
+    .storder_section .storder_list .storder_t_span {
+      color: #1871c0;
+      font-size: 34px;
+      line-height: 80px;
+      float: left;
+      vertical-align: middle;
+      margin-right: 20px; }
+    .storder_section .storder_list .span_clear_b {
+      clear: both; }
+    .storder_section .storder_list .storder_list_head {
+      display: inline-block;
+      width: 98%;
+      margin: 0 auto;
+      border-bottom: 1px solid #666666;
+      padding: 20px 20px; }
+      .storder_section .storder_list .storder_list_head div {
+        float: left; }
+      .storder_section .storder_list .storder_list_head .head_r1_1 {
+        width: 200px; }
+      .storder_section .storder_list .storder_list_head .head_r1_2 {
+        width: 330px; }
+      .storder_section .storder_list .storder_list_head .head_r1_3 {
+        width: 240px;
+        margin-right: 80px; }
+      .storder_section .storder_list .storder_list_head .head_r1_4 {
+        width: 330px; }
+      .storder_section .storder_list .storder_list_head .head_r1_5 {
+        width: 270px;
+        color: #e62555;
+        font-size: 40px; }
+      .storder_section .storder_list .storder_list_head .head_r1_6 {
+        width: 600px;
+        color: #e62555;
+        font-size: 40px; }
+      .storder_section .storder_list .storder_list_head .head_r1_7 {
+        width: 240px;
+        background-color: transparent; }
+      .storder_section .storder_list .storder_list_head .head_r1_8 {
+        width: 360px;
+        background-color: transparent; }
+      .storder_section .storder_list .storder_list_head .device_rd .radio {
+        margin: 0.5rem; }
+        .storder_section .storder_list .storder_list_head .device_rd .radio input[type="radio"] {
+          opacity: 0; }
+          .storder_section .storder_list .storder_list_head .device_rd .radio input[type="radio"] + .radio-label {
+            margin-left: -30px; }
+            .storder_section .storder_list .storder_list_head .device_rd .radio input[type="radio"] + .radio-label:before {
+              content: '';
+              background: #f4f4f4;
+              border-radius: 100%;
+              border: 1px solid #b4b4b4;
+              display: inline-block;
+              width: 0.8em;
+              height: 0.8em;
+              position: relative;
+              margin-right: 0.5em;
+              vertical-align: middle;
+              cursor: pointer;
+              text-align: center;
+              transition: all 250ms ease; }
+          .storder_section .storder_list .storder_list_head .device_rd .radio input[type="radio"]:checked + .radio-label:before {
+            background-color: #1871c0;
+            box-shadow: inset 0 0 0 4px #f4f4f4; }
+          .storder_section .storder_list .storder_list_head .device_rd .radio input[type="radio"]:focus + .radio-label:before {
+            outline: none;
+            border-color: #1871c0; }
+          .storder_section .storder_list .storder_list_head .device_rd .radio input[type="radio"]:disabled + .radio-label:before {
+            box-shadow: inset 0 0 0 4px #f4f4f4;
+            border-color: #b4b4b4;
+            background: #b4b4b4; }
+          .storder_section .storder_list .storder_list_head .device_rd .radio input[type="radio"] + .radio-label:empty:before {
+            margin-right: 0; }
+      .storder_section .storder_list .storder_list_head .device_rd label {
+        color: #1871c0;
+        font-size: 28px; }
+      .storder_section .storder_list .storder_list_head .storder_niform {
+        width: auto;
+        float: left;
+        margin-top: 5px; }
+        .storder_section .storder_list .storder_list_head .storder_niform .icon {
+          margin: 0px 20px 20px 0px; }
+        .storder_section .storder_list .storder_list_head .storder_niform .storder_niform_no {
+          font-size: 40px;
+          padding-left: 20px;
+          border-top-left-radius: 40px;
+          border-bottom-left-radius: 40px;
+          background-color: #eefaf6; }
+        .storder_section .storder_list .storder_list_head .storder_niform .storder_niform_title {
+          padding-left: 30px;
+          padding-right: 30px;
+          width: auto;
+          border-top-right-radius: 40px;
+          border-bottom-right-radius: 40px;
+          background-color: #eefaf6; }
+        .storder_section .storder_list .storder_list_head .storder_niform input {
+          background-color: transparent; }
+      .storder_section .storder_list .storder_list_head .storder_person_detail {
+        width: 100%;
+        float: left; }
+    .storder_section .storder_list ul {
+      padding: 0px;
+      border-bottom: none;
+      width: 97%;
+      margin: 0 auto;
+      margin-top: 30px;
+      margin-bottom: 30px; }
+    .storder_section .storder_list li {
+      border: #1871c0 solid 1px;
+      margin-bottom: 40px; }
+    .storder_section .storder_list .storder_list_detail {
+      position: relative;
+      display: table;
+      width: 100%; }
+      .storder_section .storder_list .storder_list_detail div {
+        float: left; }
+      .storder_section .storder_list .storder_list_detail .storder_detail_right {
+        float: right; }
+      .storder_section .storder_list .storder_list_detail .storder_detail_title {
+        background-color: #eef2f6;
+        display: table;
+        width: 98%;
+        padding: 20px 1%; }
+        .storder_section .storder_list .storder_list_detail .storder_detail_title .icon {
+          margin: 20px 20px 0px 30px; }
+        .storder_section .storder_list .storder_list_detail .storder_detail_title .head_r2_1 {
+          display: inline-block;
+          width: 75%;
+          margin: 0px;
+          margin-right: 40px;
+          line-height: 50px;
+          color: #1d1d1b; }
+          .storder_section .storder_list .storder_list_detail .storder_detail_title .head_r2_1 .storder_detail_t_no {
+            font-size: 28px; }
+          .storder_section .storder_list .storder_list_detail .storder_detail_title .head_r2_1 .storder_detail_t_name {
+            font-size: 40px;
+            color: #575756; }
+        .storder_section .storder_list .storder_list_detail .storder_detail_title .head_r2_2 {
+          color: #575756;
+          font-size: 46px;
+          margin-top: 20px; }
+        .storder_section .storder_list .storder_list_detail .storder_detail_title .storder_detail_right .icon {
+          margin: 45px 0px 0px 0px; }
+      .storder_section .storder_list .storder_list_detail .storder_detail_content {
+        display: inline-block;
+        width: 98%;
+        padding: 20px 1%;
+        border-top: 1px solid #1871c0; }
+        .storder_section .storder_list .storder_list_detail .storder_detail_content div {
+          float: left; }
+        .storder_section .storder_list .storder_list_detail .storder_detail_content .storder_span_mleft {
+          margin-left: 30px; }
+        .storder_section .storder_list .storder_list_detail .storder_detail_content .storder_detail_content_1 {
+          display: block;
+          width: 100%; }
+          .storder_section .storder_list .storder_list_detail .storder_detail_content .storder_detail_content_1 .storder_detail_content_right {
+            float: right;
+            margin-right: 20px; }
+            .storder_section .storder_list .storder_list_detail .storder_detail_content .storder_detail_content_1 .storder_detail_content_right .storder_detail_really_price {
+              color: #1871c0;
+              font-size: 36px;
+              line-height: 80px;
+              float: left;
+              vertical-align: middle;
+              margin-right: 20px; }
+          .storder_section .storder_list .storder_list_detail .storder_detail_content .storder_detail_content_1 .head_r2_3 {
+            width: 680px;
+            border: 1px solid #1871c0;
+            font-size: 36px;
+            color: #575756; }
+        .storder_section .storder_list .storder_list_detail .storder_detail_content .storder_detail_content_2 {
+          width: 100%;
+          display: inline-block;
+          margin-top: 20px; }
+          .storder_section .storder_list .storder_list_detail .storder_detail_content .storder_detail_content_2 input::-webkit-input-placeholder {
+            color: #999999 !important; }
+          .storder_section .storder_list .storder_list_detail .storder_detail_content .storder_detail_content_2 input {
+            border: 1px solid #cccccc;
+            font-size: 31px;
+            padding-left: 10px; }
+          .storder_section .storder_list .storder_list_detail .storder_detail_content .storder_detail_content_2 .head_r2_4 {
+            width: 21%;
+            margin-right: 35px; }
+          .storder_section .storder_list .storder_list_detail .storder_detail_content .storder_detail_content_2 .head_r2_5 {
+            width: 21%;
+            margin-right: 35px; }
+          .storder_section .storder_list .storder_list_detail .storder_detail_content .storder_detail_content_2 .head_r2_6 {
+            width: 21%;
+            margin-right: 35px; }
+          .storder_section .storder_list .storder_list_detail .storder_detail_content .storder_detail_content_2 .head_r2_7 {
+            width: 21%; }
