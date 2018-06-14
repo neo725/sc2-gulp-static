@@ -4239,3 +4239,535 @@ th, td {
       color: #333333;
       vertical-align: middle;
       display: table-cell; }
+
+.stclass_section {
+  background-color: #1871c0;
+  min-height: 100vh;
+  width: 2730px;
+  margin: 0 auto;
+  padding-bottom: 120px;
+  /* stclass list */ }
+  .stclass_section .od_title_div {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 110px; }
+    .stclass_section .od_title_div .stclass_day {
+      position: relative;
+      width: auto;
+      float: right;
+      margin: 30px 50px 0px 0px;
+      font-size: 30px;
+      line-height: 50px;
+      color: #eeeeee; }
+      .stclass_section .od_title_div .stclass_day .wsize {
+        float: right;
+        height: 50px;
+        width: 50px;
+        margin-left: 10px; }
+  .stclass_section .stclass_list_div {
+    position: relative;
+    width: 2560px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    display: table;
+    border-radius: 20px; }
+    .stclass_section .stclass_list_div .stclass_list_t {
+      width: 95%;
+      margin: 0 auto;
+      margin-top: 20px;
+      text-align: left;
+      font-size: 42px;
+      font-weight: 600;
+      line-height: 80px;
+      text-indent: 20px;
+      color: #1871c0;
+      border-bottom: 1px solid #666666;
+      display: inline-block; }
+      .stclass_section .stclass_list_div .stclass_list_t .stclass_list_t_left {
+        float: left;
+        text-align: center;
+        vertical-align: middle;
+        margin: 20px 0px 0px 0px; }
+        .stclass_section .stclass_list_div .stclass_list_t .stclass_list_t_left span {
+          display: inline-block;
+          font-size: 80px;
+          line-height: 100px;
+          margin-right: 10px;
+          margin-bottom: 40px; }
+        .stclass_section .stclass_list_div .stclass_list_t .stclass_list_t_left .icon {
+          vertical-align: top; }
+      .stclass_section .stclass_list_div .stclass_list_t .stclass_list_t_right {
+        float: right;
+        font-size: 28px;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 100px;
+        margin-right: 10px;
+        margin-top: 55px;
+        color: #575756; }
+  .stclass_section .stclass_list {
+    width: 95%;
+    margin: 0 auto;
+    display: inline-block;
+    margin-bottom: 30px; }
+    .stclass_section .stclass_list section {
+      margin: 0 auto;
+      width: 100%;
+      position: relative;
+      /*width: 1200px;*/
+      overflow: hidden; }
+    .stclass_section .stclass_list .title_div {
+      height: auto;
+      margin: 0 auto; }
+      .stclass_section .stclass_list .title_div .title_set {
+        position: relative;
+        float: left;
+        text-align: left; }
+        .stclass_section .stclass_list .title_div .title_set .cls_number {
+          font-size: 30px;
+          color: #808080;
+          width: auto;
+          padding: 2px 10px;
+          background-color: #e6e6e6;
+          display: inline-block;
+          margin: 15px 0px 5px 0px; }
+        .stclass_section .stclass_list .title_div .title_set .cls_name {
+          font-size: 80px;
+          color: #000000; }
+        .stclass_section .stclass_list .title_div .title_set .cls_subName {
+          color: #3874ae;
+          display: inline-block;
+          margin-top: 10px; }
+          .stclass_section .stclass_list .title_div .title_set .cls_subName .icon {
+            float: left;
+            zoom: 2;
+            -webkit-border-radius: 28px;
+            -moz-border-radius: 28px;
+            border-radius: 28px;
+            margin-right: 5px; }
+          .stclass_section .stclass_list .title_div .title_set .cls_subName img {
+            width: 56px;
+            height: 56px;
+            background-color: #2489e2;
+            -webkit-border-radius: 28px;
+            -moz-border-radius: 28px;
+            border-radius: 28px;
+            position: relative;
+            float: left;
+            vertical-align: middle; }
+          .stclass_section .stclass_list .title_div .title_set .cls_subName .subName_str {
+            font-size: 42px;
+            line-height: 50px;
+            position: relative;
+            float: left;
+            padding-left: 5px;
+            letter-spacing: 1px; }
+    .stclass_section .stclass_list .status_div {
+      padding: 10px 0px 10px 0px;
+      display: inline-block;
+      width: 100%; }
+      .stclass_section .stclass_list .status_div > div {
+        position: relative;
+        float: left;
+        height: 100%; }
+      .stclass_section .stclass_list .status_div table {
+        width: 100%; }
+        .stclass_section .stclass_list .status_div table tr td {
+          border-right: solid 1px #cccccc;
+          vertical-align: top; }
+        .stclass_section .stclass_list .status_div table tr td:last-child {
+          border-right: none; }
+      .stclass_section .stclass_list .status_div .sts_location, .stclass_section .stclass_list .status_div .sts_date, .stclass_section .stclass_list .status_div .sts_totaltime, .stclass_section .stclass_list .status_div .sts_time, .stclass_section .stclass_list .status_div .sts_price_detail {
+        margin: 0 auto;
+        text-align: center; }
+      .stclass_section .stclass_list .status_div .location_title, .stclass_section .stclass_list .status_div .date_title, .stclass_section .stclass_list .status_div .totaltime_title, .stclass_section .stclass_list .status_div .time_title {
+        font-size: 40px;
+        color: #666666;
+        margin-bottom: 40px; }
+      .stclass_section .stclass_list .status_div .location_name {
+        height: 180px;
+        width: 180px;
+        font-size: 52px;
+        color: #2489e2;
+        -webkit-border-radius: 90px;
+        -moz-border-radius: 90px;
+        border-radius: 90px;
+        border: solid 1px #2489e2;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 120px;
+        overflow: hidden; }
+      .stclass_section .stclass_list .status_div .location_name_long {
+        display: -webkit-flex;
+        -webkit-align-items: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        line-height: 44px;
+        font-size: 40px; }
+      .stclass_section .stclass_list .status_div .start_date, .stclass_section .stclass_list .status_div .end_date {
+        font-size: 56px;
+        color: #000000; }
+      .stclass_section .stclass_list .status_div .end_date img, .stclass_section .stclass_list .status_div .end_date .icon {
+        vertical-align: middle;
+        zoom: 2; }
+      .stclass_section .stclass_list .status_div .totaltime {
+        font-size: 32px;
+        color: #666666; }
+        .stclass_section .stclass_list .status_div .totaltime span {
+          font-size: 120px;
+          color: #000000; }
+      .stclass_section .stclass_list .status_div .detail_week {
+        position: relative;
+        float: left;
+        width: 40%;
+        margin-left: 10%; }
+        .stclass_section .stclass_list .status_div .detail_week div {
+          font-size: 56px;
+          color: #ffffff;
+          width: 84px;
+          height: 84px;
+          background-color: #77bde1;
+          -webkit-border-radius: 42px;
+          -moz-border-radius: 42px;
+          border-radius: 42px;
+          margin: 0 auto;
+          text-align: center;
+          vertical-align: middle; }
+        .stclass_section .stclass_list .status_div .detail_week span {
+          font-size: 48px;
+          line-height: 50px;
+          color: #77bde1; }
+      .stclass_section .stclass_list .status_div .detail_range {
+        position: relative;
+        float: left;
+        width: 40%; }
+      .stclass_section .stclass_list .status_div .range_start, .stclass_section .stclass_list .status_div .range_end {
+        font-size: 56px; }
+      .stclass_section .stclass_list .status_div .range_end img {
+        vertical-align: middle; }
+      .stclass_section .stclass_list .status_div .week_cell {
+        display: table;
+        position: relative;
+        clear: both;
+        margin: 0 auto;
+        margin-top: 5px;
+        margin-bottom: 5px; }
+        .stclass_section .stclass_list .status_div .week_cell div {
+          position: relative;
+          display: inline-block;
+          width: 52px;
+          height: 52px;
+          margin: 0 auto;
+          background-color: #4185e1;
+          color: #ffffff;
+          font-size: 32px;
+          border-radius: 26px;
+          margin: 0px 6px;
+          line-height: 52px;
+          text-align: center; }
+        .stclass_section .stclass_list .status_div .week_cell span {
+          color: #4185e1;
+          font-weight: 800; }
+      .stclass_section .stclass_list .status_div .time_cell {
+        position: relative;
+        clear: both;
+        margin-top: 5px;
+        margin-bottom: 15px; }
+        .stclass_section .stclass_list .status_div .time_cell div {
+          text-align: center;
+          color: #000000;
+          font-size: 42px; }
+      .stclass_section .stclass_list .status_div .original_price {
+        font-size: 30px;
+        color: #666666;
+        text-align: right; }
+      .stclass_section .stclass_list .status_div .detail_div {
+        position: relative;
+        float: left;
+        width: 100%; }
+      .stclass_section .stclass_list .status_div .detail_title {
+        position: relative;
+        float: left;
+        width: 35%;
+        font-size: 40px;
+        color: #000000;
+        text-align: right;
+        font-weight: 600; }
+      .stclass_section .stclass_list .status_div .price_div {
+        position: relative;
+        float: left;
+        width: 100%;
+        text-align: right; }
+      .stclass_section .stclass_list .status_div .price_row {
+        font-size: 36px;
+        color: #2489e2;
+        text-align: right; }
+        .stclass_section .stclass_list .status_div .price_row span {
+          font-size: 126px;
+          color: #2489e2; }
+      .stclass_section .stclass_list .status_div .special_explain {
+        text-align: right;
+        margin-bottom: 10px; }
+        .stclass_section .stclass_list .status_div .special_explain a {
+          display: block;
+          font-size: 32px;
+          color: #2489e2;
+          text-align: right;
+          text-decoration: none;
+          vertical-align: middle;
+          height: 48px;
+          line-height: 40px;
+          border: none !important;
+          outline: none !important; }
+        .stclass_section .stclass_list .status_div .special_explain a:hover {
+          text-decoration: underline; }
+        .stclass_section .stclass_list .status_div .special_explain a img {
+          vertical-align: top; }
+      .stclass_section .stclass_list .status_div .sign_up_btn {
+        position: relative;
+        float: left;
+        width: 100%;
+        background-color: #2489e2; }
+        .stclass_section .stclass_list .status_div .sign_up_btn a {
+          text-decoration: none;
+          font-size: 72px;
+          color: #ffffff;
+          display: inline-block;
+          height: 120px;
+          line-height: 120px;
+          width: 100%; }
+        .stclass_section .stclass_list .status_div .sign_up_btn a:hover {
+          background-color: #1D6FB7; }
+      .stclass_section .stclass_list .status_div .onsite_btn {
+        position: relative;
+        float: left;
+        width: 100%;
+        background-color: #e6e6e6; }
+        .stclass_section .stclass_list .status_div .onsite_btn a {
+          text-decoration: none;
+          font-size: 72px;
+          color: #2489e2;
+          display: inline-block;
+          height: 120px;
+          line-height: 120px;
+          width: 100%;
+          cursor: default; }
+      .stclass_section .stclass_list .status_div .full_btn {
+        position: relative;
+        float: left;
+        width: 100%;
+        background-color: #e6e6e6; }
+        .stclass_section .stclass_list .status_div .full_btn a {
+          text-decoration: none;
+          font-size: 72px;
+          color: #000000;
+          display: inline-block;
+          height: 120px;
+          line-height: 120px;
+          width: 100%;
+          cursor: default; }
+    .stclass_section .stclass_list .class_div {
+      height: auto;
+      margin: 0 auto;
+      text-align: center; }
+      .stclass_section .stclass_list .class_div table {
+        width: 100%; }
+      .stclass_section .stclass_list .class_div .class_left {
+        width: 30%;
+        vertical-align: top !important; }
+        .stclass_section .stclass_list .class_div .class_left .teacher_title {
+          font-size: 68px;
+          color: #2489e2;
+          margin-top: 30px;
+          text-align: left; }
+        .stclass_section .stclass_list .class_div .class_left .total_teacher_menu {
+          width: 100%; }
+        .stclass_section .stclass_list .class_div .class_left .cls_teacher_t {
+          font-size: 40px;
+          color: #666666;
+          padding-left: 15px;
+          text-align: left; }
+        .stclass_section .stclass_list .class_div .class_left .teacher_name {
+          color: #666666;
+          font-size: 40px;
+          border-bottom: solid 1px #cccccc;
+          padding-bottom: 20px; }
+        .stclass_section .stclass_list .class_div .class_left .tab_list {
+          position: relative;
+          width: 100%;
+          float: left;
+          margin: 10px 0px 10px 0px;
+          border-bottom: solid 1px #cccccc;
+          padding-bottom: 20px; }
+          .stclass_section .stclass_list .class_div .class_left .tab_list .fontchg {
+            border: 1px solid #2489e2;
+            color: #2389E2; }
+          .stclass_section .stclass_list .class_div .class_left .tab_list div {
+            position: relative;
+            float: left;
+            font-size: 30px;
+            color: #999999;
+            border: solid 1px #cccccc;
+            padding: 3px 10px 3px 10px;
+            margin: 10px 0px 6px 20px; }
+          .stclass_section .stclass_list .class_div .class_left .tab_list div:hover {
+            border: solid 1px #2489e2; }
+        .stclass_section .stclass_list .class_div .class_left .teacher_content {
+          font-size: 32px;
+          color: #7a7f87;
+          line-height: 56px;
+          text-align: left;
+          padding: 10px 15px 10px 15px;
+          text-align: justify; }
+        .stclass_section .stclass_list .class_div .class_left .tab_content {
+          position: relative;
+          float: left;
+          text-align: center;
+          margin: 0 auto;
+          width: 100%; }
+          .stclass_section .stclass_list .class_div .class_left .tab_content > div {
+            display: none; }
+          .stclass_section .stclass_list .class_div .class_left .tab_content > div:first-child {
+            display: block; }
+        .stclass_section .stclass_list .class_div .class_left .pic_div {
+          width: 90%;
+          padding: 0px 10px 0px 10px; }
+          .stclass_section .stclass_list .class_div .class_left .pic_div img:before {
+            content: " ";
+            background-image: url("../images/web/teather_bg.png");
+            display: block;
+            width: 360px;
+            height: 360px;
+            position: relative;
+            z-index: 0;
+            background-size: 100% 100%;
+            margin-top: -20px;
+            margin-left: -20px; }
+          .stclass_section .stclass_list .class_div .class_left .pic_div img {
+            width: 320px;
+            height: 320px;
+            -webkit-border-radius: 160px;
+            -moz-border-radius: 160px;
+            border-radius: 160px;
+            margin-top: 16px; }
+        .stclass_section .stclass_list .class_div .class_left .pic_outside {
+          width: 350px;
+          height: 350px;
+          -webkit-border-radius: 174px;
+          -moz-border-radius: 174px;
+          border-radius: 174px;
+          border: 1px solid #cccccc;
+          margin: 0 auto;
+          text-align: center;
+          margin-top: 20px;
+          margin-bottom: 15px;
+          overflow: hidden; }
+      .stclass_section .stclass_list .class_div .class_right {
+        width: 70%;
+        border-left: solid 1px #cccccc;
+        vertical-align: top; }
+        .stclass_section .stclass_list .class_div .class_right .cls_intro, .stclass_section .stclass_list .class_div .class_right .cls_teach {
+          width: 100%;
+          position: relative;
+          float: left;
+          margin-top: 30px; }
+        .stclass_section .stclass_list .class_div .class_right .cls_intro_t, .stclass_section .stclass_list .class_div .class_right .cls_teach_t {
+          width: 25%;
+          position: relative;
+          float: left;
+          font-size: 68px;
+          color: #2489e2;
+          text-align: right; }
+        .stclass_section .stclass_list .class_div .class_right .cls_intro_c, .stclass_section .stclass_list .class_div .class_right .cls_teach_c {
+          width: 65%;
+          position: relative;
+          float: left;
+          font-size: 32px;
+          color: #7a7f89;
+          text-align: left;
+          display: inline-block;
+          margin-left: 20px;
+          padding: 30px;
+          word-wrap: break-word;
+          word-break: break-all;
+          text-align: justify;
+          line-height: 56px; }
+        .stclass_section .stclass_list .class_div .class_right .cls_intro_c:before {
+          content: url("../images/web/word_left.png");
+          position: absolute;
+          left: 0px;
+          top: 0px; }
+        .stclass_section .stclass_list .class_div .class_right .cls_intro_c:after {
+          content: url("../images/web/word_right.png");
+          position: absolute;
+          right: 0px;
+          bottom: 0px; }
+    .stclass_section .stclass_list .section_imgs {
+      border-top: solid 1px #cccccc; }
+      .stclass_section .stclass_list .section_imgs .imgs_title {
+        font-size: 68px;
+        color: #2489e2;
+        margin-top: 30px;
+        text-align: left; }
+      .stclass_section .stclass_list .section_imgs .imgs_list {
+        width: 100%;
+        display: inline-block;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        /*&>div:hover {
+					-webkit-transition: all 0.3s ease-in-out;
+					transition: all 0.3s ease-in-out;
+					-ms-transform: scale(0.95);
+					-moz-transform: scale(0.95);
+					-webkit-transform: scale(0.95);
+					-o-transform: scale(0.95);
+					transform: scale(0.95);
+				}*/
+        /*&>div:nth-child(6){
+					font-size: 144px;
+					color: #ffffff;
+					line-height: 380px;
+					text-align: center;
+				}
+				&>div:nth-child(n+7) {
+					display: none;
+				}*/ }
+        .stclass_section .stclass_list .section_imgs .imgs_list > div {
+          height: 380px;
+          width: 380px;
+          position: relative;
+          float: left;
+          overflow: hidden;
+          background-size: cover;
+          background-position: 50% 50%;
+          background-repeat: no-repeat;
+          margin: 10px 10px 10px 10px;
+          cursor: pointer; }
+    .stclass_section .stclass_list .section_other {
+      border-top: solid 1px #cccccc;
+      margin-bottom: 30px;
+      padding-bottom: 30px;
+      border-bottom: solid 1px #cccccc; }
+      .stclass_section .stclass_list .section_other table tr td {
+        vertical-align: top; }
+      .stclass_section .stclass_list .section_other table tr td > img {
+        margin-top: 30px;
+        zoom: 2; }
+      .stclass_section .stclass_list .section_other .other_img_1, .stclass_section .stclass_list .section_other .other_img_2 {
+        text-align: center;
+        zoom: 2; }
+        .stclass_section .stclass_list .section_other .other_img_1 .icon, .stclass_section .stclass_list .section_other .other_img_2 .icon {
+          margin-top: 18px; }
+      .stclass_section .stclass_list .section_other .other_title {
+        font-size: 68px;
+        color: #2489e2;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        text-align: left; }
+      .stclass_section .stclass_list .section_other .other_content {
+        font-size: 32px;
+        color: #7a7f87;
+        line-height: 56px;
+        text-align: left; }
