@@ -4310,7 +4310,8 @@ th, td {
     width: 95%;
     margin: 0 auto;
     display: inline-block;
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    /*discount*/ }
     .stclass_section .stclass_list section {
       margin: 0 auto;
       width: 100%;
@@ -4771,3 +4772,66 @@ th, td {
         color: #7a7f87;
         line-height: 56px;
         text-align: left; }
+    .stclass_section .stclass_list .discount_div {
+      width: 100%; }
+      .stclass_section .stclass_list .discount_div .discount_tip {
+        font-size: 28px;
+        color: #29abe2;
+        text-align: right;
+        margin-right: 20px; }
+      .stclass_section .stclass_list .discount_div .discount_title {
+        font-size: 68px;
+        color: #2489e2;
+        text-align: left; }
+      .stclass_section .stclass_list .discount_div .discount_list {
+        width: 90%;
+        margin: 0 auto; }
+        .stclass_section .stclass_list .discount_div .discount_list thead > tr > th {
+          vertical-align: middle;
+          border-bottom: 1px solid #cccccc;
+          font-size: 36px;
+          color: #b3b3b3;
+          width: 30%;
+          line-height: 80px;
+          height: 100px; }
+        .stclass_section .stclass_list .discount_div .discount_list tbody > tr {
+          height: 100px; }
+        .stclass_section .stclass_list .discount_div .discount_list tbody > tr > td {
+          padding: 10px 0px 10px 0px;
+          line-height: 40px;
+          vertical-align: middle;
+          border-top: 1px solid #cccccc; }
+        .stclass_section .stclass_list .discount_div .discount_list tbody > tr > td:nth-child(1), .stclass_section .stclass_list .discount_div .discount_list .discount_list tbody > tr > td:nth-child(3) {
+          font-size: 36px;
+          color: #333333; }
+        .stclass_section .stclass_list .discount_div .discount_list tbody > tr > td:nth-child(2) {
+          font-size: 24px;
+          color: #f15a24; }
+        .stclass_section .stclass_list .discount_div .discount_list tbody > tr > td:nth-child(2) span {
+          font-size: 36px;
+          color: #f15a24; }
+      .stclass_section .stclass_list .discount_div .discount_other {
+        width: 80%;
+        margin: 0 auto;
+        border: 1px solid #cccccc;
+        padding: 15px 25px 15px 25px;
+        margin-top: 30px; }
+        .stclass_section .stclass_list .discount_div .discount_other .discount_other_t {
+          font-size: 36px;
+          color: #b3b3b3;
+          line-height: 30px; }
+        .stclass_section .stclass_list .discount_div .discount_other .discount_other_c {
+          font-size: 28px;
+          color: #4d4d4d;
+          line-height: 48px;
+          text-align: justify; }
+      .stclass_section .stclass_list .discount_div .discount_footer {
+        text-align: center;
+        margin: 0 auto;
+        width: 90%;
+        font-size: 28px;
+        color: #b3b3b3;
+        line-height: 48px;
+        margin-top: 20px; }
+        .stclass_section .stclass_list .discount_div .discount_footer .discount_footer_p {
+          color: #4d4d4d; }
